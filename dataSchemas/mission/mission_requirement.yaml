@@ -1,0 +1,147 @@
+  # Phase 1 - Mission Requirements for Medevac of Isolated Casualties
+
+  mission_id:
+    _generate_uuid: "mission_id"
+  
+  ## ISOP Details
+  isop_ids: # REQUIRED -- Q: "Which ISOP(s) are included in this incident?""
+    _get_ids:
+      id_name: "isop_id"
+      count: (1,6)
+  
+  ## Mission Summary
+  mission:
+    name: # OPTIONAL -- Q: "What is the name for this mission?"
+      _generate_custom_name:
+        prefix: "Mission-"
+        suffix: "Military Alphabet"
+    # summary: # OPTIONAL -- Q: "Briefly describe the mission..."
+  
+  mission_type: # REQUIRED -- Initially set by triage category.  If confirm with Q: "Select the Mission Types approved for this Mission."
+      # options:
+      #   selection_type: "single"
+      #   options:
+      #     - MEDEVAC
+          # - CASEVAC
+          # - Resupply
+          # - Not Determined
+      # approval_status:
+      #   selection_type: "single!"
+      #   options:
+      #     - Approved
+      #     - Review
+      #     - Not Approved
+      # approved_by:
+      # approved_at:
+  
+  # mission_timeframe:  # REQUIRED -- Initially set by triage category, confirm with Q: "Select the timeframe for this mission."
+  #     options:
+  #       selection_type: "multiple!"
+  #       options:
+  #         - Immediate (0-1hr)
+  #         - Urgent (2-3hrs)
+  #         - Delayed (3-6hrs)
+  #         - Not Determined
+  #     approval_status:
+  #       selection_type: "single!"
+  #       options:
+  #         - Approved
+  #         - Review
+  #         - Not Approved
+  #     approved_by:
+  #     approved_at:
+
+  mission_totals:
+    litters: # sum of litters patients for medevac mission
+    ambulatory: # sum of ambulatory casualties for medevac/evac missions
+    passenger_weight(kg): # sum of all patient and casualty weights for medevac/evac missions
+    passenger_count: # sum of all patients and casualties for medevac/evac missions
+    supplies_needed: # If the ISOP can be resupplied, generate a list of supplies and time needed by based on forecasted LSIs
+
+    
+    care_center:
+      beds_required: # sum of all patients and casualties, less any uninjured, minor, deceased
+  
+  # A list of location timestamps to track an ISOP movement or preplanned evacuation path.
+  # Can run evaluations of average_speed over time that might indicate complications like phsyiologic decompensation, tough terrain, enemy pursuit, etc
+  # Can project ETAs to preplanned waypoints  
+  isop_locations: # required: true Q: "Enter the ISOP's last known lat and long coordinates (if not available)"
+    _generate_list: # ignore - used for data generation only
+      schema: "../dataSchemas/locations/waypoint_locations_onfoot.yaml" # location of schema file to generate data from
+      count: (0,2) # value or range of instances to generate
+      timestamp:
+        timedelta(min): (1,60) # range of minutes to randomly increment timestamps
+        start_in: past
+        start_window: (60, 240) # range of minutes to randomly start the timestamps from
+  asset_type_options:
+      - VTOL
+      # - CTOL
+      # - Ground
+  mission_type_options: # Options: MEDEVAC, Casevac, Resupply - based on Triage Category Evac/Supply Matrix
+    medevac: # boolean - requires enroute medical care
+      priority: # Int based on triage category and in comparison to other ISOP/ISOP_groups in the AO
+      comments: # Any additional comments
+    # casevac: # boolean - does not require enroute medical care
+    #   priority: # Int based on triage category and in comparison to other ISOP/ISOP_groups in the AO
+    #   comments: # Any additional comments
+    # resupply: # boolean
+    #   priority: # Based on triage category and in comparison to other ISOP/ISOP_groups in the AO
+    #   comments: # Any additional comments 
+  
+## Location and Range
+  # isop_location:  # See ISOP current location.  For now constrain within the state of AZ
+
+ ## Environmental Factors
+  # terrain:
+  #   - type: "Forest"
+  #     attributes:
+  #       - "Dense"
+  #     comments:
+  #     intel:
+  #       sources:
+  #       imagery:
+  #     impact:
+  #       ground: 0.0 # Factor reducing ground vehicle range/speed
+  #       VTOL: 0.8
+  #       CTOL: 0.0
+  #   - type: "Mountainous"
+      
+  # weather:
+  #   current:
+  #     condition: "clear"
+  #     temperature(C):
+  #     visibility(km):
+  #     cloud_ceiling(m):
+  #     wind:
+  #       speed(km/h):
+  #       max_gust(km/h):
+  #       direction:
+  #     comments:
+  #     intel:
+  #       sources:
+  #       imagery:
+  #     impact:
+  #       ground: 1.0 # No impact
+  #       VTOL: 1.0
+  #       CTOL: 1.0
+  #   forecast:
+  
+  # threats:
+  # - threat_id: # See Threat table
+  #   label:
+  #   type:
+  #   location:
+  #   movement:
+  #     heading:
+  #     speed:
+  #   effect_area: # eg SAMs
+  #   comments:
+  #   intel:
+  #     sources:
+  #     imagery:
+  #   impact: 
+  #     ground: 1.0 # No impact
+  #     VTOL: 1.0
+  #     CTOL: 1.0
+
+        

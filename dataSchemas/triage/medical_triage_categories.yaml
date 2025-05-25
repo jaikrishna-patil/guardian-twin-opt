@@ -1,0 +1,83 @@
+# PURPOSE: This file defines the triage categories for medical emergencies, including their labels, descriptions, priorities, colors, and estimated survival times.
+# Each category is assigned a unique identifier (triage_category_id) for reference.
+# The categories are organized by priority, with Immediate patients requiring the most urgent care and Uninjured patients needing no intervention.
+# The estimated survival time, resource consumption, and return to duty time are also provided for each category.  
+# These estimates can vary based on individual circumstances and will be overridden by actual medical assessments.
+# The Unknown category is included for patients whose condition requires further evaluation.
+
+- triage_category_id: s4t5u6v7-w8x9-y0z1-a2b3c4d5e6f7g8h9i0j1
+  label: Immediate
+  description: Immediate patients require immediate life-saving intervention.
+  priority: 1
+  color: red
+  estimated:
+    survival_time: 90 # estimated minutes until death without intervention.  NOTE: This is a rough estimate and can vary based on individual circumstances. NOTE: The timer can be stopped when the MEDEVAC arrives as the patient will be treated in flight.
+    resources_consumption: Very High
+    return_to_duty: 90 # estimated days to return to normal function after treatment
+
+- triage_category_id: k2l3m4n5-o6p7-q8r9-s0t1-u2v3w4x5y6z7a8b9
+  label: Urgent
+  description: Urgent patients require intervention within 30 minutes.
+  priority: 2
+  color: orange
+  estimated:
+    survival_time: 120
+    resource_consumption: High
+    return_to_duty: 45
+
+- triage_category_id: c0d1e2f3-g4h5-i6j7-k8l9-m0n1o2p3q4r5s6
+  label: Expectant / Deceased
+  description: Expectant / Deceased patients can not be saved.
+  priority: 3
+  color: black
+  estimated:
+    survival_time: 30
+    resource_consumption: Extremely High
+    return_to_duty: NA
+
+- triage_category_id: t7u8v9w0-x1y2-z3a4-b5c6-d7e8f9g0h1i2j3
+  label: Delayed
+  description: Delayed patients require intervention within 2 hours.
+  priority: 4
+  color: yellow
+  estimated:
+    survival_time: 240
+    resource_consumption: Moderate
+    return_to_duty: 15
+
+- triage_category_id: k4l5m6n7-o8p9-q0r1-s2t3-u4v5w6x7y8z9a0
+  label: Minor
+  description: Minor patients require intervention within 4 hours.
+  priority: 5
+  color: green
+  estimated:
+    survival_time: 1440 # 3 days w/o water
+    resource_consumption: Low
+    return_to_duty: 0.5
+
+- triage_category_id: b1c2d3e4-f5g6-h7i8-j9k0-l1m2n3o4p5q6r7
+  label: Uninjured
+  description: Uninjured patients require no intervention.
+  priority: 6
+  color: lightgray
+  estimated:
+    survival_time: 1440 # 3 days w/o water
+    resource_consumption: Very Low
+    return_to_duty: 0 # no recovery time needed
+
+- triage_category_id: s8t9u0v1-w2x3-y4z5-a6b7-c8d9e0f1g2h3i4
+  label: Unknown
+  description: Unknown patients require further assessment.
+  priority: 7 
+  color: darkgray
+  estimated:
+    survival_time: Unknown # 3 days w/o water
+    resource_consumption: Unknown
+    return_to_duty: Unknown
+
+# End of file
+
+
+
+
+

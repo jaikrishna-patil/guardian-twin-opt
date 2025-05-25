@@ -1,0 +1,704 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="anesthetics" for="edge" attr.name="anesthetics" attr.type="string" />
+  <key id="antibiotics" for="edge" attr.name="antibiotics" attr.type="string" />
+  <key id="painkillers" for="edge" attr.name="painkillers" attr.type="string" />
+  <key id="blood_bags" for="edge" attr.name="blood_bags" attr.type="string" />
+  <key id="general_surgery" for="edge" attr.name="general_surgery" attr.type="string" />
+  <key id="orthopedic_surgery" for="edge" attr.name="orthopedic_surgery" attr.type="string" />
+  <key id="emergency_medicine" for="edge" attr.name="emergency_medicine" attr.type="string" />
+  <key id="trauma_surgery" for="edge" attr.name="trauma_surgery" attr.type="string" />
+  <key id="laboratory_services" for="edge" attr.name="laboratory_services" attr.type="string" />
+  <key id="medical_imaging" for="edge" attr.name="medical_imaging" attr.type="string" />
+  <key id="surgical_services" for="edge" attr.name="surgical_services" attr.type="string" />
+  <key id="emergency_care" for="edge" attr.name="emergency_care" attr.type="string" />
+  <key id="option_cfs" for="edge" attr.name="option_cfs" attr.type="string" />
+  <key id="available_anesthetics" for="node" attr.name="available_anesthetics" attr.type="string" />
+  <key id="available_antibiotics" for="node" attr.name="available_antibiotics" attr.type="string" />
+  <key id="available_painkillers" for="node" attr.name="available_painkillers" attr.type="string" />
+  <key id="available_blood_bags" for="node" attr.name="available_blood_bags" attr.type="string" />
+  <key id="available_general_surgery" for="node" attr.name="available_general_surgery" attr.type="string" />
+  <key id="available_orthopedic_surgery" for="node" attr.name="available_orthopedic_surgery" attr.type="string" />
+  <key id="available_emergency_medicine" for="node" attr.name="available_emergency_medicine" attr.type="string" />
+  <key id="available_trauma_surgery" for="node" attr.name="available_trauma_surgery" attr.type="string" />
+  <key id="available_laboratory_services" for="node" attr.name="available_laboratory_services" attr.type="string" />
+  <key id="available_medical_imaging" for="node" attr.name="available_medical_imaging" attr.type="string" />
+  <key id="available_surgical_services" for="node" attr.name="available_surgical_services" attr.type="string" />
+  <key id="available_emergency_care" for="node" attr.name="available_emergency_care" attr.type="string" />
+  <key id="cf_id" for="node" attr.name="cf_id" attr.type="long" />
+  <key id="type_cf" for="node" attr.name="type_cf" attr.type="string" />
+  <key id="req_anesthetics" for="node" attr.name="req_anesthetics" attr.type="string" />
+  <key id="req_antibiotics" for="node" attr.name="req_antibiotics" attr.type="string" />
+  <key id="req_painkillers" for="node" attr.name="req_painkillers" attr.type="string" />
+  <key id="req_blood_bags" for="node" attr.name="req_blood_bags" attr.type="string" />
+  <key id="req_general_surgery" for="node" attr.name="req_general_surgery" attr.type="string" />
+  <key id="req_orthopedic_surgery" for="node" attr.name="req_orthopedic_surgery" attr.type="string" />
+  <key id="req_emergency_medicine" for="node" attr.name="req_emergency_medicine" attr.type="string" />
+  <key id="req_trauma_surgery" for="node" attr.name="req_trauma_surgery" attr.type="string" />
+  <key id="req_laboratory_services" for="node" attr.name="req_laboratory_services" attr.type="string" />
+  <key id="req_medical_imaging" for="node" attr.name="req_medical_imaging" attr.type="string" />
+  <key id="req_surgical_services" for="node" attr.name="req_surgical_services" attr.type="string" />
+  <key id="req_emergency_care" for="node" attr.name="req_emergency_care" attr.type="string" />
+  <key id="mission_id" for="node" attr.name="mission_id" attr.type="long" />
+  <key id="type_mission" for="node" attr.name="type_mission" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Adrian Monk">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">2</data>
+      <data key="req_emergency_care">1,1</data>
+      <data key="req_surgical_services">1,1</data>
+      <data key="req_medical_imaging">1,1</data>
+      <data key="req_laboratory_services">1,1</data>
+      <data key="req_trauma_surgery">1,1</data>
+      <data key="req_emergency_medicine">1,1</data>
+      <data key="req_orthopedic_surgery">1,1</data>
+      <data key="req_general_surgery">1,1</data>
+      <data key="req_blood_bags">1,1</data>
+      <data key="req_painkillers">1,1</data>
+      <data key="req_antibiotics">1,1</data>
+      <data key="req_anesthetics">1,1</data>
+    </node>
+    <node id="Natalie Tieger">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">3</data>
+      <data key="req_emergency_care">0,0</data>
+      <data key="req_surgical_services">0,0</data>
+      <data key="req_medical_imaging">1,1</data>
+      <data key="req_laboratory_services">1,1</data>
+      <data key="req_trauma_surgery">0,0</data>
+      <data key="req_emergency_medicine">0,0</data>
+      <data key="req_orthopedic_surgery">0,0</data>
+      <data key="req_general_surgery">1,1</data>
+      <data key="req_blood_bags">1,1</data>
+      <data key="req_painkillers">1,1</data>
+      <data key="req_antibiotics">0,0</data>
+      <data key="req_anesthetics">0,0</data>
+    </node>
+    <node id="Leland Stottlemeyer">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">4</data>
+      <data key="req_emergency_care">1,1</data>
+      <data key="req_surgical_services">1,1</data>
+      <data key="req_medical_imaging">1,1</data>
+      <data key="req_laboratory_services">1,1</data>
+      <data key="req_trauma_surgery">0,0</data>
+      <data key="req_emergency_medicine">0,0</data>
+      <data key="req_orthopedic_surgery">0,0</data>
+      <data key="req_general_surgery">0,0</data>
+      <data key="req_blood_bags">1,1</data>
+      <data key="req_painkillers">0,0</data>
+      <data key="req_antibiotics">1,1</data>
+      <data key="req_anesthetics">1,1</data>
+    </node>
+    <node id="Jake Peralta">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">5</data>
+      <data key="req_emergency_care">0,0</data>
+      <data key="req_surgical_services">0,0</data>
+      <data key="req_medical_imaging">0,0</data>
+      <data key="req_laboratory_services">0,0</data>
+      <data key="req_trauma_surgery">0,0</data>
+      <data key="req_emergency_medicine">0,0</data>
+      <data key="req_orthopedic_surgery">0,0</data>
+      <data key="req_general_surgery">1,1</data>
+      <data key="req_blood_bags">1,1</data>
+      <data key="req_painkillers">0,0</data>
+      <data key="req_antibiotics">1,1</data>
+      <data key="req_anesthetics">1,1</data>
+    </node>
+    <node id="Sharona Fleming">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">6</data>
+      <data key="req_emergency_care">0,0</data>
+      <data key="req_surgical_services">1,1</data>
+      <data key="req_medical_imaging">1,1</data>
+      <data key="req_laboratory_services">1,1</data>
+      <data key="req_trauma_surgery">1,1</data>
+      <data key="req_emergency_medicine">1,1</data>
+      <data key="req_orthopedic_surgery">1,1</data>
+      <data key="req_general_surgery">1,1</data>
+      <data key="req_blood_bags">1,1</data>
+      <data key="req_painkillers">1,1</data>
+      <data key="req_antibiotics">1,1</data>
+      <data key="req_anesthetics">1,1</data>
+    </node>
+    <node id="Randy Disher">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">7</data>
+      <data key="req_emergency_care">1,1</data>
+      <data key="req_surgical_services">0,0</data>
+      <data key="req_medical_imaging">1,1</data>
+      <data key="req_laboratory_services">1,1</data>
+      <data key="req_trauma_surgery">1,1</data>
+      <data key="req_emergency_medicine">1,1</data>
+      <data key="req_orthopedic_surgery">0,0</data>
+      <data key="req_general_surgery">0,0</data>
+      <data key="req_blood_bags">1,1</data>
+      <data key="req_painkillers">0,0</data>
+      <data key="req_antibiotics">0,0</data>
+      <data key="req_anesthetics">0,0</data>
+    </node>
+    <node id="Trudy Monk">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">8</data>
+      <data key="req_emergency_care">1,1</data>
+      <data key="req_surgical_services">1,1</data>
+      <data key="req_medical_imaging">0,0</data>
+      <data key="req_laboratory_services">0,0</data>
+      <data key="req_trauma_surgery">1,1</data>
+      <data key="req_emergency_medicine">0,0</data>
+      <data key="req_orthopedic_surgery">0,0</data>
+      <data key="req_general_surgery">1,1</data>
+      <data key="req_blood_bags">1,1</data>
+      <data key="req_painkillers">1,1</data>
+      <data key="req_antibiotics">1,1</data>
+      <data key="req_anesthetics">1,1</data>
+    </node>
+    <node id="Charles Kroger">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">9</data>
+      <data key="req_emergency_care">1,1</data>
+      <data key="req_surgical_services">1,1</data>
+      <data key="req_medical_imaging">1,1</data>
+      <data key="req_laboratory_services">1,1</data>
+      <data key="req_trauma_surgery">0,0</data>
+      <data key="req_emergency_medicine">0,0</data>
+      <data key="req_orthopedic_surgery">1,1</data>
+      <data key="req_general_surgery">1,1</data>
+      <data key="req_blood_bags">1,1</data>
+      <data key="req_painkillers">1,1</data>
+      <data key="req_antibiotics">1,1</data>
+      <data key="req_anesthetics">1,1</data>
+    </node>
+    <node id="Julie Trieger">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">10</data>
+      <data key="req_emergency_care">1,1</data>
+      <data key="req_surgical_services">1,1</data>
+      <data key="req_medical_imaging">1,1</data>
+      <data key="req_laboratory_services">1,1</data>
+      <data key="req_trauma_surgery">1,1</data>
+      <data key="req_emergency_medicine">1,1</data>
+      <data key="req_orthopedic_surgery">0,0</data>
+      <data key="req_general_surgery">0,0</data>
+      <data key="req_blood_bags">0,0</data>
+      <data key="req_painkillers">0,0</data>
+      <data key="req_antibiotics">0,0</data>
+      <data key="req_anesthetics">0,0</data>
+    </node>
+    <node id="Benjy Fleming">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">11</data>
+      <data key="req_emergency_care">1,1</data>
+      <data key="req_surgical_services">1,1</data>
+      <data key="req_medical_imaging">1,1</data>
+      <data key="req_laboratory_services">1,1</data>
+      <data key="req_trauma_surgery">1,1</data>
+      <data key="req_emergency_medicine">1,1</data>
+      <data key="req_orthopedic_surgery">1,1</data>
+      <data key="req_general_surgery">1,1</data>
+      <data key="req_blood_bags">0,0</data>
+      <data key="req_painkillers">0,0</data>
+      <data key="req_antibiotics">0,0</data>
+      <data key="req_anesthetics">0,0</data>
+    </node>
+    <node id="Battlefield Medical Center">
+      <data key="type_cf">1,1</data>
+      <data key="cf_id">2</data>
+      <data key="available_emergency_care">1,1</data>
+      <data key="available_surgical_services">1,1</data>
+      <data key="available_medical_imaging">1,1</data>
+      <data key="available_laboratory_services">1,1</data>
+      <data key="available_trauma_surgery">1,1</data>
+      <data key="available_emergency_medicine">1,1</data>
+      <data key="available_orthopedic_surgery">1,1</data>
+      <data key="available_general_surgery">1,1</data>
+      <data key="available_blood_bags">1,1</data>
+      <data key="available_painkillers">1,1</data>
+      <data key="available_antibiotics">1,1</data>
+      <data key="available_anesthetics">1,1</data>
+    </node>
+    <node id="Noble Medical Center">
+      <data key="type_cf">1,1</data>
+      <data key="cf_id">3</data>
+      <data key="available_emergency_care">0,0</data>
+      <data key="available_surgical_services">0,0</data>
+      <data key="available_medical_imaging">1,1</data>
+      <data key="available_laboratory_services">1,1</data>
+      <data key="available_trauma_surgery">0,0</data>
+      <data key="available_emergency_medicine">1,1</data>
+      <data key="available_orthopedic_surgery">1,1</data>
+      <data key="available_general_surgery">1,1</data>
+      <data key="available_blood_bags">1,1</data>
+      <data key="available_painkillers">1,1</data>
+      <data key="available_antibiotics">0,0</data>
+      <data key="available_anesthetics">1,1</data>
+    </node>
+    <node id="Young hearts Medical Center">
+      <data key="type_cf">1,1</data>
+      <data key="cf_id">4</data>
+      <data key="available_emergency_care">1,1</data>
+      <data key="available_surgical_services">1,1</data>
+      <data key="available_medical_imaging">1,1</data>
+      <data key="available_laboratory_services">1,1</data>
+      <data key="available_trauma_surgery">1,1</data>
+      <data key="available_emergency_medicine">1,1</data>
+      <data key="available_orthopedic_surgery">1,1</data>
+      <data key="available_general_surgery">1,1</data>
+      <data key="available_blood_bags">0,0</data>
+      <data key="available_painkillers">0,0</data>
+      <data key="available_antibiotics">0,0</data>
+      <data key="available_anesthetics">0,0</data>
+    </node>
+    <edge source="Adrian Monk" target="Battlefield Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="Noble Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="Young hearts Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="Battlefield Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="Noble Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="Young hearts Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="Battlefield Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="Noble Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="Young hearts Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="Battlefield Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="Noble Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="Young hearts Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="Battlefield Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="Noble Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="Young hearts Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="Battlefield Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="Noble Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="Young hearts Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="Battlefield Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="Noble Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="Young hearts Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="Battlefield Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="Noble Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="Young hearts Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="Battlefield Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="Noble Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="Young hearts Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Battlefield Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Noble Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Young hearts Medical Center">
+      <data key="option_cfs">0,0</data>
+      <data key="emergency_care">0,0</data>
+      <data key="surgical_services">0,0</data>
+      <data key="medical_imaging">0,0</data>
+      <data key="laboratory_services">0,0</data>
+      <data key="trauma_surgery">0,0</data>
+      <data key="emergency_medicine">0,0</data>
+      <data key="orthopedic_surgery">0,0</data>
+      <data key="general_surgery">0,0</data>
+      <data key="blood_bags">0,0</data>
+      <data key="painkillers">0,0</data>
+      <data key="antibiotics">0,0</data>
+      <data key="anesthetics">0,0</data>
+    </edge>
+  </graph>
+</graphml>

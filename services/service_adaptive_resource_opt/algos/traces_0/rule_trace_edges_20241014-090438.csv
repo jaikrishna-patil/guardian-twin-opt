@@ -1,0 +1,103 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To
+0,0,"('John Smith', '0.2692307692307692')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('John Smith', 'Urgent (Yellow)')",triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('John Smith', 'Hemostatic gauze')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('John Smith', 'Combat tourniquet')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('John Smith', 'Burn dressing')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('John Smith', 'TXA (Tranexamic acid)')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('John Smith', 'Analgesics')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('John Smith', 'IV fluids')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Hemostatic gauze', '10')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Combat tourniquet', '10')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Burn dressing', '0')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('TXA (Tranexamic acid)', '5')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Analgesics', '20')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('IV fluids', '10')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Sarah Johnson', '0.46153846153846156')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Sarah Johnson', 'Immediate (Red)')",triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Sarah Johnson', 'Chest decompression needle')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Sarah Johnson', 'Pulse oximeter')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Sarah Johnson', 'Oxygen supply')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Sarah Johnson', 'Chest tube kit')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Chest decompression needle', '4')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Pulse oximeter', '2')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Oxygen supply', '1')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Chest tube kit', '2')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Michael Brown', '0.23076923076923078')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Michael Brown', 'Delayed (Green)')",triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Michael Brown', 'Chest decompression needle')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Michael Brown', 'Hemostatic gauze')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Michael Brown', 'Chest seal')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Michael Brown', 'Analgesics')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Michael Brown', 'Portable oxygen')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Michael Brown', 'Splinting materials')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Michael Brown', 'Broad-spectrum antibiotics')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Chest seal', '6')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Portable oxygen', '0')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Splinting materials', '3')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Broad-spectrum antibiotics', '10')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Emily Davis', '0.6538461538461539')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Emily Davis', 'Immediate (Red)')",triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Emily Davis', 'Levetiracetam')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Emily Davis', 'Hypertonic saline')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Emily Davis', 'Nasopharyngeal airway')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Levetiracetam', '0')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Hypertonic saline', '0')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Nasopharyngeal airway', '5')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Robert Wilson', '0.6923076923076923')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Robert Wilson', 'Immediate (Red)')",triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Robert Wilson', 'Amputation preservation kit')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Robert Wilson', 'Combat tourniquet')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Robert Wilson', 'Vital signs monitor')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Robert Wilson', 'TXA (Tranexamic acid)')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Robert Wilson', 'Analgesics')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Robert Wilson', 'Blood products')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Robert Wilson', 'Abdominal pressure dressing')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Robert Wilson', 'Surgical set')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Robert Wilson', 'IV fluids')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Amputation preservation kit', '0')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Vital signs monitor', '1')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Blood products', '4')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Abdominal pressure dressing', '0')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Surgical set', '0')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jennifer Taylor', '0.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jennifer Taylor', 'Minor (White)')",triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jennifer Taylor', 'Hemostatic gauze')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jennifer Taylor', 'Analgesics')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jennifer Taylor', 'Broad-spectrum antibiotics')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jennifer Taylor', 'Nasopharyngeal airway')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('David Anderson', '0.34615384615384615')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('David Anderson', 'Urgent (Yellow)')",triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('David Anderson', 'Thermometer')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('David Anderson', 'Analgesics')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('David Anderson', 'IV fluids')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('David Anderson', 'Surgical set')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('David Anderson', 'Warming blanket')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Thermometer', '0')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Warming blanket', '0')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Lisa Martinez', '0.8076923076923077')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Lisa Martinez', 'Immediate (Red)')",triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Lisa Martinez', 'Junctional tourniquet')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Lisa Martinez', 'TXA (Tranexamic acid)')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Lisa Martinez', 'Blood products')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Lisa Martinez', 'Surgical set')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Lisa Martinez', 'Vital signs monitor')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Junctional tourniquet', '2')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Thomas Clark', '0.5769230769230769')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Thomas Clark', 'Immediate (Red)')",triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Thomas Clark', 'Pulse oximeter')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Thomas Clark', 'Methylprednisolone')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Thomas Clark', 'Analgesics')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Thomas Clark', 'IV fluids')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Thomas Clark', 'Cervical collar')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Thomas Clark', 'Portable oxygen')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Thomas Clark', 'Chest tube kit')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Thomas Clark', 'Oxygen supply')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Methylprednisolone', '0')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Cervical collar', '0')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Karen White', '0.07692307692307693')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Karen White', 'Minor (White)')",triage_category,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Karen White', 'Analgesics')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Karen White', 'Rigid eye shield')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Karen White', 'Broad-spectrum antibiotics')",required_resource,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Rigid eye shield', '0')",quantity_available,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact

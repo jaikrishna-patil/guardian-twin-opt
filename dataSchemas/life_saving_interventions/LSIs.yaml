@@ -1,0 +1,540 @@
+# ======================================================================================================================
+# CATEGORY DIRECTORY:
+# - Hemorrhage Control
+# - Airway Management 
+# - Burn Interventions 
+# - Cardiac Interventions 
+# - Head Trauma Interventions 
+# - Musculoskeletal Interventions 
+# - Medical Interventions 
+# ======================================================================================================================
+
+- lsi_id: g0h1i2j3-k4l5-m6n7-o8p9-q0r1s2t3u4
+  lsi_name: LSI 1
+- lsi_id: g0h1i2j3-k4l5-m6n7-o8p9-q0r1s2t3u4
+  lsi_name: LSI 2
+- lsi_id: g0h1i2j3-k4l5-m6n7-o8p9-q0r1s2t3u4
+  lsi_name: LSI 3
+
+
+
+
+# ======================================================================================================================
+# Hemorrhage Control ===================================================================================================
+# ======================================================================================================================
+# - lsi_id: f2g3h4i5-j6k7-l8m9-n0o1-p2q3r4s5t6u7
+#   lsi_name: Fluid Resuscitation
+#   description: Administration of intravenous fluids to restore blood volume and maintain organ perfusion
+#   use_cases: 
+#     - Hypovolemic shock
+#     - severe dehydration
+#     - significant blood loss
+#   category: Shock Management
+#   phases_of_care: 
+#     - Medevac
+#     - Prolonged Casualty Care
+#     - Definitive Care
+#   indicators: 
+#     - must_have:
+#       - Hypotension
+#       - tachycardia
+#     - likely:
+#       - altered mental status
+#       - poor skin turgor
+#   equipment: 
+#     - required: 
+#         - item: IV catheters
+#         - item: fluids (crystalloids, colloids)
+#         - item: fluid warmers
+#   skill_level: 
+#     - Intermediate
+#     - Advanced
+
+# - lsi_id: 7j8k9l0m-1n2o-3p4q-5r6s-7t8u9v0w1x2y
+#   lsi_name: Whole Blood Transfusion
+#   description: Administration of fresh whole blood for severe blood loss
+#   use_cases: 
+#     - Significant hemorrhage not responding to other treatments
+#   category: Advanced Resuscitation
+#   phases_of_care: 
+#     - Prolonged Casualty Care
+#     - Definitive Care
+#   indicators: 
+#     - must_have: 
+#       - Signs of severe shock
+#     - likely:
+#       - Ongoing blood loss
+#   equipment: 
+#     - required: 
+#         - item: Blood transfusion kit
+#         - item: fresh whole blood
+#   skill_level: 
+#     - label: Advanced
+
+# - lsi_id:
+#     _generate_uuid: "lsi_id"
+#   lsi_name: Hemostatic Dressing Application
+#   description: Application of special dressings to rapidly clot severe bleeding
+#   use_cases: 
+#     - Severe bleeding from wounds not amenable to tourniquet use
+#   category: Hemorrhage Control
+#   phases_of_care: 
+#     - Point of Injury
+#   indicators: 
+#     - must_have: 
+#       - Uncontrolled bleeding from areas where tourniquets can't be applied
+#   equipment: 
+#     - either_or:
+#         - [HemCon (chitosan-based), QuikClot (zeolite-based)]
+#   skill_level: 
+#     - label: Basic
+#     - label: Intermediate
+
+
+# - lsi_id:
+#     _generate_uuid: "lsi_id"
+#   lsi_name: Junctional Hemorrhage Control
+#   description: Use of specialized devices to control bleeding in junctional areas
+#   use_cases: 
+#     - Severe bleeding in areas where tourniquets can't be applied
+#   category: Hemorrhage Control
+#   phases_of_care: 
+#     - Point of Injury
+#   indicators: 
+#     - must_have:
+#       - Uncontrolled bleeding from junctional areas (groin, axilla)
+#   equipment: 
+#     - either_or: [Combat Ready Clamp (CRoC), Junctional Emergency Treatment Tool (JETT), or SAM Junctional Tourniquet]
+#   skill_level: 
+#     - label: Intermediate
+#     - label: Advanced
+
+
+
+# # ======================================================================================================================
+# # Airway Management ====================================================================================================
+# # ======================================================================================================================
+# - lsi_id: c2d3e4f5-g6h7-i8j9-k0l1-m2n3o4p5q6r7
+#   lsi_name: Bag-Valve-Mask Ventilation
+#   description: A hand-held device used to provide positive pressure ventilation
+#   use_cases: 
+#     - Respiratory failure or arrest
+#   category: Airway Management
+#   indicators: 
+#     - either_or: 
+#       - Inadequate breathing
+#       - Inability to breathe
+#       - Absent breathing
+#   equipment:
+#     - required:
+#         - item: bag-valve-mask device
+#     - optional:
+#         - item: oxygen source (if available)
+#   skill_level: 
+#     - Intermediate
+
+
+# - lsi_id: 4g5h6i7j-8k9l-0m1n-2o3p-4q5r6s7t8u9v
+#   lsi_name: Needle Decompression
+#   description: Insertion of a needle into the chest cavity to relieve tension pneumothorax
+#   use_cases: 
+#     - Tension Pneumothorax
+#   category: Airway Management
+#   indicators:
+#     - must_have: 
+#       - Respiratory distress
+#       - decreased breath sounds
+#       - tracheal deviation
+#     - likely:
+#       - chest pain
+#     - must_not_have:
+#   equipment:
+#     - required:
+#         - item: large-bore needle
+#     - optional:
+#         - item: sterile drapes
+#         - item: [sterile alcohol solution, sterile alcohol swabs] 
+#   skill_level: 
+#     - label: Advanced
+#       qualifiers:
+
+# - lsi_id: 9l0m1n2o-3p4q-5r6s-7t8u-9v0w1x2y3z4a
+#   lsi_name: Intubation
+#   description: Insertion of a tube into the trachea to maintain an open airway
+#   use_cases: 
+#     - Respiratory failure
+#     - Airway protection
+#   category: Airway Management
+#   indicators: 
+#     - either_or:
+#       - Inability to maintain airway
+#       - Inadequate oxygenation or ventilation
+#   equipment: 
+#     - required:
+#         - item: laryngoscope
+#         - item: endotracheal tube
+#         - item: stylet
+#   skill_level: 
+#     - label: Advanced
+#       qualifiers: 
+
+# - lsi_id: e2f3g4h5-i6j7-k8l9-m0n1-o2p3q4r5s6t7
+#   lsi_name: Emergency Cricothyrotomy
+#   description: Surgical creation of an airway through the cricothyroid membrane
+#   use_cases: 
+#     - Cannot intubate
+#     - Cannot ventilate scenarios
+#   category: Airway Management
+#   indicators: 
+#     - must_have: 
+#       - Complete airway obstruction
+#       - failed intubation attempts
+#   equipment: 
+#     - required:
+#         - item: scalpel
+#         - item: bougie
+#         - item: [tracheostomy tube, endotracheal tube]
+#   skill_level: 
+#     - label: Expert
+#       qualifiers: 
+
+# - lsi_id: 6i7j8k9l-0m1n-2o3p-4q5r-6s7t8u9v0w1x
+#   lsi_name: Chest Tube Insertion
+#   description: Placement of a tube into the pleural space to drain air or fluid
+#   use_cases: 
+#     - Pneumothorax
+#     - Hemothorax
+#     - Pleural effusion
+#   category: Airway Management
+#   indicators: 
+#     - must_have: 
+#       - Respiratory distress
+#       - decreased breath sounds
+#     - optional:
+#       - chest imaging findings
+#   equipment: 
+#     - required:
+#       - Chest tube kit
+#       - sterile drapes
+#       - local anesthetic
+#   skill_level: 
+#     - label: Expert
+#       qualifiers: 
+
+# - lsi_id: b2c3d4e5-f6g7-h8i9-j0k1-l2m3n4o5p6q7
+#   lsi_name: Airway Management
+#   description: Techniques to ensure an open airway for breathing
+#   use_cases: Compromised airway due to injury or unconsciousness
+#   category: Airway Management
+#   indicators:
+#     - must_have: 
+#       - difficulty breathing
+#     - likely:
+#       - unconsciousness
+#   equipment: 
+#     - required:
+#         - item: Breathing tubes
+#         - item: Airway adjuncts
+#   skill_level: 
+#     - label: Intermediate
+#     - label: Advanced
+
+
+# - lsi_id: 3f4g5h6i-7j8k-9l0m-1n2o-3p4q5r6s7t8u
+#   lsi_name: Needle Decompression
+#   description: Insertion of a needle into the chest to relieve tension pneumothorax
+#   use_cases: 
+#     - Tension pneumothorax from chest injuries
+#   category: Airway Management
+#   indicators: 
+#     - must_have: 
+#       - difficulty breathing
+#       - chest pain
+#       - decreased breath sounds
+#   equipment: 
+#     - required:
+#         - item: Large-bore needle
+#   skill_level: 
+#     - label: Advanced
+#       qualifiers: combat medics/corpsmen
+
+
+
+# ======================================================================================================================
+# Burn Interventions ===================================================================================================
+# ======================================================================================================================
+
+# - lsi_id: 8k9l0m1n-2o3p-4q5r-6s7t-8u9v0w1x2y3z
+#   lsi_name: Fasciotomy
+#   description: Surgical procedure to relieve pressure within a muscle compartment
+#   use_cases: 
+#     - Compartment syndrome, often following severe limb trauma or prolonged tourniquet use
+#   category: Emergency Surgery
+#   phases_of_care:
+#     - prolonged casualty care
+#     - definitive care
+#   indicators:
+#     - must_have: 
+#       - severe pain
+#       - tense swelling
+#       - paresthesia
+#       - pallor
+#       - pulselessness in affected limb
+#   equipment: 
+#     - required: 
+#         - item: Surgical kit
+#         - item: scalpel
+#         - item: retractors
+#         - item: sterile dressings
+#   skill_level: 
+#     - label: Expert 
+#       qualifiers: 
+#         - typically performed by surgeons at higher echelons of care
+
+# - lsi_id: d1e2f3g4-h5i6-j7k8-l9m0-n1o2p3q4r5s6
+#   lsi_name: Thermal Burn Treatment
+#   description: Immediate care for burn injuries
+#   use_cases: 
+#     - Thermal burns
+#   category: Trauma Care
+#   indicators: 
+#     - visible burn injuries
+#     - pain
+#   equipment: 
+#     - required:
+#         - item: Burn dressings
+#         - item: sterile water
+#   skill_level: 
+#     - label: Basic
+#     - label: Intermediate
+
+# - lsi_id: 5h6i7j8k-9l0m-1n2o-3p4q-5r6s7t8u9v0w
+#   lsi_name: Chemical Burn Treatment
+#   description: Immediate care for burn injuries
+#   use_cases: 
+#     - Chemical burns
+#   category: Trauma Care
+#   indicators: 
+#     - visible burn injuries
+#     - pain
+#   equipment: 
+#     - required:
+#         - item: Burn dressings
+#         - item: sterile water
+#   skill_level: 
+#     - label: Basic
+#     - label: Intermediate
+
+
+# ======================================================================================================================
+# Cardiac Interventions ================================================================================================
+# ======================================================================================================================
+
+# - lsi_id:
+#     _generate_uuid: "lsi_id"
+#   lsi_name: Pericardiocentesis
+#   description: Aspiration of fluid from the pericardial space
+#   use_cases: 
+#     - Cardiac tamponade
+#   category: Emergency Procedure
+#   phases_of_care:
+#     - Definitive Care
+#   indicators:
+#     - must_have: 
+#       - Hypotension
+#       - muffled heart sounds
+#     - likely:
+#       - distended neck veins
+#   equipment: 
+#     - required:
+#         - item: Large-bore needle
+#         - item: syringe
+#     - optional:
+#       - ultrasound (if available)
+#   skill_level: 
+#     - label: Expert
+#       qualifiers: 
+
+# ======================================================================================================================
+# Head Trauma Interventions ============================================================================================
+# ======================================================================================================================
+# - lsi_id:
+#     _generate_uuid: "lsi_id"
+#   lsi_name: Ocular Injury Management
+#   description: Initial treatment for eye injuries in combat
+#   use_cases: 
+#     - Penetrating or other serious eye injuries
+#   category: Specialized Trauma Care
+#   phases_of_care: 
+#     - Prolonged Casualty Care
+#     - Medevac
+#     - Definitive Care 
+#   indicators: 
+#     - likely:
+#       - Visible eye trauma
+#       - Reports of eye pain
+#       - Vision changes
+#   equipment: 
+#     - required: Rigid eye shield
+#     - optional: Ocoral antibiotics (moxifloxacin)
+#   skill_level: 
+#     - label: Intermediate
+
+
+# ======================================================================================================================
+# Musculoskeletal Interventions ========================================================================================
+# ======================================================================================================================
+# - lsi_id:
+#     _generate_uuid: "lsi_id"
+#   lsi_name: Fracture Splinting
+#   description: Immobilization of broken bones to prevent further injury
+#   use_cases: 
+#     - Suspected fractures 
+#   category: Trauma Care
+#   phases_of_care: 
+#     - Point of Injury
+#     - Prolonged Casualty Care
+#     - Medevac
+#   indicators: 
+#     - likely:
+#       - Pain
+#       - deformity
+#       - loss of function in affected area
+#   equipment: 
+#     - required:
+#         - item: Splinting materials
+#   skill_level: 
+#     - label: Basic
+#     - label: Intermediate
+
+# ======================================================================================================================
+# Medical Interventions ================================================================================================
+# ======================================================================================================================
+
+# - lsi_id:
+#     _generate_uuid: "lsi_id"
+#   lsi_name: Intraosseous Access
+#   description: Insertion of a needle into bone marrow to provide vascular access
+#   use_cases: 
+#     - Emergency vascular access when intravenous access is not possible
+#   category: Vascular Access
+#   phases_of_care: 
+#     - Prolonged Casualty Care
+#     - Medevac
+#     - Definitive Care
+#   indicators: 
+#     - must_have: 
+#       - Critically ill or injured patient with difficult IV access
+#   equipment:
+#     - required:
+#         - item: [Intraosseous needle, Intraosseous drill]
+#         - itme: antiseptic solution
+#   skill_level: 
+#     - label: Advanced
+#       qualifiers: 
+
+# - lsi_id: g0h1i2j3-k4l5-m6n7-o8p9-q0r1s2t3u4
+#   lsi_name: Intravenous Fluid Administration
+#   description: Providing fluids intravenously to treat shock and blood loss
+#   use_cases: 
+#     - Hypovolemic shock from blood loss
+#   category: Fluid Resuscitation
+#   phases_of_care: 
+#     - Prolonged Casualty Care
+#     - Medevac
+#     - Definitive Care
+#   indicators:
+#     - must_have: 
+#       - Signs of shock
+#       - significant blood loss
+#   equipment: 
+#     - required:
+#         - item: IV kit
+#         - item: fluids
+#         - item: blood products
+#   skill_level: 
+#     - label: Intermediate
+#       qualifiers: combat medics/corpsmen
+
+# - lsi_id:
+#     _generate_uuid: "lsi_id"
+#   lsi_name: Antibiotic Administration
+#   description: Providing antibiotics to prevent infection in combat wounds
+#   use_cases: 
+#     - Any penetrating injury
+#   category: Infection Prevention
+#   phases_of_care: 
+#     - Prolonged Casualty Care
+#     - Medevac
+#     - Definitive Care
+#   indicators:
+#     - likely:  
+#       - Open wounds
+#       - Penetrating injuries
+#   equipment: 
+#     - either_or: [Ertapenem, Cefotetan, Moxifloxacin]
+#   skill_level: 
+#     - label: Intermediate
+#     - label: Advanced
+
+# - lsi_id:
+#     _generate_uuid: "lsi_id" 
+#   lsi_name: Epinephrine Administration
+#   description: Injection of epinephrine to treat severe allergic reactions
+#   use_cases: 
+#     - Anaphylaxis
+#   category: Emergency Medication
+#   phases_of_care: 
+#     - Point of Injury
+#   indicators:
+#     - must_have: 
+#       - difficulty breathing
+#       - swelling
+#       - hives
+#       - low blood pressure
+#     - likely:
+#     - must_not_have:
+#   equipment: 
+#     - either_or:
+#       - item: Epinephrine auto-injector
+#       - item: Epinephrine vial with syringe
+#   skill_level: 
+#     - label: Basic
+#       qualifiers: 
+#         - If Epinephrine auto-injector
+#     - label: Advanced 
+#       qualifiers: 
+#         - If Epinephrine vial with syringe
+
+# - lsi_id:
+#     _generate_uuid: "lsi_id"
+#   lsi_name: Naloxone Administration
+#   description: Administration of naloxone to reverse opioid overdose
+#   use_cases: 
+#     - Opioid overdose
+#   category: Emergency Medication
+#   phases_of_care: 
+#     - Point of Injury
+#   indicators:
+#     - must_have: 
+#       - Respiratory depression
+#       - pinpoint pupils
+#     - likely:
+#       - unresponsive
+#     - must_not_have:
+#   equipment: 
+#     - either_or:
+#         - item: Naloxone nasal spray
+#         - item: Naloxone injection
+#   skill_level: 
+#   - label: Basic
+#     qualifiers: If Naloxone nasal spray
+#   - label: Intermediate
+#     qualifiers: If Naloxone injection
+
+
+
+
+
+
+

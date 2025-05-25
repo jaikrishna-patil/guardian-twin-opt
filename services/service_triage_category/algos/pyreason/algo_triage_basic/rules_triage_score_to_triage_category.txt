@@ -1,0 +1,5 @@
+triage_category(PATIENT, CATEGORY) <-0 triage_score(PATIENT, SCORE), type_casualty(PATIENT), zero_thirty(SCORE), triage_category(PATIENT, CATEGORY):[0,1], type_triage_category_expectant(CATEGORY)
+triage_category(PATIENT, CATEGORY) <-0 triage_score(PATIENT, SCORE), type_casualty(PATIENT), thirty_fifty(SCORE), triage_category(PATIENT, CATEGORY):[0,1], type_triage_category_immediate(CATEGORY)
+triage_category(PATIENT, CATEGORY) <-0 triage_score(PATIENT, SCORE), type_casualty(PATIENT), fifty_seventy(SCORE), triage_category(PATIENT, CATEGORY):[0,1], type_triage_category_urgent(CATEGORY)
+triage_category(PATIENT, CATEGORY) <-0 triage_score(PATIENT, SCORE), type_casualty(PATIENT), seventy_ninety(SCORE), triage_category(PATIENT, CATEGORY):[0,1], type_triage_category_delayed(CATEGORY)
+triage_category(PATIENT, CATEGORY) <-0 triage_score(PATIENT, SCORE), type_casualty(PATIENT), ninety_hundred(SCORE), triage_category(PATIENT, CATEGORY):[0,1], type_triage_category_minor(CATEGORY)

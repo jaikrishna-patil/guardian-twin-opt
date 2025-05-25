@@ -1,0 +1,21 @@
+## Forecast LSI Constraint ================================================
+- scenario_id: 5
+  name: Add Constraint for Forecasted LSI.
+  description: 
+  functionality_to_test:
+    - Prioritize isops based on "triage category", then time to forecasted LSI
+  coda_link:
+  input_schemas:
+    - path: '../dataSchemas/personnel/isop_detail.yaml'
+      iterations: 10
+      data_gap: 10
+    - path: '../dataSchemas/personnel/isop_state.yaml'
+      iterations: 10
+      data_gap: 10
+  constraints:
+    - constraint_id: r5s6t7u8-v9w0-x1y2-z3a4b5c6d7e8f9
+      label: "triage category"
+      importance_factor: 0.8
+    - constraint_id: c0d1e2f3-g4h5-i6j7-k8l9-m0n1o2p3q4
+      label: "forecasted LSI"
+      importance_factor: 0.2

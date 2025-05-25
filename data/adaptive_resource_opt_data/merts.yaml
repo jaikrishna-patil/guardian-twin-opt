@@ -1,0 +1,280 @@
+merts:
+  - mert_id: MERT-TB-001
+    label: Tactical Backpack MERT
+    type: tactical_backpack
+    resources:
+      - item_id: CT001
+        item: Combat tourniquet
+        type: equipment
+        qty: 4
+        consumable: false
+      - item_id: HG001
+        item: Hemostatic gauze
+        type: equipment
+        qty: 3
+        consumable: true
+      - item_id: CS001
+        item: Chest seal
+        type: equipment
+        qty: 2
+        consumable: true
+      - item_id: NPA001
+        item: Nasopharyngeal airway
+        type: equipment
+        qty: 2
+        consumable: true
+      - item_id: CDN001
+        item: Chest decompression needle
+        type: equipment
+        qty: 2
+        consumable: true
+      - item_id: TXA001
+        item: TXA (Tranexamic acid)
+        type: medication
+        qty: 2
+        consumable: true
+      - item_id: ANA001
+        item: Analgesics
+        type: medication
+        qty: 5
+        consumable: true
+      - item_id: ANT001
+        item: Broad-spectrum antibiotics
+        type: medication
+        qty: 3
+        consumable: true
+      - item_id: PO001
+        item: Pulse oximeter
+        type: diagnostic
+        qty: 1
+        consumable: false
+      - item_id: IVF001
+        item: IV fluids
+        type: medication
+        qty: 2
+        consumable: true
+      - item_id: SS001
+        item: Splinting materials
+        type: equipment
+        qty: 1
+        consumable: false
+
+  - mert_id: MERT-VM-001
+    label: Vehicle Mounted MERT
+    type: vehicle_mounted
+    resources:
+      - item_id: CT001
+        item: Combat tourniquet
+        type: equipment
+        qty: 10
+        consumable: false
+      - item_id: HG001
+        item: Hemostatic gauze
+        type: equipment
+        qty: 10
+        consumable: true
+      - item_id: CS001
+        item: Chest seal
+        type: equipment
+        qty: 6
+        consumable: true
+      - item_id: NPA001
+        item: Nasopharyngeal airway
+        type: equipment
+        qty: 5
+        consumable: true
+      - item_id: CDN001
+        item: Chest decompression needle
+        type: equipment
+        qty: 4
+        consumable: true
+      - item_id: TXA001
+        item: TXA (Tranexamic acid)
+        type: medication
+        qty: 5
+        consumable: true
+      - item_id: ANA001
+        item: Analgesics
+        type: medication
+        qty: 20
+        consumable: true
+      - item_id: ANT001
+        item: Broad-spectrum antibiotics
+        type: medication
+        qty: 10
+        consumable: true
+      - item_id: PO001
+        item: Pulse oximeter
+        type: diagnostic
+        qty: 2
+        consumable: false
+      - item_id: IVF001
+        item: IV fluids
+        type: medication
+        qty: 10
+        consumable: true
+      - item_id: SS001
+        item: Splinting materials
+        type: equipment
+        qty: 3
+        consumable: false
+      - item_id: O2001
+        item: Oxygen supply
+        type: equipment
+        qty: 1
+        consumable: false
+      - item_id: VS001
+        item: Vital signs monitor
+        type: equipment
+        qty: 1
+        consumable: false
+      - item_id: CTK001
+        item: Chest tube kit
+        type: equipment
+        qty: 2
+        consumable: true
+      - item_id: JT001
+        item: Junctional tourniquet
+        type: equipment
+        qty: 2
+        consumable: false
+      - item_id: BP001
+        item: Blood products
+        type: medication
+        qty: 4
+        consumable: true
+
+  - mert_id: MERT-CCP-001
+    label: Casualty Collection Point MERT
+    type: casualty_collection_point
+    resources:
+      - item_id: CT001
+        item: Combat tourniquet
+        type: equipment
+        qty: 20
+        consumable: false
+      - item_id: HG001
+        item: Hemostatic gauze
+        type: equipment
+        qty: 30
+        consumable: true
+      - item_id: CS001
+        item: Chest seal
+        type: equipment
+        qty: 15
+        consumable: true
+      - item_id: NPA001
+        item: Nasopharyngeal airway
+        type: equipment
+        qty: 10
+        consumable: true
+      - item_id: CDN001
+        item: Chest decompression needle
+        type: equipment
+        qty: 10
+        consumable: true
+      - item_id: TXA001
+        item: TXA (Tranexamic acid)
+        type: medication
+        qty: 15
+        consumable: true
+      - item_id: ANA001
+        item: Analgesics
+        type: medication
+        qty: 50
+        consumable: true
+      - item_id: ANT001
+        item: Broad-spectrum antibiotics
+        type: medication
+        qty: 30
+        consumable: true
+      - item_id: PO001
+        item: Pulse oximeter
+        type: diagnostic
+        qty: 5
+        consumable: false
+      - item_id: IVF001
+        item: IV fluids
+        type: medication
+        qty: 30
+        consumable: true
+      - item_id: SS001
+        item: Splinting materials
+        type: equipment
+        qty: 10
+        consumable: false
+      - item_id: O2001
+        item: Oxygen supply
+        type: equipment
+        qty: 3
+        consumable: false
+      - item_id: VS001
+        item: Vital signs monitor
+        type: equipment
+        qty: 3
+        consumable: false
+      - item_id: CTK001
+        item: Chest tube kit
+        type: equipment
+        qty: 5
+        consumable: true
+      - item_id: JT001
+        item: Junctional tourniquet
+        type: equipment
+        qty: 5
+        consumable: false
+      - item_id: BP001
+        item: Blood products
+        type: medication
+        qty: 15
+        consumable: true
+      - item_id: HS001
+        item: Hypertonic saline
+        type: medication
+        qty: 10
+        consumable: true
+      - item_id: LEV001
+        item: Levetiracetam
+        type: medication
+        qty: 5
+        consumable: true
+      - item_id: BD001
+        item: Burn dressing
+        type: equipment
+        qty: 10
+        consumable: true
+      - item_id: APD001
+        item: Abdominal pressure dressing
+        type: equipment
+        qty: 5
+        consumable: true
+      - item_id: CC001
+        item: Cervical collar
+        type: equipment
+        qty: 5
+        consumable: false
+      - item_id: MP001
+        item: Methylprednisolone
+        type: medication
+        qty: 5
+        consumable: true
+      - item_id: AP001
+        item: Amputation preservation kit
+        type: equipment
+        qty: 3
+        consumable: true
+      - item_id: RES001
+        item: Rigid eye shield
+        type: equipment
+        qty: 5
+        consumable: false
+      - item_id: WB001
+        item: Warming blanket
+        type: equipment
+        qty: 10
+        consumable: false
+      - item_id: TM001
+        item: Thermometer
+        type: diagnostic
+        qty: 3
+        consumable: false

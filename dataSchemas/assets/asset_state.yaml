@@ -1,0 +1,38 @@
+asset_id:
+  _generate_id:
+asset_type_id:  
+  _get_uuid: "asset_type_id"  
+last_updated:
+current_location:
+  latitude: (38.7223)
+  longitude: (-121.8365)
+  elevation(m): (0, 4000)
+vehicle_status:
+  selection_type: "single!"
+  options:
+    - Available   
+    - Assigned
+    - Enroute to IP          
+    - Loading IP                
+    - Enroute to Hospital    
+    - Refueling                 
+    - On Hold
+available_range(km):
+  within_fuel_reseve_limit: # if NA, check asset_detail.range.average
+  without_fuel_reserve_limit: # if NA, check asset_detail.range.max
+available_patient_capacity:
+  litters: (0,6)
+  ambulatory: (0,6)
+crew_status:
+  status_summary:
+    selection_type: "single"
+    options: 
+      - Ready
+      - On Standby
+      - Grounded
+  duty_hours_remaining: (0,8)
+  return_to_duty_hours_remaining: # if duty_hours_remaining = 0, then (0,12)
+vehicle_maintenance_status:
+  airframe_hours(hrs): 
+  maintenance_due(hrs):
+  

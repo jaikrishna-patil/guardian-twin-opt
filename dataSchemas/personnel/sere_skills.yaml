@@ -1,0 +1,26 @@
+- Survival:
+    selection_type: "multiple!"
+    options:
+      - Fire Making
+      - Water Procurement
+      - Shelter Building
+      - Food Procurement
+      - First Aid
+- Evasion: 
+    selection_type: "multiple!"
+    options:
+      - Navigation
+      - Camouflage and Concealment
+- Resistance:
+    selection_type: "multiple!"
+    options:
+      - Psychological Preparation
+      - Physical Conditioning
+      - Code of Conduct
+- Escape:
+    selection_type: "multiple!"
+    options:
+      - Lock Picking and Restraint Defeat
+      - Improvised Tools
+      - Planning and Execution
+      - Post-Escape Survival

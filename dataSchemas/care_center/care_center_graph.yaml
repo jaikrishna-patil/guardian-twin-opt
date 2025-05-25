@@ -1,0 +1,76 @@
+graph_schema:
+  node_labels:
+    - CareCenter
+    - MedicalSupply
+    - Equipment
+    - Staff
+    - Patient
+
+  relationships:
+    - HAS_SUPPLY
+    - HAS_EQUIPMENT
+    - EMPLOYS
+    - TREATS
+
+  node_properties:
+    CareCenter:
+      - name: string
+      - address: string
+      - city: string
+      - state: string
+      - zip_code: string
+      - total_beds: integer
+      - available_beds: integer
+
+    MedicalSupply:
+      - name: string
+      - category: string
+      - quantity: integer
+      - unit: string
+
+    Equipment:
+      - name: string
+      - type: string
+      - total: integer
+      - available: integer
+
+    Staff:
+      - name: string
+      - role: string
+      - specialty: string
+
+    Patient:
+      - name: string
+      - age: integer
+      - condition: string
+
+  relationship_properties:
+    HAS_SUPPLY:
+      - last_updated: datetime
+
+    HAS_EQUIPMENT:
+      - last_updated: datetime
+
+    EMPLOYS:
+      - start_date: date
+      - position: string
+
+    TREATS:
+      - admission_date: date
+      - treatment_plan: string
+
+  indexes:
+    - label: CareCenter
+      properties: [name]
+
+    - label: MedicalSupply
+      properties: [category]
+
+    - label: Equipment
+      properties: [type]
+
+    - label: Staff
+      properties: [role]
+
+    - label: Patient
+      properties: [condition]

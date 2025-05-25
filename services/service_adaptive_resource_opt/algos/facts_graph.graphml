@@ -1,0 +1,1169 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="quantity_available" for="edge" attr.name="quantity_available" attr.type="string" />
+  <key id="includes_resource" for="edge" attr.name="includes_resource" attr.type="string" />
+  <key id="intervention_label" for="edge" attr.name="intervention_label" attr.type="string" />
+  <key id="need_intervention" for="edge" attr.name="need_intervention" attr.type="string" />
+  <key id="injury_label" for="edge" attr.name="injury_label" attr.type="string" />
+  <key id="has_injury" for="edge" attr.name="has_injury" attr.type="string" />
+  <key id="triage_category" for="edge" attr.name="triage_category" attr.type="string" />
+  <key id="triage_score" for="edge" attr.name="triage_score" attr.type="string" />
+  <key id="use_opt" for="node" attr.name="use_opt" attr.type="string" />
+  <key id="type_resource" for="node" attr.name="type_resource" attr.type="string" />
+  <key id="type_intervention_label" for="node" attr.name="type_intervention_label" attr.type="string" />
+  <key id="type_intervention" for="node" attr.name="type_intervention" attr.type="string" />
+  <key id="type_injury_name" for="node" attr.name="type_injury_name" attr.type="string" />
+  <key id="type_injury" for="node" attr.name="type_injury" attr.type="string" />
+  <key id="type_triage_category" for="node" attr.name="type_triage_category" attr.type="string" />
+  <key id="type_score" for="node" attr.name="type_score" attr.type="string" />
+  <key id="unserved_patient" for="node" attr.name="unserved_patient" attr.type="string" />
+  <key id="type_patient" for="node" attr.name="type_patient" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="John Smith">
+      <data key="type_patient">1,1</data>
+      <data key="unserved_patient">1,1</data>
+    </node>
+    <node id="0.2692307692307692">
+      <data key="type_score">1,1</data>
+    </node>
+    <node id="Urgent (Yellow)">
+      <data key="type_triage_category">1,1</data>
+    </node>
+    <node id="INJ001">
+      <data key="type_injury">1,1</data>
+    </node>
+    <node id="INJ004">
+      <data key="type_injury">1,1</data>
+    </node>
+    <node id="Sarah Johnson">
+      <data key="type_patient">1,1</data>
+      <data key="unserved_patient">1,1</data>
+    </node>
+    <node id="0.46153846153846156">
+      <data key="type_score">1,1</data>
+    </node>
+    <node id="Immediate (Red)">
+      <data key="type_triage_category">1,1</data>
+    </node>
+    <node id="INJ006">
+      <data key="type_injury">1,1</data>
+    </node>
+    <node id="Michael Brown">
+      <data key="type_patient">1,1</data>
+      <data key="unserved_patient">1,1</data>
+    </node>
+    <node id="0.23076923076923078">
+      <data key="type_score">1,1</data>
+    </node>
+    <node id="Delayed (Green)">
+      <data key="type_triage_category">1,1</data>
+    </node>
+    <node id="INJ002">
+      <data key="type_injury">1,1</data>
+    </node>
+    <node id="INJ007">
+      <data key="type_injury">1,1</data>
+    </node>
+    <node id="Emily Davis">
+      <data key="type_patient">1,1</data>
+      <data key="unserved_patient">1,1</data>
+    </node>
+    <node id="0.6538461538461539">
+      <data key="type_score">1,1</data>
+    </node>
+    <node id="INJ003">
+      <data key="type_injury">1,1</data>
+    </node>
+    <node id="Robert Wilson">
+      <data key="type_patient">1,1</data>
+      <data key="unserved_patient">1,1</data>
+    </node>
+    <node id="0.6923076923076923">
+      <data key="type_score">1,1</data>
+    </node>
+    <node id="INJ010">
+      <data key="type_injury">1,1</data>
+    </node>
+    <node id="INJ005">
+      <data key="type_injury">1,1</data>
+    </node>
+    <node id="Jennifer Taylor">
+      <data key="type_patient">1,1</data>
+      <data key="unserved_patient">1,1</data>
+    </node>
+    <node id="0.0">
+      <data key="type_score">1,1</data>
+    </node>
+    <node id="Minor (White)">
+      <data key="type_triage_category">1,1</data>
+    </node>
+    <node id="INJ008">
+      <data key="type_injury">1,1</data>
+    </node>
+    <node id="David Anderson">
+      <data key="type_patient">1,1</data>
+      <data key="unserved_patient">1,1</data>
+    </node>
+    <node id="0.34615384615384615">
+      <data key="type_score">1,1</data>
+    </node>
+    <node id="INJ011">
+      <data key="type_injury">1,1</data>
+    </node>
+    <node id="INJ015">
+      <data key="type_injury">1,1</data>
+    </node>
+    <node id="Lisa Martinez">
+      <data key="type_patient">1,1</data>
+      <data key="unserved_patient">1,1</data>
+    </node>
+    <node id="0.8076923076923077">
+      <data key="type_score">1,1</data>
+    </node>
+    <node id="INJ013">
+      <data key="type_injury">1,1</data>
+    </node>
+    <node id="Thomas Clark">
+      <data key="type_patient">1,1</data>
+      <data key="unserved_patient">1,1</data>
+    </node>
+    <node id="0.5769230769230769">
+      <data key="type_score">1,1</data>
+    </node>
+    <node id="INJ009">
+      <data key="type_injury">1,1</data>
+    </node>
+    <node id="INJ014">
+      <data key="type_injury">1,1</data>
+    </node>
+    <node id="Karen White">
+      <data key="type_patient">1,1</data>
+      <data key="unserved_patient">1,1</data>
+    </node>
+    <node id="0.07692307692307693">
+      <data key="type_score">1,1</data>
+    </node>
+    <node id="INJ012">
+      <data key="type_injury">1,1</data>
+    </node>
+    <node id="Hemorrhage (Extremity)">
+      <data key="type_injury_name">1,1</data>
+    </node>
+    <node id="INT003">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT002">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT001">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT005">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT004">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="Penetrating Chest Wound">
+      <data key="type_injury_name">1,1</data>
+    </node>
+    <node id="INT006">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT009">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT007">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT008">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT010">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="Traumatic Brain Injury">
+      <data key="type_injury_name">1,1</data>
+    </node>
+    <node id="INT012">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT014">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT011">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT013">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT015">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="Burn">
+      <data key="type_injury_name">1,1</data>
+    </node>
+    <node id="INT016">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT017">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT019">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT020">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT018">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="Hemorrhage (Internal)">
+      <data key="type_injury_name">1,1</data>
+    </node>
+    <node id="INT022">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT023">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT025">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT021">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT024">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="Tension Pneumothorax">
+      <data key="type_injury_name">1,1</data>
+    </node>
+    <node id="INT027">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT030">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT029">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT026">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT028">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="Open Fracture">
+      <data key="type_injury_name">1,1</data>
+    </node>
+    <node id="INT031">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT035">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT032">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT033">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT034">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="Facial Injury">
+      <data key="type_injury_name">1,1</data>
+    </node>
+    <node id="INT038">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT039">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT036">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT040">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT037">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="Spinal Cord Injury">
+      <data key="type_injury_name">1,1</data>
+    </node>
+    <node id="INT042">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT044">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT041">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT045">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT043">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="Amputation">
+      <data key="type_injury_name">1,1</data>
+    </node>
+    <node id="INT047">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT046">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT049">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT048">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT050">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="Crush Injury">
+      <data key="type_injury_name">1,1</data>
+    </node>
+    <node id="INT055">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT052">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT054">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT053">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT051">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="Penetrating Eye Injury">
+      <data key="type_injury_name">1,1</data>
+    </node>
+    <node id="INT057">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT056">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT058">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT059">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT060">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="Junctional Hemorrhage">
+      <data key="type_injury_name">1,1</data>
+    </node>
+    <node id="INT064">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT063">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT061">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT065">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT062">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="Blast Lung Injury">
+      <data key="type_injury_name">1,1</data>
+    </node>
+    <node id="INT066">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT070">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT067">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT069">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT068">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="Hypothermia">
+      <data key="type_injury_name">1,1</data>
+    </node>
+    <node id="INT073">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT072">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT075">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT071">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="INT074">
+      <data key="type_intervention">1,1</data>
+    </node>
+    <node id="Apply tourniquet">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Combat tourniquet">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Apply hemostatic gauze">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Hemostatic gauze">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Administer TXA">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="TXA (Tranexamic acid)">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Initiate fluid resuscitation">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="IV fluids">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Monitor for compartment syndrome">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="None">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Apply chest seal">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Chest seal">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Needle decompression if tension pneumothorax develops">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Chest decompression needle">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Administer oxygen if available">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Oxygen supply">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Monitor respiratory rate and effort">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Administer antibiotics">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Broad-spectrum antibiotics">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Maintain airway and oxygenation">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Nasopharyngeal airway">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Monitor and manage intracranial pressure">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Hypertonic saline">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Prevent secondary brain injury">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Monitor neurological status">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Administer seizure prophylaxis if indicated">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Levetiracetam">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Apply burn dressing">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Burn dressing">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Estimate burn size and depth">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Manage pain">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Analgesics">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Monitor for infection">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Initiate damage control resuscitation">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Blood products">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Monitor vital signs">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Vital signs monitor">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Apply abdominal pressure dressing">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Abdominal pressure dressing">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Prepare for possible surgical intervention">
+      <data key="type_intervention_label">1,1</data>
+    </node>
+    <node id="Surgical set">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="10" />
+    <node id="10" />
+    <node id="6" />
+    <node id="6" />
+    <node id="5" />
+    <node id="5" />
+    <node id="4" />
+    <node id="4" />
+    <node id="20" />
+    <node id="20" />
+    <node id="Pulse oximeter">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="2" />
+    <node id="2" />
+    <node id="Splinting materials">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="3" />
+    <node id="3" />
+    <node id="1" />
+    <node id="1" />
+    <node id="Chest tube kit">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="Junctional tourniquet">
+      <data key="type_resource">1,1</data>
+    </node>
+    <node id="0" />
+    <node id="urgency">
+      <data key="use_opt">1,1</data>
+    </node>
+    <edge source="John Smith" target="0.2692307692307692">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="John Smith" target="Urgent (Yellow)">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="John Smith" target="INJ001">
+      <data key="has_injury">1,1</data>
+    </edge>
+    <edge source="John Smith" target="INJ004">
+      <data key="has_injury">1,1</data>
+    </edge>
+    <edge source="INJ001" target="Hemorrhage (Extremity)">
+      <data key="injury_label">1,1</data>
+    </edge>
+    <edge source="INJ001" target="INT003">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ001" target="INT002">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ001" target="INT001">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ001" target="INT005">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ001" target="INT004">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ004" target="Burn">
+      <data key="injury_label">1,1</data>
+    </edge>
+    <edge source="INJ004" target="INT016">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ004" target="INT017">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ004" target="INT019">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ004" target="INT020">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ004" target="INT018">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="Sarah Johnson" target="0.46153846153846156">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Sarah Johnson" target="Immediate (Red)">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Sarah Johnson" target="INJ006">
+      <data key="has_injury">1,1</data>
+    </edge>
+    <edge source="INJ006" target="Tension Pneumothorax">
+      <data key="injury_label">1,1</data>
+    </edge>
+    <edge source="INJ006" target="INT027">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ006" target="INT030">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ006" target="INT029">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ006" target="INT026">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ006" target="INT028">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="Michael Brown" target="0.23076923076923078">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Michael Brown" target="Delayed (Green)">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Michael Brown" target="INJ002">
+      <data key="has_injury">1,1</data>
+    </edge>
+    <edge source="Michael Brown" target="INJ007">
+      <data key="has_injury">1,1</data>
+    </edge>
+    <edge source="INJ002" target="Penetrating Chest Wound">
+      <data key="injury_label">1,1</data>
+    </edge>
+    <edge source="INJ002" target="INT006">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ002" target="INT009">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ002" target="INT007">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ002" target="INT008">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ002" target="INT010">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ007" target="Open Fracture">
+      <data key="injury_label">1,1</data>
+    </edge>
+    <edge source="INJ007" target="INT031">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ007" target="INT035">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ007" target="INT032">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ007" target="INT033">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ007" target="INT034">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="Emily Davis" target="0.6538461538461539">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Emily Davis" target="Immediate (Red)">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Emily Davis" target="INJ003">
+      <data key="has_injury">1,1</data>
+    </edge>
+    <edge source="INJ003" target="Traumatic Brain Injury">
+      <data key="injury_label">1,1</data>
+    </edge>
+    <edge source="INJ003" target="INT012">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ003" target="INT014">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ003" target="INT011">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ003" target="INT013">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ003" target="INT015">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="Robert Wilson" target="0.6923076923076923">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Robert Wilson" target="Immediate (Red)">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Robert Wilson" target="INJ010">
+      <data key="has_injury">1,1</data>
+    </edge>
+    <edge source="Robert Wilson" target="INJ005">
+      <data key="has_injury">1,1</data>
+    </edge>
+    <edge source="INJ010" target="Amputation">
+      <data key="injury_label">1,1</data>
+    </edge>
+    <edge source="INJ010" target="INT047">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ010" target="INT046">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ010" target="INT049">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ010" target="INT048">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ010" target="INT050">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ005" target="Hemorrhage (Internal)">
+      <data key="injury_label">1,1</data>
+    </edge>
+    <edge source="INJ005" target="INT022">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ005" target="INT023">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ005" target="INT025">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ005" target="INT021">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ005" target="INT024">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="Jennifer Taylor" target="0.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Jennifer Taylor" target="Minor (White)">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Jennifer Taylor" target="INJ008">
+      <data key="has_injury">1,1</data>
+    </edge>
+    <edge source="INJ008" target="Facial Injury">
+      <data key="injury_label">1,1</data>
+    </edge>
+    <edge source="INJ008" target="INT038">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ008" target="INT039">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ008" target="INT036">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ008" target="INT040">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ008" target="INT037">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="David Anderson" target="0.34615384615384615">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="David Anderson" target="Urgent (Yellow)">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="David Anderson" target="INJ011">
+      <data key="has_injury">1,1</data>
+    </edge>
+    <edge source="David Anderson" target="INJ015">
+      <data key="has_injury">1,1</data>
+    </edge>
+    <edge source="INJ011" target="Crush Injury">
+      <data key="injury_label">1,1</data>
+    </edge>
+    <edge source="INJ011" target="INT055">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ011" target="INT052">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ011" target="INT054">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ011" target="INT053">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ011" target="INT051">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ015" target="Hypothermia">
+      <data key="injury_label">1,1</data>
+    </edge>
+    <edge source="INJ015" target="INT073">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ015" target="INT072">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ015" target="INT075">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ015" target="INT071">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ015" target="INT074">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="Lisa Martinez" target="0.8076923076923077">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Lisa Martinez" target="Immediate (Red)">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Lisa Martinez" target="INJ013">
+      <data key="has_injury">1,1</data>
+    </edge>
+    <edge source="INJ013" target="Junctional Hemorrhage">
+      <data key="injury_label">1,1</data>
+    </edge>
+    <edge source="INJ013" target="INT064">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ013" target="INT063">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ013" target="INT061">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ013" target="INT065">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ013" target="INT062">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="Thomas Clark" target="0.5769230769230769">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Thomas Clark" target="Immediate (Red)">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Thomas Clark" target="INJ009">
+      <data key="has_injury">1,1</data>
+    </edge>
+    <edge source="Thomas Clark" target="INJ014">
+      <data key="has_injury">1,1</data>
+    </edge>
+    <edge source="INJ009" target="Spinal Cord Injury">
+      <data key="injury_label">1,1</data>
+    </edge>
+    <edge source="INJ009" target="INT042">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ009" target="INT044">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ009" target="INT041">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ009" target="INT045">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ009" target="INT043">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ014" target="Blast Lung Injury">
+      <data key="injury_label">1,1</data>
+    </edge>
+    <edge source="INJ014" target="INT066">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ014" target="INT070">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ014" target="INT067">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ014" target="INT069">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ014" target="INT068">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="Karen White" target="0.07692307692307693">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Karen White" target="Minor (White)">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Karen White" target="INJ012">
+      <data key="has_injury">1,1</data>
+    </edge>
+    <edge source="INJ012" target="Penetrating Eye Injury">
+      <data key="injury_label">1,1</data>
+    </edge>
+    <edge source="INJ012" target="INT057">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ012" target="INT056">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ012" target="INT058">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ012" target="INT059">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INJ012" target="INT060">
+      <data key="need_intervention">1,1</data>
+    </edge>
+    <edge source="INT003" target="Administer TXA">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT003" target="TXA (Tranexamic acid)">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT002" target="Apply hemostatic gauze">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT002" target="Hemostatic gauze">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT001" target="Apply tourniquet">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT001" target="Combat tourniquet">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT005" target="Monitor for compartment syndrome">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT005" target="None">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT004" target="Initiate fluid resuscitation">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT004" target="IV fluids">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT006" target="Apply chest seal">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT006" target="Chest seal">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT009" target="Monitor respiratory rate and effort">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT009" target="None">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT007" target="Needle decompression if tension pneumothorax develops">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT007" target="Chest decompression needle">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT008" target="Administer oxygen if available">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT008" target="Oxygen supply">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT010" target="Administer antibiotics">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT010" target="Broad-spectrum antibiotics">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT012" target="Monitor and manage intracranial pressure">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT012" target="Hypertonic saline">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT014" target="Monitor neurological status">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT014" target="None">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT011" target="Maintain airway and oxygenation">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT011" target="Oxygen supply">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT011" target="Nasopharyngeal airway">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT013" target="Prevent secondary brain injury">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT013" target="None">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT015" target="Administer seizure prophylaxis if indicated">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT015" target="Levetiracetam">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT016" target="Apply burn dressing">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT016" target="Burn dressing">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT017" target="Estimate burn size and depth">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT017" target="None">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT019" target="Manage pain">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT019" target="Analgesics">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT020" target="Monitor for infection">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT020" target="None">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT018" target="Initiate fluid resuscitation">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT018" target="IV fluids">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT022" target="Initiate damage control resuscitation">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT022" target="Blood products">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT023" target="Monitor vital signs">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT023" target="Vital signs monitor">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT025" target="Prepare for possible surgical intervention">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT025" target="Surgical set">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT021" target="Administer TXA">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT021" target="TXA (Tranexamic acid)">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="INT024" target="Apply abdominal pressure dressing">
+      <data key="intervention_label">1,1</data>
+    </edge>
+    <edge source="INT024" target="Abdominal pressure dressing">
+      <data key="includes_resource">1,1</data>
+    </edge>
+    <edge source="Combat tourniquet" target="10">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Hemostatic gauze" target="10">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="TXA (Tranexamic acid)" target="5">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="IV fluids" target="10">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="None" target="0">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Chest seal" target="6">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Chest decompression needle" target="4">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Oxygen supply" target="1">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Broad-spectrum antibiotics" target="10">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Nasopharyngeal airway" target="5">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Hypertonic saline" target="0">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Levetiracetam" target="0">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Burn dressing" target="0">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Analgesics" target="20">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Blood products" target="4">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Vital signs monitor" target="1">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Abdominal pressure dressing" target="0">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Surgical set" target="0">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Pulse oximeter" target="2">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Splinting materials" target="3">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Chest tube kit" target="2">
+      <data key="quantity_available">1,1</data>
+    </edge>
+    <edge source="Junctional tourniquet" target="2">
+      <data key="quantity_available">1,1</data>
+    </edge>
+  </graph>
+</graphml>

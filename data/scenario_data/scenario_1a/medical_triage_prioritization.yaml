@@ -1,0 +1,3147 @@
+- isop_id: ae083037-3172-46ba-9a0d-15978332b7e1
+  first_name: Tammy
+  last_name: Moss
+  call_sign: PU458
+  medical_triage:
+    category: nan
+    category_priority: null
+    confidence_score: null
+    relative_priority: 10
+  relative_priority_record:
+  - timestamp: '2024-08-02T08:40:05.424367'
+    relative_priority: 10
+  - timestamp: '2024-08-02T08:40:05.510622'
+    relative_priority: 10
+  - timestamp: '2024-08-02T08:41:05.424367'
+    relative_priority: 10
+  - timestamp: '2024-08-02T08:42:05.531398'
+    relative_priority: 10
+  - timestamp: '2024-08-02T08:42:05.618924'
+    relative_priority: 10
+  - timestamp: '2024-08-02T08:43:05.488095'
+    relative_priority: 10
+  - timestamp: '2024-08-02T08:43:05.489751'
+    relative_priority: 10
+  - timestamp: '2024-08-02T08:43:05.510622'
+    relative_priority: 10
+  - timestamp: '2024-08-02T08:49:05.510622'
+    relative_priority: 10
+  - timestamp: '2024-08-02T08:51:05.615072'
+    relative_priority: 10
+  - timestamp: '2024-08-02T08:52:05.550136'
+    relative_priority: 10
+  - timestamp: '2024-08-02T08:54:05.424367'
+    relative_priority: 10
+  - timestamp: '2024-08-02T08:57:05.531398'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:02:05.615072'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:03:05.531398'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:05:05.493667'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:06:05.550136'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:08:05.424367'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:10:05.424367'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:12:05.447399'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:13:05.615072'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:16:05.550136'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:18:05.574316'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:21:05.574316'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:27:05.574316'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:37:05.447399'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:42:05.574316'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:43:05.574316'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:46:05.574316'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 10
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 10
+  - timestamp: '2024-08-02T10:04:05.447399'
+    relative_priority: 10
+  - timestamp: '2024-08-02T10:08:05.574316'
+    relative_priority: 10
+  - timestamp: '2024-08-02T10:57:05.447399'
+    relative_priority: 10
+  medical_triage_record:
+  - timestamp: '2024-08-02T08:40:05.424367'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:40:05.424367'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 29
+        unit: rpm
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T08:41:05.424367'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:41:05.424367'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 9
+        unit: rpm
+        confidence_score:
+          Observed: 100
+      observations: []
+  - timestamp: '2024-08-02T08:54:05.424367'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:54:05.424367'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 120
+        unit: mmHg
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T09:08:05.424367'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T09:08:05.424367'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 139
+        unit: mmHg
+        confidence_score:
+          Simulated: 25
+      observations: []
+  - timestamp: '2024-08-02T09:10:05.424367'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T09:10:05.424367'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 129
+        unit: mmHg
+        confidence_score:
+          Inferred: 50
+      observations: []
+  notifications:
+  - timestamp: '2024-08-02T08:40:05.424367'
+    message:
+    - insults_none
+    - gcs_sbp_none
+  - timestamp: '2024-08-02T08:41:05.424367'
+    message:
+    - insults_none
+    - gcs_sbp_none
+  - timestamp: '2024-08-02T08:54:05.424367'
+    message:
+    - insults_none
+    - gcs_none
+  - timestamp: '2024-08-02T09:08:05.424367'
+    message:
+    - insults_none
+    - gcs_none
+  - timestamp: '2024-08-02T09:10:05.424367'
+    message:
+    - insults_none
+    - gcs_none
+- isop_id: 450f1b83-da49-4c36-b58a-b8da1373a9b6
+  first_name: Jonathan
+  last_name: Wu
+  call_sign: MJ042
+  medical_triage:
+    category: Immediate
+    category_priority: 1
+    confidence_score: null
+    relative_priority: 4
+  relative_priority_record:
+  - timestamp: '2024-08-02T07:20:05.443384'
+    relative_priority: 4
+  - timestamp: '2024-08-02T07:25:05.443384'
+    relative_priority: 4
+  - timestamp: '2024-08-02T07:29:05.578258'
+    relative_priority: 4
+  - timestamp: '2024-08-02T07:32:05.598465'
+    relative_priority: 4
+  - timestamp: '2024-08-02T07:33:05.531398'
+    relative_priority: 4
+  - timestamp: '2024-08-02T07:34:05.443384'
+    relative_priority: 6
+  - timestamp: '2024-08-02T07:36:05.570291'
+    relative_priority: 6
+  - timestamp: '2024-08-02T07:38:05.555486'
+    relative_priority: 6
+  - timestamp: '2024-08-02T07:45:05.531398'
+    relative_priority: 6
+  - timestamp: '2024-08-02T07:48:05.509044'
+    relative_priority: 7
+  - timestamp: '2024-08-02T07:48:05.510622'
+    relative_priority: 7
+  - timestamp: '2024-08-02T07:48:05.531398'
+    relative_priority: 7
+  - timestamp: '2024-08-02T07:49:05.489751'
+    relative_priority: 7
+  - timestamp: '2024-08-02T07:49:05.570291'
+    relative_priority: 7
+  - timestamp: '2024-08-02T07:57:05.489751'
+    relative_priority: 7
+  - timestamp: '2024-08-02T07:58:05.555486'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:00:05.509044'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:00:05.510622'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:03:05.531398'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:05:05.489751'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:06:05.618924'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:09:05.510622'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:14:05.510622'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:14:05.593176'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:17:05.531398'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:19:05.489751'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:20:05.471995'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:20:05.488095'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:26:05.510622'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:28:05.510622'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:31:05.531398'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:33:05.488095'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:34:05.489751'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:40:05.424367'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:40:05.510622'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:41:05.424367'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:42:05.531398'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:42:05.618924'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:43:05.488095'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:43:05.489751'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:43:05.510622'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:49:05.510622'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:51:05.615072'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:52:05.550136'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:54:05.424367'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:57:05.531398'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:02:05.615072'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:03:05.531398'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:05:05.493667'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:06:05.550136'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:08:05.424367'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:10:05.424367'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:12:05.447399'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:13:05.615072'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:16:05.550136'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:18:05.574316'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:21:05.574316'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:27:05.574316'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:37:05.447399'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:42:05.574316'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:43:05.574316'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:46:05.574316'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 4
+  - timestamp: '2024-08-02T10:04:05.447399'
+    relative_priority: 4
+  - timestamp: '2024-08-02T10:08:05.574316'
+    relative_priority: 4
+  - timestamp: '2024-08-02T10:57:05.447399'
+    relative_priority: 4
+  medical_triage_record:
+  - timestamp: '2024-08-02T07:20:05.443384'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T07:20:05.443384'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 132
+        unit: mmHg
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T07:25:05.443384'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T07:25:05.443384'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 71
+        unit: mmHg
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T07:34:05.443384'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T07:34:05.443384'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 9
+        unit: rpm
+        confidence_score:
+          Simulated: 25
+      observations: []
+  - timestamp: '2024-08-02T09:12:05.447399'
+    algorithm_id: y0z1a2b3-c4d5-e6f7-g8h9-i0j1k2l3m4
+    label: RTS
+    algorithm_priority: 3.0
+    medical_triage:
+      score: 3.9204
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals: []
+      observations:
+      - timestamp: '2024-08-02T09:12:05.447399'
+        observation_id: d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7
+        category: Neurological Assessment
+        label: Glasgow Coma Scale
+        abbreviation: GCS
+        results:
+          total_score: 7
+        confidence_score:
+          Inferred: 50
+  - timestamp: '2024-08-02T09:37:05.447399'
+    algorithm_id: y0z1a2b3-c4d5-e6f7-g8h9-i0j1k2l3m4
+    label: RTS
+    algorithm_priority: 3.0
+    medical_triage:
+      score: 4.8572
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals: []
+      observations:
+      - timestamp: '2024-08-02T09:37:05.447399'
+        observation_id: d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7
+        category: Neurological Assessment
+        label: Glasgow Coma Scale
+        abbreviation: GCS
+        results:
+          total_score: 11
+        confidence_score:
+          Simulated: 25
+  - timestamp: '2024-08-02T10:04:05.447399'
+    algorithm_id: y0z1a2b3-c4d5-e6f7-g8h9-i0j1k2l3m4
+    label: RTS
+    algorithm_priority: 3.0
+    medical_triage:
+      score: 3.9204
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals: []
+      observations:
+      - timestamp: '2024-08-02T10:04:05.447399'
+        observation_id: d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7
+        category: Neurological Assessment
+        label: Glasgow Coma Scale
+        abbreviation: GCS
+        results:
+          total_score: 8
+        confidence_score:
+          Simulated: 25
+  - timestamp: '2024-08-02T10:57:05.447399'
+    algorithm_id: y0z1a2b3-c4d5-e6f7-g8h9-i0j1k2l3m4
+    label: RTS
+    algorithm_priority: 3.0
+    medical_triage:
+      score: 5.794
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals: []
+      observations:
+      - timestamp: '2024-08-02T10:57:05.447399'
+        observation_id: d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7
+        category: Neurological Assessment
+        label: Glasgow Coma Scale
+        abbreviation: GCS
+        results:
+          total_score: 13
+        confidence_score:
+          Observed: 100
+  notifications:
+  - timestamp: '2024-08-02T07:20:05.443384'
+    message:
+    - insults_none
+    - gcs_rr_none
+  - timestamp: '2024-08-02T07:25:05.443384'
+    message:
+    - insults_none
+    - gcs_rr_none
+  - timestamp: '2024-08-02T07:34:05.443384'
+    message:
+    - insults_none
+    - gcs_none
+  - timestamp: '2024-08-02T09:12:05.447399'
+    message:
+    - insults_none
+  - timestamp: '2024-08-02T09:37:05.447399'
+    message:
+    - insults_none
+  - timestamp: '2024-08-02T10:04:05.447399'
+    message:
+    - insults_none
+  - timestamp: '2024-08-02T10:57:05.447399'
+    message:
+    - insults_none
+- isop_id: 407535c2-44f8-48fe-90eb-c985cd6cec0f
+  first_name: Amber
+  last_name: Hampton
+  call_sign: FV621
+  medical_triage:
+    category: Delayed
+    category_priority: 4
+    confidence_score: null
+    relative_priority: 8
+  relative_priority_record:
+  - timestamp: '2024-08-02T06:33:05.467874'
+    relative_priority: 1
+  - timestamp: '2024-08-02T06:36:05.463597'
+    relative_priority: 1
+  - timestamp: '2024-08-02T06:47:05.463597'
+    relative_priority: 1
+  - timestamp: '2024-08-02T06:47:05.467874'
+    relative_priority: 1
+  - timestamp: '2024-08-02T06:52:05.529859'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:10:05.535284'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:13:05.613501'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:17:05.618924'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:20:05.443384'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:25:05.443384'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:29:05.578258'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:32:05.598465'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:33:05.531398'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:34:05.443384'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:36:05.570291'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:38:05.555486'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:45:05.531398'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:48:05.509044'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:48:05.510622'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:48:05.531398'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:49:05.489751'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:49:05.570291'
+    relative_priority: 4
+  - timestamp: '2024-08-02T07:57:05.489751'
+    relative_priority: 4
+  - timestamp: '2024-08-02T07:58:05.555486'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:00:05.509044'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:00:05.510622'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:03:05.531398'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:05:05.489751'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:06:05.618924'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:09:05.510622'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:14:05.510622'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:14:05.593176'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:17:05.531398'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:19:05.489751'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:20:05.471995'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:20:05.488095'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:26:05.510622'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:28:05.510622'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:31:05.531398'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:33:05.488095'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:34:05.489751'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:40:05.424367'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:40:05.510622'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:41:05.424367'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:42:05.531398'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:42:05.618924'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:43:05.488095'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:43:05.489751'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:43:05.510622'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:49:05.510622'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:51:05.615072'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:52:05.550136'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:54:05.424367'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:57:05.531398'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:02:05.615072'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:03:05.531398'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:05:05.493667'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:06:05.550136'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:08:05.424367'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:10:05.424367'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:12:05.447399'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:13:05.615072'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:16:05.550136'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:18:05.574316'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:21:05.574316'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:27:05.574316'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:37:05.447399'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:42:05.574316'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:43:05.574316'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:46:05.574316'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 8
+  - timestamp: '2024-08-02T10:04:05.447399'
+    relative_priority: 8
+  - timestamp: '2024-08-02T10:08:05.574316'
+    relative_priority: 8
+  - timestamp: '2024-08-02T10:57:05.447399'
+    relative_priority: 8
+  medical_triage_record:
+  - timestamp: '2024-08-02T06:33:05.467874'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T06:33:05.467874'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 161
+        unit: mmHg
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T06:36:05.463597'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 4.0
+      category: Delayed
+      category_priority: 4
+      confidence_score: null
+    most_recent:
+      insults:
+      - timestamp: '2024-08-02T06:36:05.463597'
+        insult_id: 5h6i7j8k-9l0m-1n2o-3p4q-5r6s7t8u9v0w
+        label: External Hemorrhage
+        category: Hemorrhage
+        AIS_severity: 2
+        location: Pelvis
+        sublocation: Groin
+        lateral_position: Left
+        coronal_position: ''
+      vitals: []
+      observations: []
+  - timestamp: '2024-08-02T06:47:05.463597'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 5.0
+      category: Delayed
+      category_priority: 4
+      confidence_score: null
+    most_recent:
+      insults:
+      - timestamp: '2024-08-02T06:47:05.463597'
+        insult_id: 0m1n2o3p-4q5r-6s7t-8u9v-0w1x2y3z4a5b
+        label: Thermal Burn
+        category: Thermal Burn
+        AIS_severity: 1
+        location: Pelvis
+        sublocation: Buttocks
+        lateral_position: Right
+        coronal_position: ''
+      vitals: []
+      observations: []
+  - timestamp: '2024-08-02T06:47:05.467874'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 5.0
+      category: Delayed
+      category_priority: 4
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T06:47:05.467874'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 75
+        unit: mmHg
+        confidence_score:
+          Simulated: 25
+      observations: []
+  - timestamp: '2024-08-02T08:20:05.471995'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 5.0
+      category: Delayed
+      category_priority: 4
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals: []
+      observations:
+      - timestamp: '2024-08-02T08:20:05.471995'
+        observation_id: d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7
+        category: Neurological Assessment
+        label: Glasgow Coma Scale
+        abbreviation: GCS
+        results:
+          total_score: 12
+        confidence_score:
+          Simulated: 25
+  notifications:
+  - timestamp: '2024-08-02T06:33:05.467874'
+    message:
+    - insults_none
+    - gcs_rr_none
+  - timestamp: '2024-08-02T06:36:05.463597'
+    message:
+    - gcs_rr_none
+  - timestamp: '2024-08-02T06:47:05.463597'
+    message:
+    - gcs_rr_none
+  - timestamp: '2024-08-02T06:47:05.467874'
+    message:
+    - gcs_rr_none
+  - timestamp: '2024-08-02T08:20:05.471995'
+    message:
+    - rr_none
+- isop_id: 5808a013-0a3e-4122-a655-4605a8fed5e1
+  first_name: Tonya
+  last_name: Williams
+  call_sign: XR068
+  medical_triage:
+    category: Immediate
+    category_priority: 1
+    confidence_score: null
+    relative_priority: 2
+  relative_priority_record:
+  - timestamp: '2024-08-02T07:49:05.489751'
+    relative_priority: 9
+  - timestamp: '2024-08-02T07:49:05.570291'
+    relative_priority: 9
+  - timestamp: '2024-08-02T07:57:05.489751'
+    relative_priority: 9
+  - timestamp: '2024-08-02T07:58:05.555486'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:00:05.509044'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:00:05.510622'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:03:05.531398'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:05:05.489751'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:06:05.618924'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:09:05.510622'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:14:05.510622'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:14:05.593176'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:17:05.531398'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:19:05.489751'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:20:05.471995'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:20:05.488095'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:26:05.510622'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:28:05.510622'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:31:05.531398'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:33:05.488095'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:34:05.489751'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:40:05.424367'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:40:05.510622'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:41:05.424367'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:42:05.531398'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:42:05.618924'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:43:05.488095'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:43:05.489751'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:43:05.510622'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:49:05.510622'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:51:05.615072'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:52:05.550136'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:54:05.424367'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:57:05.531398'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:02:05.615072'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:03:05.531398'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:05:05.493667'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:06:05.550136'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:08:05.424367'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:10:05.424367'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:12:05.447399'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:13:05.615072'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:16:05.550136'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:18:05.574316'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:21:05.574316'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:27:05.574316'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:37:05.447399'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:42:05.574316'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:43:05.574316'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:46:05.574316'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 2
+  - timestamp: '2024-08-02T10:04:05.447399'
+    relative_priority: 2
+  - timestamp: '2024-08-02T10:08:05.574316'
+    relative_priority: 2
+  - timestamp: '2024-08-02T10:57:05.447399'
+    relative_priority: 2
+  medical_triage_record:
+  - timestamp: '2024-08-02T07:49:05.489751'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T07:49:05.489751'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 160
+        unit: mmHg
+        confidence_score:
+          Simulated: 25
+      observations: []
+  - timestamp: '2024-08-02T07:57:05.489751'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T07:57:05.489751'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 155
+        unit: mmHg
+        confidence_score:
+          Simulated: 25
+      observations: []
+  - timestamp: '2024-08-02T08:05:05.489751'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:05:05.489751'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 168
+        unit: mmHg
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T08:19:05.489751'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:19:05.489751'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 21
+        unit: rpm
+        confidence_score:
+          Simulated: 25
+      observations: []
+  - timestamp: '2024-08-02T08:20:05.488095'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 36.0
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults:
+      - timestamp: '2024-08-02T08:20:05.488095'
+        insult_id: 0m1n2o3p-4q5r-6s7t-8u9v-0w1x2y3z4a5b
+        label: Thermal Burn
+        category: Thermal Burn
+        AIS_severity: 6
+        location: Head
+        sublocation: Top
+        lateral_position: Right
+        coronal_position: NA
+      vitals: []
+      observations: []
+  - timestamp: '2024-08-02T08:33:05.488095'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 4.0
+      category: Delayed
+      category_priority: 4
+      confidence_score: null
+    most_recent:
+      insults:
+      - timestamp: '2024-08-02T08:33:05.488095'
+        insult_id: 0m1n2o3p-4q5r-6s7t-8u9v-0w1x2y3z4a5b
+        label: Thermal Burn
+        category: Thermal Burn
+        AIS_severity: 2
+        location: Head
+        sublocation: Back
+        lateral_position: Center
+        coronal_position: NA
+      vitals: []
+      observations: []
+  - timestamp: '2024-08-02T08:34:05.489751'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 4.0
+      category: Delayed
+      category_priority: 4
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:34:05.489751'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 20
+        unit: rpm
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T08:43:05.488095'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 4.0
+      category: Delayed
+      category_priority: 4
+      confidence_score: null
+    most_recent:
+      insults:
+      - timestamp: '2024-08-02T08:43:05.488095'
+        insult_id: 0m1n2o3p-4q5r-6s7t-8u9v-0w1x2y3z4a5b
+        label: Thermal Burn
+        category: Thermal Burn
+        AIS_severity: 2
+        location: Head
+        sublocation: Side
+        lateral_position: Right
+        coronal_position: NA
+      vitals: []
+      observations: []
+  - timestamp: '2024-08-02T08:43:05.489751'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 4.0
+      category: Delayed
+      category_priority: 4
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:43:05.489751'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 63
+        unit: mmHg
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T09:05:05.493667'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 61.964
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals: []
+      observations:
+      - timestamp: '2024-08-02T09:05:05.493667'
+        observation_id: d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7
+        category: Neurological Assessment
+        label: Glasgow Coma Scale
+        abbreviation: GCS
+        results:
+          total_score: 9
+        confidence_score:
+          Observed: 100
+  notifications:
+  - timestamp: '2024-08-02T07:49:05.489751'
+    message:
+    - insults_none
+    - gcs_rr_none
+  - timestamp: '2024-08-02T07:57:05.489751'
+    message:
+    - insults_none
+    - gcs_rr_none
+  - timestamp: '2024-08-02T08:05:05.489751'
+    message:
+    - insults_none
+    - gcs_rr_none
+  - timestamp: '2024-08-02T08:19:05.489751'
+    message:
+    - insults_none
+    - gcs_none
+  - timestamp: '2024-08-02T08:20:05.488095'
+    message:
+    - gcs_none
+  - timestamp: '2024-08-02T08:33:05.488095'
+    message:
+    - gcs_none
+  - timestamp: '2024-08-02T08:34:05.489751'
+    message:
+    - gcs_none
+  - timestamp: '2024-08-02T08:43:05.488095'
+    message:
+    - gcs_none
+  - timestamp: '2024-08-02T08:43:05.489751'
+    message:
+    - gcs_none
+  - timestamp: '2024-08-02T09:05:05.493667'
+    message: []
+- isop_id: 3e69fba5-6b7f-4e7f-b560-0fefe21c1dc6
+  first_name: Jodi
+  last_name: Potter
+  call_sign: BF241
+  medical_triage:
+    category: Urgent
+    category_priority: 2
+    confidence_score: null
+    relative_priority: 7
+  relative_priority_record:
+  - timestamp: '2024-08-02T07:48:05.509044'
+    relative_priority: 5
+  - timestamp: '2024-08-02T07:48:05.510622'
+    relative_priority: 5
+  - timestamp: '2024-08-02T07:48:05.531398'
+    relative_priority: 5
+  - timestamp: '2024-08-02T07:49:05.489751'
+    relative_priority: 5
+  - timestamp: '2024-08-02T07:49:05.570291'
+    relative_priority: 5
+  - timestamp: '2024-08-02T07:57:05.489751'
+    relative_priority: 5
+  - timestamp: '2024-08-02T07:58:05.555486'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:00:05.509044'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:00:05.510622'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:03:05.531398'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:05:05.489751'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:06:05.618924'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:09:05.510622'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:14:05.510622'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:14:05.593176'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:17:05.531398'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:19:05.489751'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:20:05.471995'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:20:05.488095'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:26:05.510622'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:28:05.510622'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:31:05.531398'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:33:05.488095'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:34:05.489751'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:40:05.424367'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:40:05.510622'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:41:05.424367'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:42:05.531398'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:42:05.618924'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:43:05.488095'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:43:05.489751'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:43:05.510622'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:49:05.510622'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:51:05.615072'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:52:05.550136'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:54:05.424367'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:57:05.531398'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:02:05.615072'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:03:05.531398'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:05:05.493667'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:06:05.550136'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:08:05.424367'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:10:05.424367'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:12:05.447399'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:13:05.615072'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:16:05.550136'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:18:05.574316'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:21:05.574316'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:27:05.574316'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:37:05.447399'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:42:05.574316'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:43:05.574316'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:46:05.574316'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 7
+  - timestamp: '2024-08-02T10:04:05.447399'
+    relative_priority: 7
+  - timestamp: '2024-08-02T10:08:05.574316'
+    relative_priority: 7
+  - timestamp: '2024-08-02T10:57:05.447399'
+    relative_priority: 7
+  medical_triage_record:
+  - timestamp: '2024-08-02T07:48:05.509044'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 9.0
+      category: Delayed
+      category_priority: 4
+      confidence_score: null
+    most_recent:
+      insults:
+      - timestamp: '2024-08-02T07:48:05.509044'
+        insult_id: 5h6i7j8k-9l0m-1n2o-3p4q-5r6s7t8u9v0w
+        label: External Hemorrhage
+        category: Hemorrhage
+        AIS_severity: 3
+        location: Arm
+        sublocation: Lower
+        lateral_position: Left
+        coronal_position: Anterior
+      vitals: []
+      observations: []
+  - timestamp: '2024-08-02T07:48:05.510622'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 9.0
+      category: Delayed
+      category_priority: 4
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T07:48:05.510622'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 20
+        unit: rpm
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T08:00:05.509044'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 16.0
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults:
+      - timestamp: '2024-08-02T08:00:05.509044'
+        insult_id: 5h6i7j8k-9l0m-1n2o-3p4q-5r6s7t8u9v0w
+        label: External Hemorrhage
+        category: Hemorrhage
+        AIS_severity: 4
+        location: Arm
+        sublocation: Upper
+        lateral_position: Left
+        coronal_position: Posterior
+      vitals: []
+      observations: []
+  - timestamp: '2024-08-02T08:00:05.510622'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 16.0
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:00:05.510622'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 179
+        unit: mmHg
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T08:09:05.510622'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 16.0
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:09:05.510622'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 30
+        unit: rpm
+        confidence_score:
+          Simulated: 25
+      observations: []
+  - timestamp: '2024-08-02T08:14:05.510622'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 16.0
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:14:05.510622'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 127
+        unit: mmHg
+        confidence_score:
+          Observed: 100
+      observations: []
+  - timestamp: '2024-08-02T08:26:05.510622'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 16.0
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:26:05.510622'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 169
+        unit: mmHg
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T08:28:05.510622'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 16.0
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:28:05.510622'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 84
+        unit: mmHg
+        confidence_score:
+          Observed: 100
+      observations: []
+  - timestamp: '2024-08-02T08:40:05.510622'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 16.0
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:40:05.510622'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 10
+        unit: rpm
+        confidence_score:
+          Simulated: 25
+      observations: []
+  - timestamp: '2024-08-02T08:43:05.510622'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 16.0
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:43:05.510622'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 24
+        unit: rpm
+        confidence_score:
+          Simulated: 25
+      observations: []
+  - timestamp: '2024-08-02T08:49:05.510622'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 16.0
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:49:05.510622'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 84
+        unit: mmHg
+        confidence_score:
+          Simulated: 25
+      observations: []
+  notifications:
+  - timestamp: '2024-08-02T07:48:05.509044'
+    message:
+    - gcs_rr_sbp_none
+  - timestamp: '2024-08-02T07:48:05.510622'
+    message:
+    - gcs_sbp_none
+  - timestamp: '2024-08-02T08:00:05.509044'
+    message:
+    - gcs_sbp_none
+  - timestamp: '2024-08-02T08:00:05.510622'
+    message:
+    - gcs_none
+  - timestamp: '2024-08-02T08:09:05.510622'
+    message:
+    - gcs_none
+  - timestamp: '2024-08-02T08:14:05.510622'
+    message:
+    - gcs_none
+  - timestamp: '2024-08-02T08:26:05.510622'
+    message:
+    - gcs_none
+  - timestamp: '2024-08-02T08:28:05.510622'
+    message:
+    - gcs_none
+  - timestamp: '2024-08-02T08:40:05.510622'
+    message:
+    - gcs_none
+  - timestamp: '2024-08-02T08:43:05.510622'
+    message:
+    - gcs_none
+  - timestamp: '2024-08-02T08:49:05.510622'
+    message:
+    - gcs_none
+- isop_id: c60c23e1-a650-4ee3-b8fe-1413fc8083bd
+  first_name: Ashlee
+  last_name: Little
+  call_sign: FQ326
+  medical_triage:
+    category: Urgent
+    category_priority: 2
+    confidence_score: null
+    relative_priority: 6
+  relative_priority_record:
+  - timestamp: '2024-08-02T06:52:05.529859'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:10:05.535284'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:13:05.613501'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:17:05.618924'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:20:05.443384'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:25:05.443384'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:29:05.578258'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:32:05.598465'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:33:05.531398'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:34:05.443384'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:36:05.570291'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:38:05.555486'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:45:05.531398'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:48:05.509044'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:48:05.510622'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:48:05.531398'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:49:05.489751'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:49:05.570291'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:57:05.489751'
+    relative_priority: 3
+  - timestamp: '2024-08-02T07:58:05.555486'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:00:05.509044'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:00:05.510622'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:03:05.531398'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:05:05.489751'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:06:05.618924'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:09:05.510622'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:14:05.510622'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:14:05.593176'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:17:05.531398'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:19:05.489751'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:20:05.471995'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:20:05.488095'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:26:05.510622'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:28:05.510622'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:31:05.531398'
+    relative_priority: 5
+  - timestamp: '2024-08-02T08:33:05.488095'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:34:05.489751'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:40:05.424367'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:40:05.510622'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:41:05.424367'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:42:05.531398'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:42:05.618924'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:43:05.488095'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:43:05.489751'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:43:05.510622'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:49:05.510622'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:51:05.615072'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:52:05.550136'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:54:05.424367'
+    relative_priority: 4
+  - timestamp: '2024-08-02T08:57:05.531398'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:02:05.615072'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:03:05.531398'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:05:05.493667'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:06:05.550136'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:08:05.424367'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:10:05.424367'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:12:05.447399'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:13:05.615072'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:16:05.550136'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:18:05.574316'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:21:05.574316'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:27:05.574316'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:37:05.447399'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:42:05.574316'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:43:05.574316'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:46:05.574316'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 6
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 6
+  - timestamp: '2024-08-02T10:04:05.447399'
+    relative_priority: 6
+  - timestamp: '2024-08-02T10:08:05.574316'
+    relative_priority: 6
+  - timestamp: '2024-08-02T10:57:05.447399'
+    relative_priority: 6
+  medical_triage_record:
+  - timestamp: '2024-08-02T06:52:05.529859'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 16.0
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults:
+      - timestamp: '2024-08-02T06:52:05.529859'
+        insult_id: 0m1n2o3p-4q5r-6s7t-8u9v-0w1x2y3z4a5b
+        label: Thermal Burn
+        category: Thermal Burn
+        AIS_severity: 4
+        location: Pelvis
+        sublocation: Buttocks
+        lateral_position: Right
+        coronal_position: ''
+      vitals: []
+      observations: []
+  - timestamp: '2024-08-02T07:10:05.535284'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 16.0
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals: []
+      observations:
+      - timestamp: '2024-08-02T07:10:05.535284'
+        observation_id: d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7
+        category: Neurological Assessment
+        label: Glasgow Coma Scale
+        abbreviation: GCS
+        results:
+          total_score: 13
+        confidence_score:
+          Observed: 100
+  - timestamp: '2024-08-02T07:33:05.531398'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 16.0
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T07:33:05.531398'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 14
+        unit: rpm
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T07:45:05.531398'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 39.15
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T07:45:05.531398'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 133
+        unit: mmHg
+        confidence_score:
+          Observed: 100
+      observations: []
+  - timestamp: '2024-08-02T07:48:05.531398'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 49.406400000000005
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T07:48:05.531398'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 75
+        unit: mmHg
+        confidence_score:
+          Observed: 100
+      observations: []
+  - timestamp: '2024-08-02T08:03:05.531398'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 39.15
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:03:05.531398'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 198
+        unit: mmHg
+        confidence_score:
+          Observed: 100
+      observations: []
+  - timestamp: '2024-08-02T08:17:05.531398'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 39.15
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:17:05.531398'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 23
+        unit: rpm
+        confidence_score:
+          Observed: 100
+      observations: []
+  - timestamp: '2024-08-02T08:31:05.531398'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 39.15
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:31:05.531398'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 21
+        unit: rpm
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T08:42:05.531398'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 39.15
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:42:05.531398'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 13
+        unit: rpm
+        confidence_score:
+          Observed: 100
+      observations: []
+  - timestamp: '2024-08-02T08:57:05.531398'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 39.15
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:57:05.531398'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 12
+        unit: rpm
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T09:03:05.531398'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 39.15
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T09:03:05.531398'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 29
+        unit: rpm
+        confidence_score:
+          Inferred: 50
+      observations: []
+  notifications:
+  - timestamp: '2024-08-02T06:52:05.529859'
+    message:
+    - gcs_rr_sbp_none
+  - timestamp: '2024-08-02T07:10:05.535284'
+    message:
+    - rr_sbp_none
+  - timestamp: '2024-08-02T07:33:05.531398'
+    message:
+    - sbp_none
+  - timestamp: '2024-08-02T07:45:05.531398'
+    message: []
+  - timestamp: '2024-08-02T07:48:05.531398'
+    message: []
+  - timestamp: '2024-08-02T08:03:05.531398'
+    message: []
+  - timestamp: '2024-08-02T08:17:05.531398'
+    message: []
+  - timestamp: '2024-08-02T08:31:05.531398'
+    message: []
+  - timestamp: '2024-08-02T08:42:05.531398'
+    message: []
+  - timestamp: '2024-08-02T08:57:05.531398'
+    message: []
+  - timestamp: '2024-08-02T09:03:05.531398'
+    message: []
+- isop_id: a37d31b9-86f3-4ca6-8094-25af6e70f94a
+  first_name: Sarah
+  last_name: Waters
+  call_sign: YV460
+  medical_triage:
+    category: Delayed
+    category_priority: 4
+    confidence_score: null
+    relative_priority: 9
+  relative_priority_record:
+  - timestamp: '2024-08-02T07:38:05.555486'
+    relative_priority: 7
+  - timestamp: '2024-08-02T07:45:05.531398'
+    relative_priority: 7
+  - timestamp: '2024-08-02T07:48:05.509044'
+    relative_priority: 8
+  - timestamp: '2024-08-02T07:48:05.510622'
+    relative_priority: 8
+  - timestamp: '2024-08-02T07:48:05.531398'
+    relative_priority: 8
+  - timestamp: '2024-08-02T07:49:05.489751'
+    relative_priority: 8
+  - timestamp: '2024-08-02T07:49:05.570291'
+    relative_priority: 8
+  - timestamp: '2024-08-02T07:57:05.489751'
+    relative_priority: 8
+  - timestamp: '2024-08-02T07:58:05.555486'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:00:05.509044'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:00:05.510622'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:03:05.531398'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:05:05.489751'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:06:05.618924'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:09:05.510622'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:14:05.510622'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:14:05.593176'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:17:05.531398'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:19:05.489751'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:20:05.471995'
+    relative_priority: 8
+  - timestamp: '2024-08-02T08:20:05.488095'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:26:05.510622'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:28:05.510622'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:31:05.531398'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:33:05.488095'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:34:05.489751'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:40:05.424367'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:40:05.510622'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:41:05.424367'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:42:05.531398'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:42:05.618924'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:43:05.488095'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:43:05.489751'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:43:05.510622'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:49:05.510622'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:51:05.615072'
+    relative_priority: 9
+  - timestamp: '2024-08-02T08:52:05.550136'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:54:05.424367'
+    relative_priority: 7
+  - timestamp: '2024-08-02T08:57:05.531398'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:02:05.615072'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:03:05.531398'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:05:05.493667'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:06:05.550136'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:08:05.424367'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:10:05.424367'
+    relative_priority: 7
+  - timestamp: '2024-08-02T09:12:05.447399'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:13:05.615072'
+    relative_priority: 8
+  - timestamp: '2024-08-02T09:16:05.550136'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:18:05.574316'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:21:05.574316'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:27:05.574316'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:37:05.447399'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:42:05.574316'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:43:05.574316'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:46:05.574316'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 9
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 9
+  - timestamp: '2024-08-02T10:04:05.447399'
+    relative_priority: 9
+  - timestamp: '2024-08-02T10:08:05.574316'
+    relative_priority: 9
+  - timestamp: '2024-08-02T10:57:05.447399'
+    relative_priority: 9
+  medical_triage_record:
+  - timestamp: '2024-08-02T07:38:05.555486'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals: []
+      observations:
+      - timestamp: '2024-08-02T07:38:05.555486'
+        observation_id: d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7
+        category: Neurological Assessment
+        label: Glasgow Coma Scale
+        abbreviation: GCS
+        results:
+          total_score: 4
+        confidence_score:
+          Observed: 100
+  - timestamp: '2024-08-02T07:58:05.555486'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals: []
+      observations:
+      - timestamp: '2024-08-02T07:58:05.555486'
+        observation_id: d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7
+        category: Neurological Assessment
+        label: Glasgow Coma Scale
+        abbreviation: GCS
+        results:
+          total_score: 6
+        confidence_score:
+          Simulated: 25
+  - timestamp: '2024-08-02T08:52:05.550136'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 4.0
+      category: Delayed
+      category_priority: 4
+      confidence_score: null
+    most_recent:
+      insults:
+      - timestamp: '2024-08-02T08:52:05.550136'
+        insult_id: 0m1n2o3p-4q5r-6s7t-8u9v-0w1x2y3z4a5b
+        label: Thermal Burn
+        category: Thermal Burn
+        AIS_severity: 2
+        location: Chest
+        sublocation: Lower
+        lateral_position: Left
+      vitals: []
+      observations: []
+  - timestamp: '2024-08-02T09:06:05.550136'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 16.0
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults:
+      - timestamp: '2024-08-02T09:06:05.550136'
+        insult_id: 0m1n2o3p-4q5r-6s7t-8u9v-0w1x2y3z4a5b
+        label: Thermal Burn
+        category: Thermal Burn
+        AIS_severity: 4
+        location: Abdomen
+        sublocation: Upper
+        lateral_position: Center
+      vitals: []
+      observations: []
+  - timestamp: '2024-08-02T09:16:05.550136'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 9.0
+      category: Delayed
+      category_priority: 4
+      confidence_score: null
+    most_recent:
+      insults:
+      - timestamp: '2024-08-02T09:16:05.550136'
+        insult_id: 0m1n2o3p-4q5r-6s7t-8u9v-0w1x2y3z4a5b
+        label: Thermal Burn
+        category: Thermal Burn
+        AIS_severity: 3
+        location: Back
+        sublocation: Upper
+        lateral_position: Center
+      vitals: []
+      observations: []
+  notifications:
+  - timestamp: '2024-08-02T07:38:05.555486'
+    message:
+    - insults_none
+    - rr_sbp_none
+  - timestamp: '2024-08-02T07:58:05.555486'
+    message:
+    - insults_none
+    - rr_sbp_none
+  - timestamp: '2024-08-02T08:52:05.550136'
+    message:
+    - rr_sbp_none
+  - timestamp: '2024-08-02T09:06:05.550136'
+    message:
+    - rr_sbp_none
+  - timestamp: '2024-08-02T09:16:05.550136'
+    message:
+    - rr_sbp_none
+- isop_id: c0474c04-f02a-4365-8e35-93eafeabb94a
+  first_name: Jacob
+  last_name: Cruz
+  call_sign: DW901
+  medical_triage:
+    category: Urgent
+    category_priority: 2
+    confidence_score: null
+    relative_priority: 5
+  relative_priority_record:
+  - timestamp: '2024-08-02T07:29:05.578258'
+    relative_priority: 5
+  - timestamp: '2024-08-02T07:32:05.598465'
+    relative_priority: 5
+  - timestamp: '2024-08-02T07:33:05.531398'
+    relative_priority: 5
+  - timestamp: '2024-08-02T07:34:05.443384'
+    relative_priority: 4
+  - timestamp: '2024-08-02T07:36:05.570291'
+    relative_priority: 4
+  - timestamp: '2024-08-02T07:38:05.555486'
+    relative_priority: 4
+  - timestamp: '2024-08-02T07:45:05.531398'
+    relative_priority: 4
+  - timestamp: '2024-08-02T07:48:05.509044'
+    relative_priority: 4
+  - timestamp: '2024-08-02T07:48:05.510622'
+    relative_priority: 4
+  - timestamp: '2024-08-02T07:48:05.531398'
+    relative_priority: 4
+  - timestamp: '2024-08-02T07:49:05.489751'
+    relative_priority: 4
+  - timestamp: '2024-08-02T07:49:05.570291'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:57:05.489751'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:58:05.555486'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:00:05.509044'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:00:05.510622'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:03:05.531398'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:05:05.489751'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:06:05.618924'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:09:05.510622'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:14:05.510622'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:14:05.593176'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:17:05.531398'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:19:05.489751'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:20:05.471995'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:20:05.488095'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:26:05.510622'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:28:05.510622'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:31:05.531398'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:33:05.488095'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:34:05.489751'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:40:05.424367'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:40:05.510622'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:41:05.424367'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:42:05.531398'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:42:05.618924'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:43:05.488095'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:43:05.489751'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:43:05.510622'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:49:05.510622'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:51:05.615072'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:52:05.550136'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:54:05.424367'
+    relative_priority: 1
+  - timestamp: '2024-08-02T08:57:05.531398'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:02:05.615072'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:03:05.531398'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:05:05.493667'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:06:05.550136'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:08:05.424367'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:10:05.424367'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:12:05.447399'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:13:05.615072'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:16:05.550136'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:18:05.574316'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:21:05.574316'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:27:05.574316'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:37:05.447399'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:42:05.574316'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:43:05.574316'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:46:05.574316'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 5
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 5
+  - timestamp: '2024-08-02T10:04:05.447399'
+    relative_priority: 5
+  - timestamp: '2024-08-02T10:08:05.574316'
+    relative_priority: 5
+  - timestamp: '2024-08-02T10:57:05.447399'
+    relative_priority: 5
+  medical_triage_record:
+  - timestamp: '2024-08-02T07:29:05.578258'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals: []
+      observations:
+      - timestamp: '2024-08-02T07:29:05.578258'
+        observation_id: d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7
+        category: Neurological Assessment
+        label: Glasgow Coma Scale
+        abbreviation: GCS
+        results:
+          total_score: 13
+        confidence_score:
+          Inferred: 50
+  - timestamp: '2024-08-02T07:36:05.570291'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 9.0
+      category: Delayed
+      category_priority: 4
+      confidence_score: null
+    most_recent:
+      insults:
+      - timestamp: '2024-08-02T07:36:05.570291'
+        insult_id: 0m1n2o3p-4q5r-6s7t-8u9v-0w1x2y3z4a5b
+        label: Thermal Burn
+        category: Thermal Burn
+        AIS_severity: 3
+        location: Arm
+        sublocation: Lower
+        lateral_position: Right
+        coronal_position: Anterior
+      vitals: []
+      observations: []
+  - timestamp: '2024-08-02T07:49:05.570291'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 34.0
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults:
+      - timestamp: '2024-08-02T07:49:05.570291'
+        insult_id: 5h6i7j8k-9l0m-1n2o-3p4q-5r6s7t8u9v0w
+        label: External Hemorrhage
+        category: Hemorrhage
+        AIS_severity: 5
+        location: Back
+        sublocation: Lower
+        lateral_position: Right
+      vitals: []
+      observations: []
+  - timestamp: '2024-08-02T09:18:05.574316'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 34.0
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T09:18:05.574316'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 83
+        unit: mmHg
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T09:21:05.574316'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 35.2782
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T09:21:05.574316'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 25
+        unit: rpm
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T09:27:05.574316'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 35.2782
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T09:27:05.574316'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 19
+        unit: rpm
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T09:42:05.574316'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 30.15
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T09:42:05.574316'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 113
+        unit: mmHg
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T09:43:05.574316'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 30.15
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T09:43:05.574316'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 130
+        unit: mmHg
+        confidence_score:
+          Observed: 100
+      observations: []
+  - timestamp: '2024-08-02T09:46:05.574316'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 30.15
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T09:46:05.574316'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 138
+        unit: mmHg
+        confidence_score:
+          Simulated: 25
+      observations: []
+  - timestamp: '2024-08-02T09:59:05.574316'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 30.15
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T09:59:05.574316'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 188
+        unit: mmHg
+        confidence_score:
+          Simulated: 25
+      - timestamp: '2024-08-02T09:59:05.574316'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 141
+        unit: mmHg
+        confidence_score:
+          Simulated: 25
+      observations: []
+  - timestamp: '2024-08-02T09:59:05.574316'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 30.15
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T09:59:05.574316'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 188
+        unit: mmHg
+        confidence_score:
+          Simulated: 25
+      - timestamp: '2024-08-02T09:59:05.574316'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 141
+        unit: mmHg
+        confidence_score:
+          Simulated: 25
+      observations: []
+  - timestamp: '2024-08-02T10:08:05.574316'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 30.15
+      category: Urgent
+      category_priority: 2
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T10:08:05.574316'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 130
+        unit: mmHg
+        confidence_score:
+          Inferred: 50
+      observations: []
+  notifications:
+  - timestamp: '2024-08-02T07:29:05.578258'
+    message:
+    - insults_none
+    - rr_sbp_none
+  - timestamp: '2024-08-02T07:36:05.570291'
+    message:
+    - rr_sbp_none
+  - timestamp: '2024-08-02T07:49:05.570291'
+    message:
+    - rr_sbp_none
+  - timestamp: '2024-08-02T09:18:05.574316'
+    message:
+    - rr_none
+  - timestamp: '2024-08-02T09:21:05.574316'
+    message: []
+  - timestamp: '2024-08-02T09:27:05.574316'
+    message: []
+  - timestamp: '2024-08-02T09:42:05.574316'
+    message: []
+  - timestamp: '2024-08-02T09:43:05.574316'
+    message: []
+  - timestamp: '2024-08-02T09:46:05.574316'
+    message: []
+  - timestamp: '2024-08-02T09:59:05.574316'
+    message: []
+  - timestamp: '2024-08-02T09:59:05.574316'
+    message: []
+  - timestamp: '2024-08-02T10:08:05.574316'
+    message: []
+- isop_id: 0c651dfe-7f6f-4558-b9bd-c854d23059a6
+  first_name: Natasha
+  last_name: Jones
+  call_sign: RU033
+  medical_triage:
+    category: Immediate
+    category_priority: 1
+    confidence_score: null
+    relative_priority: 3
+  relative_priority_record:
+  - timestamp: '2024-08-02T07:32:05.598465'
+    relative_priority: 6
+  - timestamp: '2024-08-02T07:33:05.531398'
+    relative_priority: 6
+  - timestamp: '2024-08-02T07:34:05.443384'
+    relative_priority: 5
+  - timestamp: '2024-08-02T07:36:05.570291'
+    relative_priority: 5
+  - timestamp: '2024-08-02T07:38:05.555486'
+    relative_priority: 5
+  - timestamp: '2024-08-02T07:45:05.531398'
+    relative_priority: 5
+  - timestamp: '2024-08-02T07:48:05.509044'
+    relative_priority: 6
+  - timestamp: '2024-08-02T07:48:05.510622'
+    relative_priority: 6
+  - timestamp: '2024-08-02T07:48:05.531398'
+    relative_priority: 6
+  - timestamp: '2024-08-02T07:49:05.489751'
+    relative_priority: 6
+  - timestamp: '2024-08-02T07:49:05.570291'
+    relative_priority: 6
+  - timestamp: '2024-08-02T07:57:05.489751'
+    relative_priority: 6
+  - timestamp: '2024-08-02T07:58:05.555486'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:00:05.509044'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:00:05.510622'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:03:05.531398'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:05:05.489751'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:06:05.618924'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:09:05.510622'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:14:05.510622'
+    relative_priority: 6
+  - timestamp: '2024-08-02T08:14:05.593176'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:17:05.531398'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:19:05.489751'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:20:05.471995'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:20:05.488095'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:26:05.510622'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:28:05.510622'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:31:05.531398'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:33:05.488095'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:34:05.489751'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:40:05.424367'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:40:05.510622'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:41:05.424367'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:42:05.531398'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:42:05.618924'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:43:05.488095'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:43:05.489751'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:43:05.510622'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:49:05.510622'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:51:05.615072'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:52:05.550136'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:54:05.424367'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:57:05.531398'
+    relative_priority: 2
+  - timestamp: '2024-08-02T09:02:05.615072'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:03:05.531398'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:05:05.493667'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:06:05.550136'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:08:05.424367'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:10:05.424367'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:12:05.447399'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:13:05.615072'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:16:05.550136'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:18:05.574316'
+    relative_priority: 4
+  - timestamp: '2024-08-02T09:21:05.574316'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:27:05.574316'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:37:05.447399'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:42:05.574316'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:43:05.574316'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:46:05.574316'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 3
+  - timestamp: '2024-08-02T10:04:05.447399'
+    relative_priority: 3
+  - timestamp: '2024-08-02T10:08:05.574316'
+    relative_priority: 3
+  - timestamp: '2024-08-02T10:57:05.447399'
+    relative_priority: 3
+  medical_triage_record:
+  - timestamp: '2024-08-02T07:32:05.598465'
+    algorithm_id: nan
+    label: NoALGO
+    algorithm_priority: .nan
+    medical_triage:
+      score: .nan
+      category: nan
+      category_priority: null
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals: []
+      observations:
+      - timestamp: '2024-08-02T07:32:05.598465'
+        observation_id: d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7
+        category: Neurological Assessment
+        label: Glasgow Coma Scale
+        abbreviation: GCS
+        results:
+          total_score: 10
+        confidence_score:
+          Inferred: 50
+  - timestamp: '2024-08-02T08:14:05.593176'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 36.0
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults:
+      - timestamp: '2024-08-02T08:14:05.593176'
+        insult_id: 0m1n2o3p-4q5r-6s7t-8u9v-0w1x2y3z4a5b
+        label: Thermal Burn
+        category: Thermal Burn
+        AIS_severity: 6
+        location: Leg
+        sublocation: Upper
+        lateral_position: Left
+        coronal_position: Posterior
+      vitals: []
+      observations: []
+  notifications:
+  - timestamp: '2024-08-02T07:32:05.598465'
+    message:
+    - insults_none
+    - rr_sbp_none
+  - timestamp: '2024-08-02T08:14:05.593176'
+    message:
+    - rr_sbp_none
+- isop_id: af96b0ff-8249-4d2c-a127-c068c1916304
+  first_name: Paul
+  last_name: Mosley
+  call_sign: FN049
+  medical_triage:
+    category: Immediate
+    category_priority: 1
+    confidence_score: null
+    relative_priority: 1
+  relative_priority_record:
+  - timestamp: '2024-08-02T07:13:05.613501'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:17:05.618924'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:20:05.443384'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:25:05.443384'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:29:05.578258'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:32:05.598465'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:33:05.531398'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:34:05.443384'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:36:05.570291'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:38:05.555486'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:45:05.531398'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:48:05.509044'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:48:05.510622'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:48:05.531398'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:49:05.489751'
+    relative_priority: 1
+  - timestamp: '2024-08-02T07:49:05.570291'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:57:05.489751'
+    relative_priority: 2
+  - timestamp: '2024-08-02T07:58:05.555486'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:00:05.509044'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:00:05.510622'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:03:05.531398'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:05:05.489751'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:06:05.618924'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:09:05.510622'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:14:05.510622'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:14:05.593176'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:17:05.531398'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:19:05.489751'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:20:05.471995'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:20:05.488095'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:26:05.510622'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:28:05.510622'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:31:05.531398'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:33:05.488095'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:34:05.489751'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:40:05.424367'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:40:05.510622'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:41:05.424367'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:42:05.531398'
+    relative_priority: 2
+  - timestamp: '2024-08-02T08:42:05.618924'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:43:05.488095'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:43:05.489751'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:43:05.510622'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:49:05.510622'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:51:05.615072'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:52:05.550136'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:54:05.424367'
+    relative_priority: 3
+  - timestamp: '2024-08-02T08:57:05.531398'
+    relative_priority: 3
+  - timestamp: '2024-08-02T09:02:05.615072'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:03:05.531398'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:05:05.493667'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:06:05.550136'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:08:05.424367'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:10:05.424367'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:12:05.447399'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:13:05.615072'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:16:05.550136'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:18:05.574316'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:21:05.574316'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:27:05.574316'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:37:05.447399'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:42:05.574316'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:43:05.574316'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:46:05.574316'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 1
+  - timestamp: '2024-08-02T09:59:05.574316'
+    relative_priority: 1
+  - timestamp: '2024-08-02T10:04:05.447399'
+    relative_priority: 1
+  - timestamp: '2024-08-02T10:08:05.574316'
+    relative_priority: 1
+  - timestamp: '2024-08-02T10:57:05.447399'
+    relative_priority: 1
+  medical_triage_record:
+  - timestamp: '2024-08-02T07:13:05.613501'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 36.0
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults:
+      - timestamp: '2024-08-02T07:13:05.613501'
+        insult_id: 0m1n2o3p-4q5r-6s7t-8u9v-0w1x2y3z4a5b
+        label: Thermal Burn
+        category: Thermal Burn
+        AIS_severity: 6
+        location: Head
+        sublocation: Side
+        lateral_position: Center
+        coronal_position: NA
+      vitals: []
+      observations: []
+  - timestamp: '2024-08-02T07:17:05.618924'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 36.0
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals: []
+      observations:
+      - timestamp: '2024-08-02T07:17:05.618924'
+        observation_id: d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7
+        category: Neurological Assessment
+        label: Glasgow Coma Scale
+        abbreviation: GCS
+        results:
+          total_score: 11
+        confidence_score:
+          Simulated: 25
+  - timestamp: '2024-08-02T08:06:05.618924'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 36.0
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals: []
+      observations:
+      - timestamp: '2024-08-02T08:06:05.618924'
+        observation_id: d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7
+        category: Neurological Assessment
+        label: Glasgow Coma Scale
+        abbreviation: GCS
+        results:
+          total_score: 6
+        confidence_score:
+          Inferred: 50
+  - timestamp: '2024-08-02T08:42:05.618924'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 36.0
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals: []
+      observations:
+      - timestamp: '2024-08-02T08:42:05.618924'
+        observation_id: d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7
+        category: Neurological Assessment
+        label: Glasgow Coma Scale
+        abbreviation: GCS
+        results:
+          total_score: 6
+        confidence_score:
+          Observed: 100
+  - timestamp: '2024-08-02T08:51:05.615072'
+    algorithm_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9
+    label: NISS
+    algorithm_priority: 2.0
+    medical_triage:
+      score: 36.0
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T08:51:05.615072'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 12
+        unit: rpm
+        confidence_score:
+          Observed: 100
+      observations: []
+  - timestamp: '2024-08-02T09:02:05.615072'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 52.5216
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T09:02:05.615072'
+        vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+        abbreviation: SBP
+        value: 73
+        unit: mmHg
+        confidence_score:
+          Inferred: 50
+      observations: []
+  - timestamp: '2024-08-02T09:13:05.615072'
+    algorithm_id: u9v0w1x2-y3z4-5a6b7c8d9e0-f1g2h3i4
+    label: LIFE
+    algorithm_priority: 1.0
+    medical_triage:
+      score: 52.5216
+      category: Immediate
+      category_priority: 1
+      confidence_score: null
+    most_recent:
+      insults: []
+      vitals:
+      - timestamp: '2024-08-02T09:13:05.615072'
+        vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+        abbreviation: RR
+        value: 22
+        unit: rpm
+        confidence_score:
+          Simulated: 25
+      observations: []
+  notifications:
+  - timestamp: '2024-08-02T07:13:05.613501'
+    message:
+    - gcs_rr_sbp_none
+  - timestamp: '2024-08-02T07:17:05.618924'
+    message:
+    - rr_sbp_none
+  - timestamp: '2024-08-02T08:06:05.618924'
+    message:
+    - rr_sbp_none
+  - timestamp: '2024-08-02T08:42:05.618924'
+    message:
+    - rr_sbp_none
+  - timestamp: '2024-08-02T08:51:05.615072'
+    message:
+    - sbp_none
+  - timestamp: '2024-08-02T09:02:05.615072'
+    message: []
+  - timestamp: '2024-08-02T09:13:05.615072'
+    message: []

@@ -1,0 +1,87 @@
+isop_id:
+  _generate_uuid: "isop_id"
+first_name: "!" # OPTIONAL -- Q: "What is the their first name?" Enter Value or Select "Unknown"
+last_name: "!" # OPTIONAL -- Q: "What is the their last name?" Enter Value or Select "Unknown"
+callsign: "!" # OPTIONAL -- Q: "What is their callsign?" Enter Value or Select "Unknown"
+military_data: # OPTIONAL -- Q: See ../dataSchemas/personnel/military_ranks.yaml
+  _generate_list: 
+    schema: "../dataSchemas/personnel/military_ranks.yaml" 
+    count: (0,1)
+gender: # REQUIRED -- Q: "Are you Male or Female?" Select from Options
+  selection_type: "single!"
+  options:
+    - male
+    - female
+age(yrs): (18,65)! # REQUIRED -- Q: "What is your age?"
+weight(kg): (40,150)! # REQUIRED -- Q: "What is your weight?" If given in lbs, convert to kgs
+height(cm): (150,250)! # OPTIONAL -- Q: "What is your height?" If given in inches, convert to cm.
+
+# Important for Medevac team to know 
+blood_type: # OPTIONAL -- Q: "Do you know your blood type?" Select from options
+  selection_type: "single!"
+  options:
+    - A+
+    - B+
+    - AB+
+    - O+
+    - A-
+    - B-
+    - AB-
+    - O-
+
+# Important for Medevac team to know    
+# allergies: # OPTIONAL -- Q: "Do you have any known allergies?" Select from options
+#   _generate_list: 
+#     schema: "../dataSchemas/conditions/allergies.yaml" 
+#     count: (0,4)
+
+# Will be important for casualty simulation forecasting
+# preexisting:
+#   conditions: # OPTIONAL -- Q: "Do you have any known pre-existing conditions?", If female "Are you pregnant?" Select from options
+#     _generate_list: 
+#         schema: "../dataSchemas/conditions/pre_existing_conditions.yaml" 
+#         count: (0,4)
+#   medications: # OPTIONAL -- Q: "What medications do you take on a regular basis?" Select from options
+#     _generate_list: 
+#         schema: "../dataSchemas/medications/medications.yaml" 
+#         count: (0,4)
+
+# May be important for Medevac team to validate persona
+# profile_pictures: # OPTIONAL - This would be an array of links to profile images if they are already in our system. One marked as primary
+#   - image_link: "../some_link_to_image.png"
+#     is_primary: true
+# ethnicity: # OPTIONAL -- Q: "What ethnicity are you?" Select from options
+#   selection_type: "single!"
+#   options:
+#     - Hispanic or Latino
+#     - Asian
+#     - Black or African American
+#     - Native Hawaiian or Other Pacific Islander
+#     - White
+
+# ISOP may have fitness records that could be included in the forecast simulations for additional fidelity
+# fitness: 
+#   body_fat_percentage: (2,50)! # OPTIONAL - if data already available 
+#   body_mass_index: (15,40)! # OPTIONAL - if data already available
+#   vo2_max: # OPTIONAL - if data already available
+#     value: (30,70)! 
+#     units: "mL/kg/min"
+#     measurement_method: cardiopulmonary exercise test
+#   category: # OPTIONAL - If values above are present, then calc using ../services/utils/fitness_evaluation.py.  If not, Q: "What's your fitness level?"
+
+# ISOP may have operational intelligence or some perceived political value that increases their priority
+# operational_value: # OPTIONAL
+#   _generate_list: 
+#     schema: "../dataSchemas/personnel/operational_value.yaml" 
+#     count: (0,3)
+#     unique_instances: true
+
+# Likely not important, but if ISOP triage category is moderate -> uninjured, their SERE training may be a consideration in mission planning
+# sere_training: # OPTIONAL
+#   dateTime: "!"
+#   sere_skills:
+#     _generate_list: 
+#       schema: "../dataSchemas/personnel/sere_skills.yaml" 
+#       count: (0,4)
+#       unique_instances: true
+  

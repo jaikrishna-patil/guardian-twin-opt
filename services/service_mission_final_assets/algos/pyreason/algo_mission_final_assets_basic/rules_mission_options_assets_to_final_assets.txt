@@ -1,0 +1,24 @@
+trigger_optimization(P) <-0 possible_asset(P,A)
+#final_asset(P,A) <-0 mlp_optimized(P,A)
+
+
+
+# check if solution is empty for all possiblilities
+is_empty(I):[0,0] <-0 pre_assign_constraint_both(P,A), is_empty(I), pred_instance_both(I)
+is_empty(I):[0,0] <-0 pre_assign_constraint_1(P,A), is_empty(I), pred_instance_1(I)
+is_empty(I):[0,0] <-0 pre_assign_constraint_2(P,A), is_empty(I), pred_instance_2(I)
+is_empty(I):[0,0] <-0 pre_assign_constraint_0(P,A), is_empty(I), pred_instance_0(I)
+
+# IF both is not empty, then use both
+use_instance_both(I) <-0 pred_instance_both(I), is_empty(I):[0,0]
+
+#IF both is empty and constraint 1 is not empty, then use cons1
+use_instance_1(I1) <-0 pred_instance_1(I1), is_empty(I1):[0,0], pred_instance_both(I), is_empty(I)
+
+#IF both is empty and constraint 1 is empty and cons0 is not empty , then use cons0
+use_instance_0(I0) <-0 pred_instance_0(I0), is_empty(I0):[0,0], pred_instance_1(I1), is_empty(I1), pred_instance_both(I), is_empty(I)
+
+
+final_asset(P,A) <-0 pre_assign_constraint_both(P,A), use_instance_both(I)
+final_asset(P,A) <-0 pre_assign_constraint_1(P,A), use_instance_1(I)
+final_asset(P,A) <-0 pre_assign_constraint_0(P,A), use_instance_0(I)

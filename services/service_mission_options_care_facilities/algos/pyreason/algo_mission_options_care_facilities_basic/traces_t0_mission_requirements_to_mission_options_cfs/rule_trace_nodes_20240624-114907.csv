@@ -1,0 +1,183 @@
+Time,Fixed-Point-Operation,Node,Label,Old Bound,New Bound,Occurred Due To
+0,0,Adrian Monk,type_mission,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Adrian Monk,mission_id-2,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Adrian Monk,req_emergency_care,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Adrian Monk,req_surgical_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Adrian Monk,req_medical_imaging,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Adrian Monk,req_laboratory_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Adrian Monk,req_trauma_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Adrian Monk,req_emergency_medicine,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Adrian Monk,req_orthopedic_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Adrian Monk,req_general_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Adrian Monk,req_blood_bags,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Adrian Monk,req_painkillers,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Adrian Monk,req_antibiotics,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Adrian Monk,req_anesthetics,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Natalie Tieger,type_mission,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Natalie Tieger,mission_id-3,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Natalie Tieger,req_emergency_care,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Natalie Tieger,req_surgical_services,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Natalie Tieger,req_medical_imaging,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Natalie Tieger,req_laboratory_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Natalie Tieger,req_trauma_surgery,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Natalie Tieger,req_emergency_medicine,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Natalie Tieger,req_orthopedic_surgery,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Natalie Tieger,req_general_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Natalie Tieger,req_blood_bags,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Natalie Tieger,req_painkillers,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Natalie Tieger,req_antibiotics,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Natalie Tieger,req_anesthetics,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Leland Stottlemeyer,type_mission,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Leland Stottlemeyer,mission_id-4,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Leland Stottlemeyer,req_emergency_care,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Leland Stottlemeyer,req_surgical_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Leland Stottlemeyer,req_medical_imaging,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Leland Stottlemeyer,req_laboratory_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Leland Stottlemeyer,req_trauma_surgery,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Leland Stottlemeyer,req_emergency_medicine,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Leland Stottlemeyer,req_orthopedic_surgery,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Leland Stottlemeyer,req_general_surgery,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Leland Stottlemeyer,req_blood_bags,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Leland Stottlemeyer,req_painkillers,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Leland Stottlemeyer,req_antibiotics,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Leland Stottlemeyer,req_anesthetics,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Jake Peralta,type_mission,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Jake Peralta,mission_id-5,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Jake Peralta,req_emergency_care,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Jake Peralta,req_surgical_services,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Jake Peralta,req_medical_imaging,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Jake Peralta,req_laboratory_services,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Jake Peralta,req_trauma_surgery,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Jake Peralta,req_emergency_medicine,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Jake Peralta,req_orthopedic_surgery,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Jake Peralta,req_general_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Jake Peralta,req_blood_bags,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Jake Peralta,req_painkillers,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Jake Peralta,req_antibiotics,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Jake Peralta,req_anesthetics,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Sharona Fleming,type_mission,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Sharona Fleming,mission_id-6,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Sharona Fleming,req_emergency_care,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Sharona Fleming,req_surgical_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Sharona Fleming,req_medical_imaging,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Sharona Fleming,req_laboratory_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Sharona Fleming,req_trauma_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Sharona Fleming,req_emergency_medicine,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Sharona Fleming,req_orthopedic_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Sharona Fleming,req_general_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Sharona Fleming,req_blood_bags,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Sharona Fleming,req_painkillers,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Sharona Fleming,req_antibiotics,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Sharona Fleming,req_anesthetics,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Randy Disher,type_mission,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Randy Disher,mission_id-7,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Randy Disher,req_emergency_care,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Randy Disher,req_surgical_services,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Randy Disher,req_medical_imaging,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Randy Disher,req_laboratory_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Randy Disher,req_trauma_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Randy Disher,req_emergency_medicine,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Randy Disher,req_orthopedic_surgery,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Randy Disher,req_general_surgery,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Randy Disher,req_blood_bags,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Randy Disher,req_painkillers,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Randy Disher,req_antibiotics,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Randy Disher,req_anesthetics,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Trudy Monk,type_mission,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Trudy Monk,mission_id-8,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Trudy Monk,req_emergency_care,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Trudy Monk,req_surgical_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Trudy Monk,req_medical_imaging,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Trudy Monk,req_laboratory_services,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Trudy Monk,req_trauma_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Trudy Monk,req_emergency_medicine,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Trudy Monk,req_orthopedic_surgery,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Trudy Monk,req_general_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Trudy Monk,req_blood_bags,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Trudy Monk,req_painkillers,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Trudy Monk,req_antibiotics,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Trudy Monk,req_anesthetics,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Charles Kroger,type_mission,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Charles Kroger,mission_id-9,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Charles Kroger,req_emergency_care,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Charles Kroger,req_surgical_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Charles Kroger,req_medical_imaging,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Charles Kroger,req_laboratory_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Charles Kroger,req_trauma_surgery,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Charles Kroger,req_emergency_medicine,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Charles Kroger,req_orthopedic_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Charles Kroger,req_general_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Charles Kroger,req_blood_bags,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Charles Kroger,req_painkillers,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Charles Kroger,req_antibiotics,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Charles Kroger,req_anesthetics,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Julie Trieger,type_mission,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Julie Trieger,mission_id-10,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Julie Trieger,req_emergency_care,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Julie Trieger,req_surgical_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Julie Trieger,req_medical_imaging,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Julie Trieger,req_laboratory_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Julie Trieger,req_trauma_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Julie Trieger,req_emergency_medicine,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Julie Trieger,req_orthopedic_surgery,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Julie Trieger,req_general_surgery,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Julie Trieger,req_blood_bags,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Julie Trieger,req_painkillers,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Julie Trieger,req_antibiotics,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Julie Trieger,req_anesthetics,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Benjy Fleming,type_mission,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Benjy Fleming,mission_id-11,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Benjy Fleming,req_emergency_care,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Benjy Fleming,req_surgical_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Benjy Fleming,req_medical_imaging,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Benjy Fleming,req_laboratory_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Benjy Fleming,req_trauma_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Benjy Fleming,req_emergency_medicine,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Benjy Fleming,req_orthopedic_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Benjy Fleming,req_general_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Benjy Fleming,req_blood_bags,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Benjy Fleming,req_painkillers,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Benjy Fleming,req_antibiotics,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Benjy Fleming,req_anesthetics,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Battlefield Medical Center,type_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Battlefield Medical Center,cf_id-2,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Battlefield Medical Center,available_emergency_care,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Battlefield Medical Center,available_surgical_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Battlefield Medical Center,available_medical_imaging,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Battlefield Medical Center,available_laboratory_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Battlefield Medical Center,available_trauma_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Battlefield Medical Center,available_emergency_medicine,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Battlefield Medical Center,available_orthopedic_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Battlefield Medical Center,available_general_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Battlefield Medical Center,available_blood_bags,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Battlefield Medical Center,available_painkillers,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Battlefield Medical Center,available_antibiotics,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Battlefield Medical Center,available_anesthetics,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Noble Medical Center,type_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Noble Medical Center,cf_id-3,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Noble Medical Center,available_emergency_care,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Noble Medical Center,available_surgical_services,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Noble Medical Center,available_medical_imaging,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Noble Medical Center,available_laboratory_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Noble Medical Center,available_trauma_surgery,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Noble Medical Center,available_emergency_medicine,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Noble Medical Center,available_orthopedic_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Noble Medical Center,available_general_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Noble Medical Center,available_blood_bags,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Noble Medical Center,available_painkillers,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Noble Medical Center,available_antibiotics,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Noble Medical Center,available_anesthetics,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Young hearts Medical Center,type_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Young hearts Medical Center,cf_id-4,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Young hearts Medical Center,available_emergency_care,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Young hearts Medical Center,available_surgical_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Young hearts Medical Center,available_medical_imaging,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Young hearts Medical Center,available_laboratory_services,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Young hearts Medical Center,available_trauma_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Young hearts Medical Center,available_emergency_medicine,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Young hearts Medical Center,available_orthopedic_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Young hearts Medical Center,available_general_surgery,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,Young hearts Medical Center,available_blood_bags,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Young hearts Medical Center,available_painkillers,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Young hearts Medical Center,available_antibiotics,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact
+0,0,Young hearts Medical Center,available_anesthetics,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact

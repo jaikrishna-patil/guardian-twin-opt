@@ -1,0 +1,72 @@
+  asset_id:
+    _generate_id:
+  serial_number: (1000, 9999)
+  name: "C-130J Super Hercules"
+  manufacturer: "Lockheed Martin"
+  model: "C-130J"
+  asset_type: "CTOL"
+  sub_type: ""
+  mission_types: "medevac"
+  landing_distance_required: # if type:CTOL
+  takeoff_distance_required: # if type:CTOL
+  estimated_value(usd): "$75"
+  range (km): 
+    average: 3700 # range with fuel reserve safety margins
+    max: 5250
+    max_with_aux_fuel_tanks:  # see optional_equipment below
+  speed(km/h):  
+    cruise: 660 
+    max: 670
+    max_with_aux_fuel_tanks:
+  fuel:
+    types: 
+    fueltank_capacity(L):
+      internal: 
+      total_with_selected_equipment_options: 
+    fuel_reserves(%): 
+      ideal: 15
+      min: 5
+  weight_capacity(kg):
+    value: 19050
+    takeoff_max: 
+      with_selected_equipment_options:
+    landing_max: 
+      with_selected_equipment_options: 
+  operational_altitude(m):
+    service:
+    max: 
+  crew:
+    number: 4
+    roles:
+      - "pilot" 
+      - "co-pilot"
+      - "crew chief"
+      - "flight medic"
+  patient_capacity:
+    litter: 74  
+    ambulatory: 92
+  equipment_options:
+    auxillary_fuel_tanks: FALSE #affects speed, capacity, range
+      number_of_tanks: 
+      fueltank_capacity(L):
+        each: 
+        total: 
+  operational_conditions:
+    day: TRUE
+    night: TRUE
+    temperature(C):
+      min: 0
+      max: 50
+    adverse_weather: TRUE
+    min_visability_required(km):
+  medevac_capabilities:
+    equipment:
+    - "IV provisions"
+    - "Medical monitoring systems (vital signs, EKG, etc.)"
+    - "Advanced life support equipment (ventilators, defibrillators, etc.)"
+    - "oxygen generation system"
+    - "medical suction system"
+    - "medical electrical power (115VAC/60Hz)"
+    - "high intensity lighting"
+    patient_handling:
+    - "patient litter lift system"

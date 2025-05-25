@@ -1,0 +1,66 @@
+- moi_id:
+    _generate_uuid: "moi_id"
+  label: "Blast"
+  description: "Injuries caused by explosions, including IEDs"
+  abbreviation: "BI"
+- moi_id:
+    _generate_uuid: "moi_id"
+  label: "Gunshot Wound"
+  description: "Injuries from bullets or other projectiles"
+  abbreviation: "GSW"
+- moi_id:
+    _generate_uuid: "moi_id"
+  label: "Shrapnel"
+  description: "Injuries from fragments of explosive devices or debris"
+- moi_id:
+    _generate_uuid: "moi_id"
+  label: "Blunt Trauma"
+  description: "Injuries from impacts without penetration"
+  abbreviation: "BT"
+- moi_id:
+    _generate_uuid: "moi_id"
+  label: "Penetrating Trauma"
+  description: "Injuries involving object penetration into the body"
+  abbreviation: "PT"
+- moi_id:
+    _generate_uuid: "moi_id"
+  label: "Burn"
+  description: "Thermal or chemical injuries to skin and tissues"
+- moi_id:
+    _generate_uuid: "moi_id"
+  label: "Crush"
+  description: "Injuries from compression or collapse of structures"
+- moi_id:
+    _generate_uuid: "moi_id"
+  label: "Fall"
+  description: "Injuries from falling from heights or during combat"
+- moi_id:
+    _generate_uuid: "moi_id"
+  label: "Barotrauma"
+  description: "Injuries caused by changes in air pressure, often from explosions"
+- moi_id:
+    _generate_uuid: "moi_id"
+  label: "Multiple Injury"
+  description: "Combination of two or more injury mechanisms"
+  abbreviation: "MI"
+- moi_id:
+    _generate_uuid: "moi_id"
+  label: "Chemical Exposure"
+  description: "Injuries from exposure to harmful chemicals or agents"
+- moi_id:
+    _generate_uuid: "moi_id"
+  label: "Acoustic Trauma"
+  description: "Injuries to hearing from loud noises, often from explosions"
+- moi_id:
+    _generate_uuid: "moi_id"
+  label: "Traumatic Amputation"
+  description: "Loss of limb due to explosive or severe mechanical force"
+- moi_id:
+    _generate_uuid: "moi_id"
+  label: "Landmine Injury"
+  description: "Specific injuries caused by landmine explosions"
+# - moi_id:
+#     _generate_uuid: "moi_id"
+#   label: "Other"
+#   description: "Other"
+#   abbreviation: ""

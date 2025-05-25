@@ -1,0 +1,56 @@
+## Basic triage categorization
+# ASU
+- scenario_id: asu_1
+  name: # Primary Triage - Assign LIFE Triage Scores, Categories, and relative Priority
+  description:
+    # - Sitrep - Complete Injury, Vitals, and Observations data are available for all patients.
+    # - Assign LIFE triage scores and triage categories to patients
+    # - Assign relative Medical Triage priority to all patients.
+    # - Sort patients by triage category then triage score.
+  coda_link: 
+  success_criteria:
+  unit_tests: #suggested unit tests
+  inputs:
+    # - Insults: location, type, AIS severity
+    # - Vitals: SysBP, RR
+    # - Observations: GCS 
+  outputs: 
+    # 1: '../dataSchemas/triage/medical_triage_summary.yaml' # Primary goal is to create this file for each scenario and add it to each scenario directory.
+    # 2: '../dataSchemas/personnel/isop_state.yaml' # Secondary goal is to update the isop_state.yaml file with medical_triage_status.yaml timestamps.
+  # Source dataSchemas
+  input_schemas:
+    - path: '../dataSchemas/personnel/isop_detail.yaml'
+      iterations: 10
+      data_gap: 10
+    - path: '../dataSchemas/personnel/isop_state.yaml'
+      iterations: 10
+      data_gap: 10
+    - path: '../dataSchemas/mission/mission_requirement.yaml'
+      iterations: 10
+    - path: '../dataSchemas/assets/medevac_blackhawk_HH-60M.yaml'
+      iterations: 3
+    - path: '../dataSchemas/care_center/care_center.yaml'
+      iterations: 6
+  constraints: # ../dataSchemas/constraints/constraints_library.yaml
+    - constraint_id: r5s6t7u8-v9w0-x1y2-z3a4b5c6d7e8f9
+      label: "Prioritize by Medical Triage Category"
+      importance_factor: 100 # (0,100)
+      category: "Medical Triage"
+      sub_constraints:
+        - sub_constraint_id: c0d1e2f3-g4h5-i6j7-k8l9-m0n1o2p3q4
+          label: "Refine Medical Triage Priority by Triage Algorithm Rank"
+          description: 
+            - "Refines prioritization by Medical Triage Category by using the rank of the triage algorithm"
+            - "Example output 1.1, 1.2, 1.3."
+            - "The first number represents the triage category and the second number is the rank of the triage algorithm"
+          active: true
+        
+        - sub_constraint_id: f4g5h6i7-j8k9-l0m1-n2o3-p4q5r6s7t8
+          label: "Refine Rank by Triage Algorithm Score"
+          description: 
+            - "Further refines prioritization by Medical Triage Category and Triage Algorithm Rank by applying the Triage Score"
+            - "Example output is 1.1.1, 1.1.2, 1.1.3, 1.2.1, 1.2.2, 1.2.3."
+            - "The first number represents the triage category, the second number is the rank of the triage algorithm, and the third number is the triage score for the triage algorithm."
+          active: true
+          requires: # These constraints or sub_constraints that must be active for this constraint to be allowed to be active
+            - sub_constraint_id: c0d1e2f3-g4h5-i6j7-k8l9-m0n1o2p3q4

@@ -1,0 +1,447 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="assign_final_cf" for="edge" attr.name="assign_final_cf" attr.type="string" />
+  <key id="assign_cf_situational_triage" for="edge" attr.name="assign_cf_situational_triage" attr.type="string" />
+  <key id="assign_cf_reverse_triage" for="edge" attr.name="assign_cf_reverse_triage" attr.type="string" />
+  <key id="assign_cf_primary_triage" for="edge" attr.name="assign_cf_primary_triage" attr.type="string" />
+  <key id="assign_final_asset" for="edge" attr.name="assign_final_asset" attr.type="string" />
+  <key id="assign_asset_situational_triage" for="edge" attr.name="assign_asset_situational_triage" attr.type="string" />
+  <key id="assign_asset_reverse_triage" for="edge" attr.name="assign_asset_reverse_triage" attr.type="string" />
+  <key id="assign_asset_primary_triage" for="edge" attr.name="assign_asset_primary_triage" attr.type="string" />
+  <key id="accept_final" for="edge" attr.name="accept_final" attr.type="string" />
+  <key id="accept_possible" for="edge" attr.name="accept_possible" attr.type="string" />
+  <key id="type_cf" for="node" attr.name="type_cf" attr.type="string" />
+  <key id="type_asset" for="node" attr.name="type_asset" attr.type="string" />
+  <key id="type_casualty" for="node" attr.name="type_casualty" attr.type="string" />
+  <key id="select_situational_triage" for="node" attr.name="select_situational_triage" attr.type="string" />
+  <key id="select_reverse_triage" for="node" attr.name="select_reverse_triage" attr.type="string" />
+  <key id="select_primary_solution" for="node" attr.name="select_primary_solution" attr.type="string" />
+  <key id="type_final_solution" for="node" attr.name="type_final_solution" attr.type="string" />
+  <key id="solution_found" for="node" attr.name="solution_found" attr.type="string" />
+  <key id="type_none" for="node" attr.name="type_none" attr.type="string" />
+  <key id="type_situational" for="node" attr.name="type_situational" attr.type="string" />
+  <key id="type_reverse" for="node" attr.name="type_reverse" attr.type="string" />
+  <key id="type_primary" for="node" attr.name="type_primary" attr.type="string" />
+  <key id="use_opt" for="node" attr.name="use_opt" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="PRIMARY">
+      <data key="use_opt">0,0</data>
+      <data key="type_primary">1,1</data>
+    </node>
+    <node id="REVERSE">
+      <data key="use_opt">0,0</data>
+      <data key="type_reverse">1,1</data>
+    </node>
+    <node id="SITUATIONAL">
+      <data key="use_opt">1,1</data>
+      <data key="type_situational">1,1</data>
+    </node>
+    <node id="None">
+      <data key="type_none">1,1</data>
+    </node>
+    <node id="final_solution">
+      <data key="solution_found">0,1</data>
+      <data key="type_final_solution">1,1</data>
+      <data key="select_primary_solution">0,1</data>
+      <data key="select_reverse_triage">0,1</data>
+      <data key="select_situational_triage">0,1</data>
+    </node>
+    <node id="Casualty 406">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 26">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 72">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 134">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 259">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 115">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 404">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 324">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 204">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 351">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 239">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 269">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 388">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 339">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 122">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 321">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 313">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 31">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 407">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 131">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 198">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 479">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 133">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 413">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Casualty 2">
+      <data key="type_casualty">1,1</data>
+    </node>
+    <node id="Asset 251">
+      <data key="type_asset">1,1</data>
+    </node>
+    <node id="Care Facility 1">
+      <data key="type_cf">1,1</data>
+    </node>
+    <edge source="final_solution" target="PRIMARY">
+      <data key="accept_possible">0,1</data>
+      <data key="accept_final">0,1</data>
+    </edge>
+    <edge source="final_solution" target="REVERSE">
+      <data key="accept_possible">0,1</data>
+      <data key="accept_final">0,1</data>
+    </edge>
+    <edge source="final_solution" target="SITUATIONAL">
+      <data key="accept_possible">0,1</data>
+      <data key="accept_final">0,1</data>
+    </edge>
+    <edge source="final_solution" target="None">
+      <data key="accept_possible">0,1</data>
+      <data key="accept_final">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 406">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 26">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 72">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 134">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 259">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 115">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 404">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 324">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 204">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 351">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 239">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 269">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 388">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 339">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 122">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 321">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 313">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 31">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 407">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 131">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 198">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 479">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 133">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 413">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Asset 251" target="Casualty 2">
+      <data key="assign_asset_primary_triage">0,1</data>
+      <data key="assign_asset_reverse_triage">0,1</data>
+      <data key="assign_asset_situational_triage">0,1</data>
+      <data key="assign_final_asset">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 406">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 26">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 72">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 134">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 259">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 115">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 404">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 324">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 204">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 351">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 239">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 269">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 388">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 339">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 122">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 321">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 313">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 31">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 407">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 131">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 198">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 479">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 133">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 413">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+    <edge source="Care Facility 1" target="Casualty 2">
+      <data key="assign_cf_primary_triage">0,1</data>
+      <data key="assign_cf_reverse_triage">0,1</data>
+      <data key="assign_cf_situational_triage">0,1</data>
+      <data key="assign_final_cf">0,1</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="final_cf" for="edge" attr.name="final_cf" attr.type="string" />
+  <key id="possible_cf" for="edge" attr.name="possible_cf" attr.type="string" />
+  <key id="triage_score" for="edge" attr.name="triage_score" attr.type="string" />
+  <key id="type_cf" for="node" attr.name="type_cf" attr.type="string" />
+  <key id="type_patient" for="node" attr.name="type_patient" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Adrian Monk">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="20.0" />
+    <node id="Natalie Tieger">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="10.0" />
+    <node id="Leland Stottlemeyer">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="Jake Peralta">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="30.0" />
+    <node id="Sharona Fleming">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="40.0" />
+    <node id="Randy Disher">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="43.0" />
+    <node id="Trudy Monk">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="13.0" />
+    <node id="Charles Kroger">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="95.0" />
+    <node id="Julie Trieger">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="84.0" />
+    <node id="Benjy Fleming">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="82.0" />
+    <node id="Battlefield Medical Center">
+      <data key="type_cf">1,1</data>
+    </node>
+    <node id="Noble Medical Center">
+      <data key="type_cf">1,1</data>
+    </node>
+    <node id="Young hearts Medical Center">
+      <data key="type_cf">1,1</data>
+    </node>
+    <edge source="Adrian Monk" target="20.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="Battlefield Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="Noble Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="Young hearts Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="10.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="Battlefield Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="Noble Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="Young hearts Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="20.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="Battlefield Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="Noble Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="Young hearts Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="30.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="Battlefield Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="Noble Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="Young hearts Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="40.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="Battlefield Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="Noble Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="Young hearts Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="43.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Randy Disher" target="Battlefield Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="Noble Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Randy Disher" target="Young hearts Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="13.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="Battlefield Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="Noble Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="Young hearts Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="95.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="Battlefield Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="Noble Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="Young hearts Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="84.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="Battlefield Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="Noble Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="Young hearts Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="82.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Battlefield Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Noble Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Young hearts Medical Center">
+      <data key="possible_cf">1,1</data>
+      <data key="final_cf">0,1</data>
+    </edge>
+  </graph>
+</graphml>

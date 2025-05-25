@@ -1,0 +1,36 @@
+
+# If gcs value is missing for some person
+gcs_missing(p): [1,1] <-1 gcs_value(p,g):[0,0], type_gcs(g)
+gcs_missing(p): [0,0] <-1 gcs_value(p,g):[0.001,1], type_gcs(g)
+# If sbp value is missing for some person
+sbp_missing(p): [1,1] <-1 sbp_value(p,s):[0,0], type_vital_systolic_blood_pressure(s)
+sbp_missing(p): [0,0] <-1 sbp_value(p,s):[0.001,1], type_vital_systolic_blood_pressure(s)
+# If rr value is missing for some person
+rr_missing(p): [1,1] <-1 rr_value(p,r):[0,0], type_vital_respiration_rate(r)
+rr_missing(p): [0,0] <-1 rr_value(p,r):[0.001,1], type_vital_respiration_rate(r)
+
+# If external_hemorrhage_missing
+external_hemorrhage_missing(p): [1,1] <-1 acs_value(p,ext):[0,0], type_external_hemorrhage(ext)
+external_hemorrhage_missing(p): [0,0] <-1 acs_value(p,ext):[0.001,1], type_external_hemorrhage(ext)
+# If tension_pneumothorax_missing
+tension_pneumothorax_missing(p): [1,1] <-1 acs_value(p,tp):[0,0], type_tension_pneumothorax(tp)
+tension_pneumothorax_missing(p): [0,0] <-1 acs_value(p,tp):[0.001,1], type_tension_pneumothorax(tp)
+# If traumatic_brain_injury_missing
+traumatic_brain_injury_missing(p): [1,1] <-1 acs_value(p,tbi):[0,0], type_traumatic_brain_injury(tbi)
+traumatic_brain_injury_missing(p): [0,0] <-1 acs_value(p,tbi):[0.001,1], type_traumatic_brain_injury(tbi)
+
+# Can compute niss
+compute_niss(p) <-1 external_hemorrhage_missing(p):[0,0]
+compute_niss(p) <-1 tension_pneumothorax_missing(p):[0,0]
+compute_niss(p) <-1 traumatic_brain_injury_missing(p):[0,0]
+
+#Compute rts
+compute_rts(p) <-1 gcs_missing(p):[0,0], sbp_missing(p):[0,0], rr_missing(p):[0,0]
+
+#LIFE
+compute_life(p) <-1 compute_niss(p), compute_rts(p)
+
+
+niss_score(p,n):niss_ann_fn <-1 acs_value(p,i1):[0.001,1], acs_value(p,i2):[0.001,1], acs_value(p,i3):[0.001,1], type_niss(n), compute_niss(p)
+rts_score(p,r):rts_ann_fn <-1 gcs_value(p,gcs):[0.001,1], sbp_value(p,sbp):[0.001,1], rr_value(p,rr):[0.001,1], type_rts(r), compute_rts(p)
+life_score(p,l):life_ann_fn <-1 rts_score(p,r):[0.001,1], niss_score(p,n):[0.001,1], type_life(l), compute_life(p)

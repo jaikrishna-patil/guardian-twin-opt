@@ -1,0 +1,19 @@
+assign_common_triage(A,P) <-0 assign_primary_triage(A,P), assign_reverse_triage(A,P), assign_situational_triage(A,P)
+assign_common_triage(A,P):[0,0] <-0 assign_primary_triage(A,P):[0,0], assign_reverse_triage(A,P), assign_situational_triage(A,P)
+assign_common_triage(A,P):[0,0] <-0 assign_primary_triage(A,P), assign_reverse_triage(A,P):[0,0], assign_situational_triage(A,P)
+assign_common_triage(A,P):[0,0] <-0 assign_primary_triage(A,P), assign_reverse_triage(A,P), assign_situational_triage(A,P):[0,0]
+assign_common_triage(A,P):[0,0] <-0 assign_primary_triage(A,P):[0,0], assign_reverse_triage(A,P):[0,0], assign_situational_triage(A,P)
+assign_common_triage(A,P):[0,0] <-0 assign_primary_triage(A,P), assign_reverse_triage(A,P):[0,0], assign_situational_triage(A,P):[0,0]
+assign_common_triage(A,P):[0,0] <-0 assign_primary_triage(A,P):[0,0], assign_reverse_triage(A,P), assign_situational_triage(A,P):[0,0]
+assign_primary_reverse_triage(A,P):[1,1] <-0 assign_common_triage(A,P):[0,0], assign_primary_triage(A,P), assign_reverse_triage(A,P)
+assign_primary_situational_triage(A,P):[1,1] <-0 assign_common_triage(A,P):[0,0], assign_primary_triage(A,P), assign_situational_triage(A,P)
+assign_reverse_situational_triage(A,P):[1,1] <-0 assign_common_triage(A,P):[0,0], assign_reverse_triage(A,P), assign_situational_triage(A,P)
+assign_primary_reverse_triage(A,P):[0,0] <-0 assign_common_triage(A,P):[0,0], assign_primary_triage(A,P):[0,0], assign_reverse_triage(A,P)
+assign_primary_reverse_triage(A,P):[0,0] <-0 assign_common_triage(A,P):[0,0], assign_primary_triage(A,P), assign_reverse_triage(A,P):[0,0]
+assign_primary_situational_triage(A,P):[0,0] <-0 assign_common_triage(A,P):[0,0], assign_primary_triage(A,P):[0,0], assign_situational_triage(A,P)
+assign_primary_situational_triage(A,P):[0,0] <-0 assign_common_triage(A,P):[0,0], assign_primary_triage(A,P), assign_situational_triage(A,P):[0,0]
+assign_reverse_situational_triage(A,P):[0,0] <-0 assign_common_triage(A,P):[0,0], assign_reverse_triage(A,P):[0,0], assign_situational_triage(A,P)
+assign_reverse_situational_triage(A,P):[0,0] <-0 assign_common_triage(A,P):[0,0], assign_reverse_triage(A,P), assign_situational_triage(A,P):[0,0]
+assign_primary_only_triage(A,P) <-0 assign_common_triage(A,P):[0,0], assign_primary_triage(A,P), assign_primary_reverse_triage(A,P):[0,0], assign_primary_situational_triage(A,P):[0,0]
+assign_reverse_only_triage(A,P) <-0 assign_common_triage(A,P):[0,0], assign_reverse_triage(A,P), assign_primary_reverse_triage(A,P):[0,0], assign_reverse_situational_triage(A,P):[0,0]
+assign_situational_only_triage(A,P) <-0 assign_common_triage(A,P):[0,0], assign_situational_triage(A,P), assign_reverse_situational_triage(A,P):[0,0], assign_primary_situational_triage(A,P):[0,0]

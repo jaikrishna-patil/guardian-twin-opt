@@ -1,0 +1,44 @@
+- constraint_id: r5s6t7u8-v9w0-x1y2-z3a4b5c6d7e8f9
+  label: "Prioritize by Medical Triage Category"
+  importance_factor: # (0,100)
+  category: "Medical Triage"
+  description: 
+    - "The triage category is assigned based on Available Triage Score: [Expectant, Immediate, Urgent, Delayed, Minor, Uninjured]"
+    - "Ranking is assigned based on the following scale: 1 = Immediate, 2 = Urgent, 3 = Expectant, 4 = Delayed, 5 = Minor, 6 = Uninjured"
+  # enabled: true # <boolean> This one is always active
+  sub_constraints:
+    - sub_constraint_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9y0z1
+      label: "Filter by Enabled Triage Algorithms"
+      category: "Filter"
+      description: 
+        - "Only shows output for active triage algorithms"
+        - "Ingnore output for inactive triage algorithms"
+      enabled: # <boolean>
+    
+    - sub_constraint_id: a1b2c3-d4e5-f6g7-h8i9-j0k1l2m3n4o5
+      label: "Filter by Medical Triage Category"
+      category: "Filter"
+      description: 
+        - "Filters the triage category by the following categories: [Expectant, Immediate, Urgent, Delayed, Minor, Uninjured]"
+        - "Example output is 1, 2, 3, 4, 5, 6."
+        - "The number represents the triage category"
+      enabled: # <boolean>
+    
+    - sub_constraint_id: c0d1e2f3-g4h5-i6j7-k8l9-m0n1o2p3q4
+      label: "Refine by Triage Algorithm Prioritization"
+      description: 
+        - "Refines prioritization by Medical Triage Category by using the rank of the triage algorithm"
+        - "Example output 1.1, 1.2, 1.3."
+        - "The first number represents the triage category and the second number is the rank of the triage algorithm"
+      enabled: # <boolean>
+
+
+
+
+
+- constraint_id: c0d1e2f3-g4h5-i6j7-k8l9-m0n1o2p3q4
+  label: "forecasted LSI"
+  importance_factor: # (0,100)
+  category: "Medical Triage"
+  description: 
+    - "The forecasted LSI should be assigned based on the following scale: [1,2,3,4,5]"

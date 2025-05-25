@@ -1,0 +1,59 @@
+  asset_id:
+    _generate_id:
+  serial_number: (1000, 9999)
+  name: "TRV400"
+  manufacturer: "Malloy Aeronautics"
+  model: "TRV400"
+  asset_type: "VTOL"
+  sub_type: ""
+  mission_types: "resupply"
+  landing_distance_required: # if type:CTOL
+  takeoff_distance_required: # if type:CTOL
+  estimated_value(usd): ""
+  range (km): 
+    average:  
+    max: 70
+    max_with_aux_fuel_tanks: # see optional_equipment below
+  speed(km/h):  
+    cruise: 126
+    max: 
+    max_with_aux_fuel_tanks: 
+  fuel:
+    types: 
+    fueltank_capacity(L):
+      internal: 
+      total_with_selected_equipment_options: 
+    fuel_reserves(%): 
+      ideal: 
+      min: 
+  weight_capacity(kg):
+    takeoff_max: 180
+      with_selected_equipment_options: 
+    landing_max: 
+      with_selected_equipment_options: 
+  operational_altitude(m):
+    service: 
+    max: 
+  crew:
+    number:
+    roles:
+  patient_capacity:
+    litter:  
+    ambulatory:
+  equipment_options:
+    auxillary_fuel_tanks: FALSE #affects speed, capacity, range
+      number_of_tanks:
+      fueltank_capacity(L):
+        each:
+        total:
+  operational_conditions:
+    day: TRUE
+    night: TRUE
+    temperature(C):
+      min: 0
+      max: 50
+    adverse_weather: TRUE
+    min_visability_required(km):
+  medevac_capabilities:
+    equipment:
+    patient_handling:

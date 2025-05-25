@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="pre_assign_instance_asset" for="edge" attr.name="pre_assign_instance_asset" attr.type="string" />
+  <key id="pre_assign_instance_person" for="edge" attr.name="pre_assign_instance_person" attr.type="string" />
+  <key id="final_asset" for="edge" attr.name="final_asset" attr.type="string" />
+  <key id="possible_asset" for="edge" attr.name="possible_asset" attr.type="string" />
+  <key id="triage_score" for="edge" attr.name="triage_score" attr.type="string" />
+  <key id="pred_instance_2" for="node" attr.name="pred_instance_2" attr.type="string" />
+  <key id="pred_instance_0" for="node" attr.name="pred_instance_0" attr.type="string" />
+  <key id="pred_instance_1" for="node" attr.name="pred_instance_1" attr.type="string" />
+  <key id="use_instance_0" for="node" attr.name="use_instance_0" attr.type="string" />
+  <key id="use_instance_1" for="node" attr.name="use_instance_1" attr.type="string" />
+  <key id="use_instance_both" for="node" attr.name="use_instance_both" attr.type="string" />
+  <key id="is_empty" for="node" attr.name="is_empty" attr.type="string" />
+  <key id="pred_instance_both" for="node" attr.name="pred_instance_both" attr.type="string" />
+  <key id="type_asset" for="node" attr.name="type_asset" attr.type="string" />
+  <key id="type_patient" for="node" attr.name="type_patient" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Adrian Monk">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="20.0" />
+    <node id="Natalie Tieger">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="10.0" />
+    <node id="Leland Stottlemeyer">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="Jake Peralta">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="30.0" />
+    <node id="Sharona Fleming">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="40.0" />
+    <node id="Randy Disher">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="43.0" />
+    <node id="Trudy Monk">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="13.0" />
+    <node id="Charles Kroger">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="95.0" />
+    <node id="Julie Trieger">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="84.0" />
+    <node id="Benjy Fleming">
+      <data key="type_patient">1,1</data>
+    </node>
+    <node id="82.0" />
+    <node id="Chinook CH47">
+      <data key="type_asset">1,1</data>
+    </node>
+    <node id="Chinook CH99">
+      <data key="type_asset">1,1</data>
+    </node>
+    <node id="Black hawk HH60M">
+      <data key="type_asset">1,1</data>
+    </node>
+    <node id="Truck M1165">
+      <data key="type_asset">1,1</data>
+    </node>
+    <node id="Ambulance M997A3">
+      <data key="type_asset">1,1</data>
+    </node>
+    <node id="instance_both">
+      <data key="pred_instance_both">1,1</data>
+      <data key="is_empty">1,1</data>
+      <data key="use_instance_both">0,1</data>
+      <data key="use_instance_1">0,1</data>
+      <data key="use_instance_0">0,1</data>
+    </node>
+    <node id="instance_1">
+      <data key="pred_instance_1">1,1</data>
+      <data key="is_empty">1, 1</data>
+      <data key="use_instance_both">0,1</data>
+      <data key="use_instance_1">0,1</data>
+      <data key="use_instance_0">0,1</data>
+    </node>
+    <node id="instance_0">
+      <data key="pred_instance_0">1,1</data>
+      <data key="is_empty">1, 1</data>
+      <data key="use_instance_both">0,1</data>
+      <data key="use_instance_1">0,1</data>
+      <data key="use_instance_0">0,1</data>
+    </node>
+    <node id="instance_2">
+      <data key="pred_instance_2">1,1</data>
+      <data key="is_empty">1, 1</data>
+      <data key="use_instance_both">0,1</data>
+      <data key="use_instance_1">0,1</data>
+      <data key="use_instance_0">0,1</data>
+    </node>
+    <edge source="Adrian Monk" target="20.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="Black hawk HH60M">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="Chinook CH47">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="Chinook CH99">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="Truck M1165">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="Ambulance M997A3">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="10.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="Black hawk HH60M">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="Chinook CH47">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="Chinook CH99">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="Truck M1165">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="20.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="Black hawk HH60M">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="Chinook CH47">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="Chinook CH99">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="Truck M1165">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="30.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="Chinook CH99">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="Truck M1165">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="Ambulance M997A3">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="40.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="Chinook CH99">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="Truck M1165">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="43.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Randy Disher" target="Black hawk HH60M">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="Chinook CH47">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="13.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="Chinook CH47">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="Chinook CH99">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="95.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="Black hawk HH60M">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="Chinook CH47">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="Chinook CH99">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="Truck M1165">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="Ambulance M997A3">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="84.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="Black hawk HH60M">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="Chinook CH47">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="Chinook CH99">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="Truck M1165">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="Ambulance M997A3">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="82.0">
+      <data key="triage_score">1,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Black hawk HH60M">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Chinook CH47">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Chinook CH99">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Truck M1165">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Ambulance M997A3">
+      <data key="possible_asset">1,1</data>
+      <data key="final_asset">0,0</data>
+    </edge>
+    <edge source="instance_both" target="Adrian Monk">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_both" target="Black hawk HH60M">
+      <data key="pre_assign_instance_asset">0,0</data>
+    </edge>
+    <edge source="instance_both" target="Chinook CH47">
+      <data key="pre_assign_instance_asset">0,0</data>
+    </edge>
+    <edge source="instance_both" target="Chinook CH99">
+      <data key="pre_assign_instance_asset">0,0</data>
+    </edge>
+    <edge source="instance_both" target="Truck M1165">
+      <data key="pre_assign_instance_asset">0,0</data>
+    </edge>
+    <edge source="instance_both" target="Ambulance M997A3">
+      <data key="pre_assign_instance_asset">0,0</data>
+    </edge>
+    <edge source="instance_both" target="Natalie Tieger">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_both" target="Leland Stottlemeyer">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_both" target="Jake Peralta">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_both" target="Sharona Fleming">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_both" target="Randy Disher">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_both" target="Trudy Monk">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_both" target="Charles Kroger">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_both" target="Julie Trieger">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_both" target="Benjy Fleming">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_1" target="Adrian Monk">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_1" target="Black hawk HH60M">
+      <data key="pre_assign_instance_asset">0,0</data>
+    </edge>
+    <edge source="instance_1" target="Chinook CH47">
+      <data key="pre_assign_instance_asset">0,0</data>
+    </edge>
+    <edge source="instance_1" target="Chinook CH99">
+      <data key="pre_assign_instance_asset">0,0</data>
+    </edge>
+    <edge source="instance_1" target="Truck M1165">
+      <data key="pre_assign_instance_asset">0,0</data>
+    </edge>
+    <edge source="instance_1" target="Ambulance M997A3">
+      <data key="pre_assign_instance_asset">0,0</data>
+    </edge>
+    <edge source="instance_1" target="Natalie Tieger">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_1" target="Leland Stottlemeyer">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_1" target="Jake Peralta">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_1" target="Sharona Fleming">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_1" target="Randy Disher">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_1" target="Trudy Monk">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_1" target="Charles Kroger">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_1" target="Julie Trieger">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_1" target="Benjy Fleming">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_0" target="Adrian Monk">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_0" target="Black hawk HH60M">
+      <data key="pre_assign_instance_asset">0,0</data>
+    </edge>
+    <edge source="instance_0" target="Chinook CH47">
+      <data key="pre_assign_instance_asset">0,0</data>
+    </edge>
+    <edge source="instance_0" target="Chinook CH99">
+      <data key="pre_assign_instance_asset">0,0</data>
+    </edge>
+    <edge source="instance_0" target="Truck M1165">
+      <data key="pre_assign_instance_asset">0,0</data>
+    </edge>
+    <edge source="instance_0" target="Ambulance M997A3">
+      <data key="pre_assign_instance_asset">0,0</data>
+    </edge>
+    <edge source="instance_0" target="Natalie Tieger">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_0" target="Leland Stottlemeyer">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_0" target="Jake Peralta">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_0" target="Sharona Fleming">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_0" target="Randy Disher">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_0" target="Trudy Monk">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_0" target="Charles Kroger">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_0" target="Julie Trieger">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+    <edge source="instance_0" target="Benjy Fleming">
+      <data key="pre_assign_instance_person">0,0</data>
+    </edge>
+  </graph>
+</graphml>

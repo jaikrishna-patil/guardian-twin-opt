@@ -1,0 +1,24 @@
+run_opt(TRIAGE) <-0 use_opt(TRIAGE)
+
+
+accept_final(FINAL_SOL, R) <- type_final_solution(FINAL_SOL), accept_primary(R), type_reverse(R), accept_primary(S):[0,0], type_situational(S)
+accept_final(FINAL_SOL, S) <- type_final_solution(FINAL_SOL), accept_primary(R):[0,0], type_reverse(R), accept_primary(S), type_situational(S)
+accept_final(FINAL_SOL, R) <- type_final_solution(FINAL_SOL), accept_primary(R), type_reverse(R), accept_primary(S), type_situational(S)
+primary_none(FINAL_SOL) <- type_final_solution(FINAL_SOL), accept_primary(R):[0,0], type_reverse(R), accept_primary(S):[0,0], type_situational(S)
+
+accept_final(FINAL_SOL, P) <- primary_none(FINAL_SOL), type_final_solution(FINAL_SOL), accept_reverse(P), type_primary(P), accept_reverse(S):[0,0], type_situational(S)
+accept_final(FINAL_SOL, S) <- primary_none(FINAL_SOL), type_final_solution(FINAL_SOL), accept_reverse(P):[0,0], type_primary(P), accept_reverse(S), type_situational(S)
+accept_final(FINAL_SOL, P) <- primary_none(FINAL_SOL), type_final_solution(FINAL_SOL), accept_reverse(P), type_primary(P), accept_reverse(S), type_situational(S)
+reverse_none(FINAL_SOL) <- primary_none(FINAL_SOL), type_final_solution(FINAL_SOL), accept_reverse(P):[0,0], type_primary(P), accept_reverse(S):[0,0], type_situational(S)
+
+accept_final(FINAL_SOL, P) <- reverse_none(FINAL_SOL), type_final_solution(FINAL_SOL), accept_situational(P), type_primary(P), accept_situational(R):[0,0], type_reverse(R)
+accept_final(FINAL_SOL, R) <- reverse_none(FINAL_SOL), type_final_solution(FINAL_SOL), accept_situational(P):[0,0], type_primary(P), accept_situational(R), type_reverse(R)
+accept_final(FINAL_SOL, P) <- reverse_none(FINAL_SOL), type_final_solution(FINAL_SOL), accept_situational(P), type_primary(P), accept_situational(R), type_reverse(R)
+situational_none(FINAL_SOL) <- reverse_none(FINAL_SOL), type_final_solution(FINAL_SOL), accept_situational(P):[0,0], type_primary(P), accept_situational(R):[0,0], type_reverse(R)
+
+accept_final(FINAL_SOL, N) <- type_final_solution(FINAL_SOL), type_none(N), reverse_none(FINAL_SOL), primary_none(FINAL_SOL), situational_none(FINAL_SOL)
+
+#accept_final(FINAL_SOL, N):[0,0] <- type_final_solution(FINAL_SOL), type_none(N), accept_final(FINAL_SOL, N), accept_final(FINAL_SOL, P), type_primary(P)
+#accept_final(FINAL_SOL, N):[0,0] <- type_final_solution(FINAL_SOL), type_none(N), accept_final(FINAL_SOL, N), accept_final(FINAL_SOL, R), type_reverse(R)
+#accept_final(FINAL_SOL, N):[0,0] <- type_final_solution(FINAL_SOL), type_none(N), accept_final(FINAL_SOL, N), accept_final(FINAL_SOL, S), type_situational(S)
+

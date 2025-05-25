@@ -1,0 +1,73 @@
+isop_id:
+  _get_id: "isop_id"
+# mechanism_of_injury:
+#   dateTime: "!" # REQUIRED -- Q: "When did the incident happen?" 
+#   dateTime_accuracy: # OPTIONAL -- Q: "How confident are you on the time of the incident?" NOTE: this could affect forecast confidence scores
+#     selection_type: single!
+#     options:
+#       - 1: "Very Confident"
+#       - 2: "Somewhat Confident"
+#       - 3: "Best Guess"
+#       - 4: "Don't Know"
+#   summary: # OPTIONAL -- Q: "Describe the incident and mechanism of injury."
+#   types: # OPTIONAL -- Q: "Select the mechanism of injury." NOTE - for now may not align with insults generated
+#     _generate_list: 
+#       schema: "../dataSchemas/injuries/MOIs.yaml" 
+#       count: (1,3) 
+
+
+evacuation_category: # REQUIRED -- Q: "Select the category of evacuation."
+  selection_type: single! 
+  options:
+    - litter: L # Patient will require litter
+    - ambulatory: A # Patient is able to move
+
+medical_triage_record: # REQUIRED  
+## A new triage status timestamp should be automatically updated with each new entry into the patient record if the entry is an input for a triage score. 
+## Please see ../triage/medical_triage_status.yaml for schema.
+
+forecasts:
+  interventions:
+    _generate_list:
+      schema: "../dataSchemas/life_saving_interventions/LSIs.yaml"
+      count: (0,3) # value or range of instances to generate
+      timestamp:
+        timedelta(min): (0, 120) # range of minutes to randomly increment timestamps
+        start_in: future
+        start_window: (30, 180) # range of minutes to randomly start the timestamps from
+  resources_needed: (0,4) # OPTIONAL
+
+resources: # OPTIONAL
+  current_inventory: (0,4) # OPTIONAL -- Q: "What medical supplies do you still have on you?"
+  used: # OPTIONAL -- Q: "What medical supplies have you had to use?"
+
+patient_record:
+  insults:
+    _generate_list:
+      schema: "../dataSchemas/injuries/insults.yaml"
+      count: (0,3) 
+      timestamp:
+        timedelta(min): (10,15) 
+        start_in: past
+        start_window: (60, 240)
+  vitals:
+    _generate_list:
+      schema: "../dataSchemas/vitals/vital_instances.yaml"
+      count: (0,10) 
+      timestamp:
+        timedelta(min): (0,15) 
+        start_in: past
+        start_window: (60, 240)
+  observations:
+    _generate_list:
+      schema: "../dataSchemas/observations/observations.yaml"
+      count: (0,4) 
+      timestamp:
+        timedelta(min): (15,60) 
+        start_in: past
+        start_window: (60, 240)
+  interventions:
+  medications:
+
+
+

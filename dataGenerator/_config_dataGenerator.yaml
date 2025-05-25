@@ -1,0 +1,25 @@
+# config_dataGenerator.yaml
+# This is the configuration file for the dataGenerator package.
+# It specifies the format, output path, and other settings for generating data scenarios.
+
+# Author: Adam Chapman
+# Date: 2027-07-25
+# License: MIT License (or any other relevant license)
+
+# Dependencies:
+# - Ensure that the paths specified in this file are correct and accessible.
+# - This configuration file should be used with the dataGenerator package.
+
+# Configuration Settings:
+# - format: REQUIRED - Specifies the format of the configuration file ('yaml' or 'json').
+# - output_path: REQUIRED - The directory where the generated data will be saved.  If the directory does not exist, it will be created.
+# - output_filename_prefix: OPTIONAL - An optional prefix for the output filenames.
+# - scenarios_path: REQUIRED -The path to the scenario files directory.
+# - specific_scenario_ids: OPTIONAL - A list of scenario IDs to filter and generate specific scenarios. Leave empty to generate all.
+
+
+"format": 'yaml' 
+"output_path": '../data/scenario_data/' 
+"output_filename_prefix": 'scenario_' 
+"scenarios_path": '../dataSchemas/_scenarios/'
+"specific_scenario_ids": []

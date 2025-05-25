@@ -1,0 +1,102 @@
+# This schema is a mix of asset attributes and state for ease of datageneration
+# In reality this schema would be split into two separate schemas: asset_state and asset_detail
+
+asset_id:
+  _generate_uuid:
+asset_type_id: 4h5i6j7k-9l0m-1n2o-3p4q-5r6s7t8u9v0w
+serial_number: (1000, 9999)
+name: "MEDEVAC Black Hawk"
+manufacturer: "Sikorsky Aircraft"
+model: "HH-60M"
+asset_type: "VTOL"
+mission_types: "medevac"
+locations:
+  _generate_list: # ignore - used for data generation only
+      schema: "../dataSchemas/locations/waypoint_locations_blackhawk.yaml" # location of schema file to generate data from
+      count: (1,3) # value or range of instances to generate
+      timestamp:
+        timedelta(min): (5,60) # range of minutes to randomly increment timestamps
+        start_in: past
+        start_window: (60, 240) # range of minutes to randomly start the timestamps from
+crew:
+  number: 4
+  roles:
+    - "pilot" 
+    - "co-pilot"
+    - "crew chief"
+    - "flight medic"
+  status: 
+    selection_type: "single!"
+    options: 
+      - Ready
+      - On Standby
+      - Grounded
+  duty_hours_remaining: (0,8)
+  return_to_duty_hours_remaining: # if duty_hours_remaining = 0, then (0,12)
+patient_capacity:
+  litter: 
+    max: 6
+    available: (0,6)  
+  ambulatory:
+    max: 6
+    available: (0,6)
+range (km):
+  average: 670 # range with fuel reserve safety margins
+  available: (0,670)
+  max: 1111
+  max_available: (0,1111)
+  max_with_aux_fuel_tanks: 2555 # see optional_equipment below
+speed(km/h):  
+  cruise: 280 
+  max: 357
+  max_with_aux_fuel_tanks: 300
+ctol:
+  landing_distance_required: # if type:CTOL
+  takeoff_distance_required: # if type:CTOL
+fuel:
+  types: 
+    - "JP-8"
+    - "Jet A-1"
+  fueltank_capacity(L):
+    internal: 1360
+    total_with_selected_equipment_options: 3100 
+  fuel_reserves(%): 
+    ideal: 15
+    min: 5
+weight_capacity(kg):
+  takeoff:
+    _max: 9979
+    _max_with_selected_options: 8500
+  landing:
+    _max: 9979
+    _max_with_selected_options: 8500
+operational_altitude(m):
+  service: 5790
+  max: 5914
+equipment_options:
+  - auxillary_fuel_tanks:
+      selected: false #affects speed, capacity, range
+      number_of_tanks: 2
+      fueltank_capacity(L):
+        each: 870
+        total: 1740
+estimated_value(usd): "$20M"
+operational_conditions:
+  day: TRUE
+  night: TRUE
+  temperature(C):
+    min: 0
+    max: 50
+  adverse_weather: TRUE
+  min_visability_required(km):
+medevac_capabilities:
+  equipment:
+  - "IV provisions"
+  - "Medical monitoring systems (vital signs, EKG, etc.)"
+  - "Advanced life support equipment (ventilators, defibrillators, etc.)"
+  - "oxygen generation system"
+  - "medical suction system"
+  - "medical electrical power (115VAC/60Hz)"
+  - "high intensity lighting"
+  patient_handling:
+  - "patient litter lift system"

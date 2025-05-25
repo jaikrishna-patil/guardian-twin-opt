@@ -1,0 +1,1008 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="patient_litter_lift_system_satisfied" for="edge" attr.name="patient_litter_lift_system_satisfied" attr.type="string" />
+  <key id="oxygen_generation_system_satisfied" for="edge" attr.name="oxygen_generation_system_satisfied" attr.type="string" />
+  <key id="life_support_equipment_satisfied" for="edge" attr.name="life_support_equipment_satisfied" attr.type="string" />
+  <key id="medical_monitoring_system_satisfied" for="edge" attr.name="medical_monitoring_system_satisfied" attr.type="string" />
+  <key id="iv_provision_satisfied" for="edge" attr.name="iv_provision_satisfied" attr.type="string" />
+  <key id="day_night_satisfied" for="edge" attr.name="day_night_satisfied" attr.type="string" />
+  <key id="weather_satisfied" for="edge" attr.name="weather_satisfied" attr.type="string" />
+  <key id="litter_ambulatory_satisfied" for="edge" attr.name="litter_ambulatory_satisfied" attr.type="string" />
+  <key id="mission_vehicle_satisfied" for="edge" attr.name="mission_vehicle_satisfied" attr.type="string" />
+  <key id="mission_type_satisfied" for="edge" attr.name="mission_type_satisfied" attr.type="string" />
+  <key id="option_assets" for="edge" attr.name="option_assets" attr.type="string" />
+  <key id="has_patient_litter_lift_system" for="node" attr.name="has_patient_litter_lift_system" attr.type="string" />
+  <key id="has_oxygen_generation_system" for="node" attr.name="has_oxygen_generation_system" attr.type="string" />
+  <key id="has_life_support_equipment" for="node" attr.name="has_life_support_equipment" attr.type="string" />
+  <key id="has_medical_monitoring_system" for="node" attr.name="has_medical_monitoring_system" attr.type="string" />
+  <key id="has_iv_provisions" for="node" attr.name="has_iv_provisions" attr.type="string" />
+  <key id="operational_adverse_weather" for="node" attr.name="operational_adverse_weather" attr.type="string" />
+  <key id="operational_night" for="node" attr.name="operational_night" attr.type="string" />
+  <key id="operational_day" for="node" attr.name="operational_day" attr.type="string" />
+  <key id="asset_ambulatory_capacity" for="node" attr.name="asset_ambulatory_capacity" attr.type="long" />
+  <key id="asset_litter_capacity" for="node" attr.name="asset_litter_capacity" attr.type="long" />
+  <key id="asset_mission_type_resupply" for="node" attr.name="asset_mission_type_resupply" attr.type="string" />
+  <key id="asset_mission_type_evac" for="node" attr.name="asset_mission_type_evac" attr.type="string" />
+  <key id="asset_mission_type_medevac" for="node" attr.name="asset_mission_type_medevac" attr.type="string" />
+  <key id="asset_status_available" for="node" attr.name="asset_status_available" attr.type="string" />
+  <key id="asset_type_ground" for="node" attr.name="asset_type_ground" attr.type="string" />
+  <key id="asset_type_ctol" for="node" attr.name="asset_type_ctol" attr.type="string" />
+  <key id="asset_type_vtol" for="node" attr.name="asset_type_vtol" attr.type="string" />
+  <key id="asset_id" for="node" attr.name="asset_id" attr.type="long" />
+  <key id="type_asset" for="node" attr.name="type_asset" attr.type="string" />
+  <key id="require_patient_litter_lift_system" for="node" attr.name="require_patient_litter_lift_system" attr.type="string" />
+  <key id="require_oxygen_generation_system" for="node" attr.name="require_oxygen_generation_system" attr.type="string" />
+  <key id="require_life_support_equipment" for="node" attr.name="require_life_support_equipment" attr.type="string" />
+  <key id="require_medical_monitoring_system" for="node" attr.name="require_medical_monitoring_system" attr.type="string" />
+  <key id="require_iv_provisions" for="node" attr.name="require_iv_provisions" attr.type="string" />
+  <key id="night_mission" for="node" attr.name="night_mission" attr.type="string" />
+  <key id="day_mission" for="node" attr.name="day_mission" attr.type="string" />
+  <key id="weather_condition_clear" for="node" attr.name="weather_condition_clear" attr.type="string" />
+  <key id="ambulatory_spaces_required" for="node" attr.name="ambulatory_spaces_required" attr.type="long" />
+  <key id="litters_spaces_required" for="node" attr.name="litters_spaces_required" attr.type="long" />
+  <key id="require_ground" for="node" attr.name="require_ground" attr.type="string" />
+  <key id="require_ctol" for="node" attr.name="require_ctol" attr.type="string" />
+  <key id="require_vtol" for="node" attr.name="require_vtol" attr.type="string" />
+  <key id="resupply_needed" for="node" attr.name="resupply_needed" attr.type="string" />
+  <key id="evac_needed" for="node" attr.name="evac_needed" attr.type="string" />
+  <key id="medevac_needed" for="node" attr.name="medevac_needed" attr.type="string" />
+  <key id="mission_id" for="node" attr.name="mission_id" attr.type="long" />
+  <key id="type_mission" for="node" attr.name="type_mission" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Adrian Monk">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">2</data>
+      <data key="medevac_needed">1,1</data>
+      <data key="evac_needed">0,0</data>
+      <data key="resupply_needed">0,0</data>
+      <data key="require_vtol">1,1</data>
+      <data key="require_ctol">0,0</data>
+      <data key="require_ground">0,0</data>
+      <data key="litters_spaces_required">2</data>
+      <data key="ambulatory_spaces_required">3</data>
+      <data key="weather_condition_clear">1,1</data>
+      <data key="day_mission">1,1</data>
+      <data key="night_mission">0,0</data>
+      <data key="require_iv_provisions">0,0</data>
+      <data key="require_medical_monitoring_system">0,0</data>
+      <data key="require_life_support_equipment">0,0</data>
+      <data key="require_oxygen_generation_system">0,0</data>
+      <data key="require_patient_litter_lift_system">0,0</data>
+    </node>
+    <node id="Natalie Tieger">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">3</data>
+      <data key="medevac_needed">0,0</data>
+      <data key="evac_needed">1,1</data>
+      <data key="resupply_needed">0,0</data>
+      <data key="require_vtol">0,0</data>
+      <data key="require_ctol">1,1</data>
+      <data key="require_ground">0,0</data>
+      <data key="litters_spaces_required">0</data>
+      <data key="ambulatory_spaces_required">1</data>
+      <data key="weather_condition_clear">1,1</data>
+      <data key="day_mission">1,1</data>
+      <data key="night_mission">0,0</data>
+      <data key="require_iv_provisions">0,0</data>
+      <data key="require_medical_monitoring_system">0,0</data>
+      <data key="require_life_support_equipment">0,0</data>
+      <data key="require_oxygen_generation_system">0,0</data>
+      <data key="require_patient_litter_lift_system">0,0</data>
+    </node>
+    <node id="Leland Stottlemeyer">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">4</data>
+      <data key="medevac_needed">1,1</data>
+      <data key="evac_needed">0,0</data>
+      <data key="resupply_needed">0,0</data>
+      <data key="require_vtol">1,1</data>
+      <data key="require_ctol">0,0</data>
+      <data key="require_ground">0,0</data>
+      <data key="litters_spaces_required">1</data>
+      <data key="ambulatory_spaces_required">0</data>
+      <data key="weather_condition_clear">1,1</data>
+      <data key="day_mission">1,1</data>
+      <data key="night_mission">0,0</data>
+      <data key="require_iv_provisions">0,0</data>
+      <data key="require_medical_monitoring_system">1,1</data>
+      <data key="require_life_support_equipment">0,0</data>
+      <data key="require_oxygen_generation_system">1,1</data>
+      <data key="require_patient_litter_lift_system">1,1</data>
+    </node>
+    <node id="Jake Peralta">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">5</data>
+      <data key="medevac_needed">1,1</data>
+      <data key="evac_needed">0,0</data>
+      <data key="resupply_needed">0,0</data>
+      <data key="require_vtol">1,1</data>
+      <data key="require_ctol">0,0</data>
+      <data key="require_ground">0,0</data>
+      <data key="litters_spaces_required">1</data>
+      <data key="ambulatory_spaces_required">0</data>
+      <data key="weather_condition_clear">1,1</data>
+      <data key="day_mission">1,1</data>
+      <data key="night_mission">1,1</data>
+      <data key="require_iv_provisions">1,1</data>
+      <data key="require_medical_monitoring_system">1,1</data>
+      <data key="require_life_support_equipment">0,0</data>
+      <data key="require_oxygen_generation_system">0,0</data>
+      <data key="require_patient_litter_lift_system">1,1</data>
+    </node>
+    <node id="Sharona Fleming">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">6</data>
+      <data key="medevac_needed">1,1</data>
+      <data key="evac_needed">0,0</data>
+      <data key="resupply_needed">0,0</data>
+      <data key="require_vtol">0,0</data>
+      <data key="require_ctol">1,1</data>
+      <data key="require_ground">0,0</data>
+      <data key="litters_spaces_required">1</data>
+      <data key="ambulatory_spaces_required">0</data>
+      <data key="weather_condition_clear">1,1</data>
+      <data key="day_mission">1,1</data>
+      <data key="night_mission">0,0</data>
+      <data key="require_iv_provisions">1,1</data>
+      <data key="require_medical_monitoring_system">1,1</data>
+      <data key="require_life_support_equipment">0,0</data>
+      <data key="require_oxygen_generation_system">0,0</data>
+      <data key="require_patient_litter_lift_system">1,1</data>
+    </node>
+    <node id="Randy Disher">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">7</data>
+      <data key="medevac_needed">1,1</data>
+      <data key="evac_needed">0,0</data>
+      <data key="resupply_needed">0,0</data>
+      <data key="require_vtol">1,1</data>
+      <data key="require_ctol">0,0</data>
+      <data key="require_ground">0,0</data>
+      <data key="litters_spaces_required">1</data>
+      <data key="ambulatory_spaces_required">0</data>
+      <data key="weather_condition_clear">0,0</data>
+      <data key="day_mission">1,1</data>
+      <data key="night_mission">0,0</data>
+      <data key="require_iv_provisions">1,1</data>
+      <data key="require_medical_monitoring_system">1,1</data>
+      <data key="require_life_support_equipment">0,0</data>
+      <data key="require_oxygen_generation_system">0,0</data>
+      <data key="require_patient_litter_lift_system">1,1</data>
+    </node>
+    <node id="Trudy Monk">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">8</data>
+      <data key="medevac_needed">0,0</data>
+      <data key="evac_needed">1,1</data>
+      <data key="resupply_needed">0,0</data>
+      <data key="require_vtol">0,0</data>
+      <data key="require_ctol">1,1</data>
+      <data key="require_ground">0,0</data>
+      <data key="litters_spaces_required">0</data>
+      <data key="ambulatory_spaces_required">1</data>
+      <data key="weather_condition_clear">1,1</data>
+      <data key="day_mission">1,1</data>
+      <data key="night_mission">0,0</data>
+      <data key="require_iv_provisions">0,0</data>
+      <data key="require_medical_monitoring_system">0,0</data>
+      <data key="require_life_support_equipment">0,0</data>
+      <data key="require_oxygen_generation_system">0,0</data>
+      <data key="require_patient_litter_lift_system">0,0</data>
+    </node>
+    <node id="Charles Kroger">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">9</data>
+      <data key="medevac_needed">0,0</data>
+      <data key="evac_needed">1,1</data>
+      <data key="resupply_needed">0,0</data>
+      <data key="require_vtol">0,0</data>
+      <data key="require_ctol">0,0</data>
+      <data key="require_ground">1,1</data>
+      <data key="litters_spaces_required">0</data>
+      <data key="ambulatory_spaces_required">1</data>
+      <data key="weather_condition_clear">0,0</data>
+      <data key="day_mission">1,1</data>
+      <data key="night_mission">1,1</data>
+      <data key="require_iv_provisions">0,0</data>
+      <data key="require_medical_monitoring_system">0,0</data>
+      <data key="require_life_support_equipment">0,0</data>
+      <data key="require_oxygen_generation_system">0,0</data>
+      <data key="require_patient_litter_lift_system">0,0</data>
+    </node>
+    <node id="Julie Trieger">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">10</data>
+      <data key="medevac_needed">0,0</data>
+      <data key="evac_needed">1,1</data>
+      <data key="resupply_needed">0,0</data>
+      <data key="require_vtol">0,0</data>
+      <data key="require_ctol">0,0</data>
+      <data key="require_ground">1,1</data>
+      <data key="litters_spaces_required">0</data>
+      <data key="ambulatory_spaces_required">1</data>
+      <data key="weather_condition_clear">1,1</data>
+      <data key="day_mission">1,1</data>
+      <data key="night_mission">0,0</data>
+      <data key="require_iv_provisions">0,0</data>
+      <data key="require_medical_monitoring_system">0,0</data>
+      <data key="require_life_support_equipment">0,0</data>
+      <data key="require_oxygen_generation_system">0,0</data>
+      <data key="require_patient_litter_lift_system">0,0</data>
+    </node>
+    <node id="Benjy Fleming">
+      <data key="type_mission">1,1</data>
+      <data key="mission_id">11</data>
+      <data key="medevac_needed">0,0</data>
+      <data key="evac_needed">1,1</data>
+      <data key="resupply_needed">0,0</data>
+      <data key="require_vtol">0,0</data>
+      <data key="require_ctol">0,0</data>
+      <data key="require_ground">1,1</data>
+      <data key="litters_spaces_required">0</data>
+      <data key="ambulatory_spaces_required">1</data>
+      <data key="weather_condition_clear">1,1</data>
+      <data key="day_mission">1,1</data>
+      <data key="night_mission">1,1</data>
+      <data key="require_iv_provisions">0,0</data>
+      <data key="require_medical_monitoring_system">0,0</data>
+      <data key="require_life_support_equipment">0,0</data>
+      <data key="require_oxygen_generation_system">0,0</data>
+      <data key="require_patient_litter_lift_system">0,0</data>
+    </node>
+    <node id="Black hawk HH60M">
+      <data key="type_asset">1,1</data>
+      <data key="asset_id">2</data>
+      <data key="asset_type_vtol">1,1</data>
+      <data key="asset_type_ctol">0,0</data>
+      <data key="asset_type_ground">0,0</data>
+      <data key="asset_status_available">1,1</data>
+      <data key="asset_mission_type_medevac">1,1</data>
+      <data key="asset_mission_type_evac">0,0</data>
+      <data key="asset_mission_type_resupply">0,0</data>
+      <data key="asset_litter_capacity">6</data>
+      <data key="asset_ambulatory_capacity">6</data>
+      <data key="operational_day">1,1</data>
+      <data key="operational_night">1,1</data>
+      <data key="operational_adverse_weather">1,1</data>
+      <data key="has_iv_provisions">1,1</data>
+      <data key="has_medical_monitoring_system">1,1</data>
+      <data key="has_life_support_equipment">1,1</data>
+      <data key="has_oxygen_generation_system">1,1</data>
+      <data key="has_patient_litter_lift_system">1,1</data>
+    </node>
+    <node id="Chinook CH47">
+      <data key="type_asset">1,1</data>
+      <data key="asset_id">3</data>
+      <data key="asset_type_vtol">1,1</data>
+      <data key="asset_type_ctol">0,0</data>
+      <data key="asset_type_ground">0,0</data>
+      <data key="asset_status_available">1,1</data>
+      <data key="asset_mission_type_medevac">1,1</data>
+      <data key="asset_mission_type_evac">0,0</data>
+      <data key="asset_mission_type_resupply">0,0</data>
+      <data key="asset_litter_capacity">24</data>
+      <data key="asset_ambulatory_capacity">24</data>
+      <data key="operational_day">1,1</data>
+      <data key="operational_night">1,1</data>
+      <data key="operational_adverse_weather">1,1</data>
+      <data key="has_iv_provisions">1,1</data>
+      <data key="has_medical_monitoring_system">1,1</data>
+      <data key="has_life_support_equipment">1,1</data>
+      <data key="has_oxygen_generation_system">1,1</data>
+      <data key="has_patient_litter_lift_system">1,1</data>
+    </node>
+    <node id="Ambulance M997A3">
+      <data key="type_asset">1,1</data>
+      <data key="asset_id">4</data>
+      <data key="asset_type_vtol">0,0</data>
+      <data key="asset_type_ctol">0,0</data>
+      <data key="asset_type_ground">1,1</data>
+      <data key="asset_status_available">1,1</data>
+      <data key="asset_mission_type_medevac">1,1</data>
+      <data key="asset_mission_type_evac">0,0</data>
+      <data key="asset_mission_type_resupply">0,0</data>
+      <data key="asset_litter_capacity">4</data>
+      <data key="asset_ambulatory_capacity">4</data>
+      <data key="operational_day">1,1</data>
+      <data key="operational_night">1,1</data>
+      <data key="operational_adverse_weather">0,0</data>
+      <data key="has_iv_provisions">1,1</data>
+      <data key="has_medical_monitoring_system">1,1</data>
+      <data key="has_life_support_equipment">1,1</data>
+      <data key="has_oxygen_generation_system">1,1</data>
+      <data key="has_patient_litter_lift_system">1,1</data>
+    </node>
+    <node id="Truck M1165">
+      <data key="type_asset">1,1</data>
+      <data key="asset_id">5</data>
+      <data key="asset_type_vtol">0,0</data>
+      <data key="asset_type_ctol">0,0</data>
+      <data key="asset_type_ground">1,1</data>
+      <data key="asset_status_available">1,1</data>
+      <data key="asset_mission_type_medevac">0,0</data>
+      <data key="asset_mission_type_evac">1,1</data>
+      <data key="asset_mission_type_resupply">0,0</data>
+      <data key="asset_litter_capacity">0</data>
+      <data key="asset_ambulatory_capacity">12</data>
+      <data key="operational_day">1,1</data>
+      <data key="operational_night">1,1</data>
+      <data key="operational_adverse_weather">1,1</data>
+      <data key="has_iv_provisions">0,0</data>
+      <data key="has_medical_monitoring_system">0,0</data>
+      <data key="has_life_support_equipment">0,0</data>
+      <data key="has_oxygen_generation_system">0,0</data>
+      <data key="has_patient_litter_lift_system">0,0</data>
+    </node>
+    <node id="Chinook CH99">
+      <data key="type_asset">1,1</data>
+      <data key="asset_id">6</data>
+      <data key="asset_type_vtol">0,0</data>
+      <data key="asset_type_ctol">1,1</data>
+      <data key="asset_type_ground">0,0</data>
+      <data key="asset_status_available">1,1</data>
+      <data key="asset_mission_type_medevac">0,0</data>
+      <data key="asset_mission_type_evac">1,1</data>
+      <data key="asset_mission_type_resupply">0,0</data>
+      <data key="asset_litter_capacity">0</data>
+      <data key="asset_ambulatory_capacity">10</data>
+      <data key="operational_day">1,1</data>
+      <data key="operational_night">1,1</data>
+      <data key="operational_adverse_weather">1,1</data>
+      <data key="has_iv_provisions">0,0</data>
+      <data key="has_medical_monitoring_system">0,0</data>
+      <data key="has_life_support_equipment">0,0</data>
+      <data key="has_oxygen_generation_system">0,0</data>
+      <data key="has_patient_litter_lift_system">0,0</data>
+    </node>
+    <edge source="Adrian Monk" target="Black hawk HH60M">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="Chinook CH47">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="Ambulance M997A3">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="Truck M1165">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="Chinook CH99">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="Black hawk HH60M">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="Chinook CH47">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="Ambulance M997A3">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="Truck M1165">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="Chinook CH99">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="Black hawk HH60M">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="Chinook CH47">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="Ambulance M997A3">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="Truck M1165">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="Chinook CH99">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="Black hawk HH60M">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="Chinook CH47">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="Ambulance M997A3">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="Truck M1165">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="Chinook CH99">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="Black hawk HH60M">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="Chinook CH47">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="Ambulance M997A3">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="Truck M1165">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="Chinook CH99">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="Black hawk HH60M">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="Chinook CH47">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="Ambulance M997A3">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="Truck M1165">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="Chinook CH99">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="Black hawk HH60M">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="Chinook CH47">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="Ambulance M997A3">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="Truck M1165">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="Chinook CH99">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="Black hawk HH60M">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="Chinook CH47">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="Ambulance M997A3">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="Truck M1165">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="Chinook CH99">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="Black hawk HH60M">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="Chinook CH47">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="Ambulance M997A3">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="Truck M1165">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="Chinook CH99">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Black hawk HH60M">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Chinook CH47">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Ambulance M997A3">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Truck M1165">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="Chinook CH99">
+      <data key="option_assets">0,0</data>
+      <data key="mission_type_satisfied">0,0</data>
+      <data key="mission_vehicle_satisfied">0,0</data>
+      <data key="litter_ambulatory_satisfied">0,0</data>
+      <data key="weather_satisfied">0,0</data>
+      <data key="day_night_satisfied">0,0</data>
+      <data key="iv_provision_satisfied">0,0</data>
+      <data key="medical_monitoring_system_satisfied">0,0</data>
+      <data key="life_support_equipment_satisfied">0,0</data>
+      <data key="oxygen_generation_system_satisfied">0,0</data>
+      <data key="patient_litter_lift_system_satisfied">0,0</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,44 @@
+# mission types
+mission_type_satisfied(MISSION,ASSET) <-0 mission_type_satisfied(MISSION,ASSET):[0,0], medevac_needed(MISSION), asset_mission_type_medevac(ASSET)
+mission_type_satisfied(MISSION,ASSET) <-0 mission_type_satisfied(MISSION,ASSET):[0,0], evac_needed(MISSION), asset_mission_type_evac(ASSET)
+mission_type_satisfied(MISSION,ASSET) <-0 mission_type_satisfied(MISSION,ASSET):[0,0], resupply_needed(MISSION), asset_mission_type_resupply(ASSET)
+
+#mission_vehicle_satisfied
+mission_vehicle_satisfied(MISSION,ASSET) <-0 mission_vehicle_satisfied(MISSION,ASSET):[0,0], require_vtol(MISSION), asset_type_vtol(ASSET)
+mission_vehicle_satisfied(MISSION,ASSET) <-0 mission_vehicle_satisfied(MISSION,ASSET):[0,0], require_ctol(MISSION), asset_type_ctol(ASSET)
+mission_vehicle_satisfied(MISSION,ASSET) <-0 mission_vehicle_satisfied(MISSION,ASSET):[0,0], require_ground(MISSION), asset_type_ground(ASSET)
+
+#litter_ambulatory_satisfied
+#litter_ambulatory_satisfied(MISSION,ASSET) <-0 litter_ambulatory_satisfied(MISSION,ASSET):[0,0], asset_litter_capacity(ASSET)>=litters_spaces_required(MISSION), asset_ambulatory_capacity(ASSET)>=ambulatory_spaces_required(MISSION)
+
+#weather_satisfied
+weather_satisfied(MISSION,ASSET) <-0 weather_satisfied(MISSION,ASSET):[0,0], weather_condition_clear(MISSION)
+weather_satisfied(MISSION,ASSET) <-0 weather_satisfied(MISSION,ASSET):[0,0], weather_condition_clear(MISSION):[0,0], operational_adverse_weather(ASSET)
+
+#day_night_satisfied
+day_night_satisfied(MISSION,ASSET) <-0 day_night_satisfied(MISSION,ASSET):[0,0], day_mission(MISSION), operational_day(ASSET)
+day_night_satisfied(MISSION,ASSET) <-0 day_night_satisfied(MISSION,ASSET):[0,0], night_mission(MISSION), operational_night(ASSET)
+
+#iv_provision_satisfied
+iv_provision_satisfied(MISSION,ASSET) <-0 iv_provision_satisfied(MISSION,ASSET):[0,0], require_iv_provisions(MISSION), has_iv_provisions(ASSET)
+iv_provision_satisfied(MISSION,ASSET) <-0 iv_provision_satisfied(MISSION,ASSET):[0,0], require_iv_provisions(MISSION): [0,0]
+
+#medical_monitoring_system_satisfied
+medical_monitoring_system_satisfied(MISSION,ASSET) <-0 medical_monitoring_system_satisfied(MISSION,ASSET):[0,0], require_medical_monitoring_system(MISSION), has_medical_monitoring_system(ASSET)
+medical_monitoring_system_satisfied(MISSION,ASSET) <-0 medical_monitoring_system_satisfied(MISSION,ASSET):[0,0], require_medical_monitoring_system(MISSION): [0,0]
+
+#life_support_equipment_satisfied
+life_support_equipment_satisfied(MISSION,ASSET) <-0 life_support_equipment_satisfied(MISSION,ASSET):[0,0], require_life_support_equipment(MISSION), has_life_support_equipment(ASSET)
+life_support_equipment_satisfied(MISSION,ASSET) <-0 life_support_equipment_satisfied(MISSION,ASSET):[0,0], require_life_support_equipment(MISSION): [0,0]
+
+#oxygen_generation_system_satisfied
+oxygen_generation_system_satisfied(MISSION,ASSET) <-0 oxygen_generation_system_satisfied(MISSION,ASSET):[0,0], require_oxygen_generation_system(MISSION), has_oxygen_generation_system(ASSET)
+oxygen_generation_system_satisfied(MISSION,ASSET) <-0 oxygen_generation_system_satisfied(MISSION,ASSET):[0,0], require_oxygen_generation_system(MISSION): [0,0]
+
+#patient_litter_lift_system_satisfied
+patient_litter_lift_system_satisfied(MISSION,ASSET) <-0 patient_litter_lift_system_satisfied(MISSION,ASSET):[0,0], require_patient_litter_lift_system(MISSION), has_patient_litter_lift_system(ASSET)
+patient_litter_lift_system_satisfied(MISSION,ASSET) <-0 patient_litter_lift_system_satisfied(MISSION,ASSET):[0,0], require_patient_litter_lift_system(MISSION): [0,0]
+
+
+#option_assets(MISSION,ASSET) <-1 option_assets(MISSION,ASSET):[0,0], mission_type_satisfied(MISSION,ASSET), mission_vehicle_satisfied(MISSION,ASSET), weather_satisfied(MISSION,ASSET), day_night_satisfied(MISSION,ASSET), iv_provision_satisfied(MISSION,ASSET), medical_monitoring_system_satisfied(MISSION,ASSET), life_support_equipment_satisfied(MISSION,ASSET), oxygen_generation_system_satisfied(MISSION,ASSET), patient_litter_lift_system_satisfied(MISSION,ASSET),litter_ambulatory_satisfied(MISSION,ASSET)
+option_assets(MISSION,ASSET) <-0 option_assets(MISSION,ASSET):[0,0], mission_type_satisfied(MISSION,ASSET), mission_vehicle_satisfied(MISSION,ASSET), weather_satisfied(MISSION,ASSET), day_night_satisfied(MISSION,ASSET), iv_provision_satisfied(MISSION,ASSET), medical_monitoring_system_satisfied(MISSION,ASSET), life_support_equipment_satisfied(MISSION,ASSET), oxygen_generation_system_satisfied(MISSION,ASSET), patient_litter_lift_system_satisfied(MISSION,ASSET)

@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="life_score" for="edge" attr.name="life_score" attr.type="string" />
+  <key id="rts_score" for="edge" attr.name="rts_score" attr.type="string" />
+  <key id="niss_score" for="edge" attr.name="niss_score" attr.type="string" />
+  <key id="gcs_value" for="edge" attr.name="gcs_value" attr.type="string" />
+  <key id="acs_available" for="edge" attr.name="acs_available" attr.type="string" />
+  <key id="acs_value" for="edge" attr.name="acs_value" attr.type="string" />
+  <key id="rr_value" for="edge" attr.name="rr_value" attr.type="string" />
+  <key id="vital_value" for="edge" attr.name="vital_value" attr.type="string" />
+  <key id="sbp_value" for="edge" attr.name="sbp_value" attr.type="string" />
+  <key id="hr_value" for="edge" attr.name="hr_value" attr.type="string" />
+  <key id="type_life" for="node" attr.name="type_life" attr.type="string" />
+  <key id="type_rts" for="node" attr.name="type_rts" attr.type="string" />
+  <key id="triage_label" for="node" attr.name="triage_label" attr.type="string" />
+  <key id="type_niss" for="node" attr.name="type_niss" attr.type="string" />
+  <key id="triage_id" for="node" attr.name="triage_id" attr.type="long" />
+  <key id="scale_label" for="node" attr.name="scale_label" attr.type="string" />
+  <key id="type_gcs" for="node" attr.name="type_gcs" attr.type="string" />
+  <key id="scale_id" for="node" attr.name="scale_id" attr.type="long" />
+  <key id="type_vital_urinary_output_per_day" for="node" attr.name="type_vital_urinary_output_per_day" attr.type="string" />
+  <key id="type_vital_urinary_output_per_hr" for="node" attr.name="type_vital_urinary_output_per_hr" attr.type="string" />
+  <key id="type_vital_temperature" for="node" attr.name="type_vital_temperature" attr.type="string" />
+  <key id="type_vital_end_tidal_co2" for="node" attr.name="type_vital_end_tidal_co2" attr.type="string" />
+  <key id="type_vital_oxygen_saturation" for="node" attr.name="type_vital_oxygen_saturation" attr.type="string" />
+  <key id="type_vital_respiration_rate" for="node" attr.name="type_vital_respiration_rate" attr.type="string" />
+  <key id="type_vital_mean_arterial_pressure" for="node" attr.name="type_vital_mean_arterial_pressure" attr.type="string" />
+  <key id="type_vital_diastolic_blood_pressure" for="node" attr.name="type_vital_diastolic_blood_pressure" attr.type="string" />
+  <key id="type_vital_systolic_blood_pressure" for="node" attr.name="type_vital_systolic_blood_pressure" attr.type="string" />
+  <key id="vital_label" for="node" attr.name="vital_label" attr.type="string" />
+  <key id="type_vital_heart_rate" for="node" attr.name="type_vital_heart_rate" attr.type="string" />
+  <key id="vital_id" for="node" attr.name="vital_id" attr.type="long" />
+  <key id="type_traumatic_brain_injury" for="node" attr.name="type_traumatic_brain_injury" attr.type="string" />
+  <key id="abbreviation" for="node" attr.name="abbreviation" attr.type="string" />
+  <key id="type_tension_pneumothorax" for="node" attr.name="type_tension_pneumothorax" attr.type="string" />
+  <key id="lateral_position" for="node" attr.name="lateral_position" attr.type="string" />
+  <key id="body_sublocation" for="node" attr.name="body_sublocation" attr.type="string" />
+  <key id="body_location" for="node" attr.name="body_location" attr.type="string" />
+  <key id="insult_category" for="node" attr.name="insult_category" attr.type="string" />
+  <key id="insult_label" for="node" attr.name="insult_label" attr.type="string" />
+  <key id="type_external_hemorrhage" for="node" attr.name="type_external_hemorrhage" attr.type="string" />
+  <key id="insult_id" for="node" attr.name="insult_id" attr.type="long" />
+  <key id="compute_life" for="node" attr.name="compute_life" attr.type="string" />
+  <key id="compute_rts" for="node" attr.name="compute_rts" attr.type="string" />
+  <key id="compute_niss" for="node" attr.name="compute_niss" attr.type="string" />
+  <key id="traumatic_brain_injury_missing" for="node" attr.name="traumatic_brain_injury_missing" attr.type="string" />
+  <key id="tension_pneumothorax_missing" for="node" attr.name="tension_pneumothorax_missing" attr.type="string" />
+  <key id="external_hemorrhage_missing" for="node" attr.name="external_hemorrhage_missing" attr.type="string" />
+  <key id="rr_missing" for="node" attr.name="rr_missing" attr.type="string" />
+  <key id="sbp_missing" for="node" attr.name="sbp_missing" attr.type="string" />
+  <key id="gcs_missing" for="node" attr.name="gcs_missing" attr.type="string" />
+  <key id="blood_type" for="node" attr.name="blood_type" attr.type="string" />
+  <key id="height_cm" for="node" attr.name="height_cm" attr.type="long" />
+  <key id="weight_lb" for="node" attr.name="weight_lb" attr.type="long" />
+  <key id="age" for="node" attr.name="age" attr.type="long" />
+  <key id="gender" for="node" attr.name="gender" attr.type="string" />
+  <key id="call_sign" for="node" attr.name="call_sign" attr.type="string" />
+  <key id="rank" for="node" attr.name="rank" attr.type="string" />
+  <key id="last_name" for="node" attr.name="last_name" attr.type="string" />
+  <key id="first_name" for="node" attr.name="first_name" attr.type="string" />
+  <key id="type_personnel" for="node" attr.name="type_personnel" attr.type="string" />
+  <key id="personnel_id" for="node" attr.name="personnel_id" attr.type="long" />
+  <graph edgedefault="directed">
+    <node id="personnel1">
+      <data key="personnel_id">2</data>
+      <data key="type_personnel">1,1</data>
+      <data key="first_name">John</data>
+      <data key="last_name">Doe</data>
+      <data key="rank">sergeant</data>
+      <data key="call_sign">maverick</data>
+      <data key="gender">male</data>
+      <data key="age">30</data>
+      <data key="weight_lb">176</data>
+      <data key="height_cm">170</data>
+      <data key="blood_type">B+</data>
+      <data key="gcs_missing">0,1</data>
+      <data key="sbp_missing">0,1</data>
+      <data key="rr_missing">0,1</data>
+      <data key="external_hemorrhage_missing">0,1</data>
+      <data key="tension_pneumothorax_missing">0,1</data>
+      <data key="traumatic_brain_injury_missing">0,1</data>
+      <data key="compute_niss">0,0</data>
+      <data key="compute_rts">0,0</data>
+      <data key="compute_life">0,0</data>
+    </node>
+    <node id="external_hemorrhage">
+      <data key="insult_id">2</data>
+      <data key="type_external_hemorrhage">1,1</data>
+      <data key="insult_label">external_hemorrhage</data>
+      <data key="insult_category">hemorrhage</data>
+      <data key="body_location">arm</data>
+      <data key="body_sublocation">lower</data>
+      <data key="lateral_position">left</data>
+    </node>
+    <node id="tension_pneumothorax">
+      <data key="insult_id">3</data>
+      <data key="type_tension_pneumothorax">1,1</data>
+      <data key="insult_label">tension_pneumothorax</data>
+      <data key="abbreviation">TPTX</data>
+      <data key="insult_category">respiratory</data>
+      <data key="body_location">chest</data>
+      <data key="body_sublocation">lung</data>
+      <data key="lateral_position">left</data>
+    </node>
+    <node id="traumatic_brain_injury">
+      <data key="insult_id">4</data>
+      <data key="type_traumatic_brain_injury">1,1</data>
+      <data key="insult_label">traumatic_brain_injury</data>
+      <data key="abbreviation">TBI</data>
+      <data key="insult_category">nervous_system</data>
+      <data key="body_location">head</data>
+      <data key="body_sublocation">brain</data>
+      <data key="lateral_position">left</data>
+    </node>
+    <node id="heart_rate">
+      <data key="vital_id">2</data>
+      <data key="type_vital_heart_rate">1,1</data>
+      <data key="vital_label">heart_rate</data>
+      <data key="abbreviation">HR</data>
+    </node>
+    <node id="systolic_blood_pressure">
+      <data key="type_vital_systolic_blood_pressure">1,1</data>
+      <data key="vital_id">3</data>
+      <data key="vital_label">systolic_blood_pressure</data>
+      <data key="abbreviation">sys-bp</data>
+    </node>
+    <node id="diastolic_blood_pressure">
+      <data key="type_vital_diastolic_blood_pressure">1,1</data>
+      <data key="vital_id">4</data>
+      <data key="vital_label">diastolic_blood_pressure</data>
+      <data key="abbreviation">dia-bp</data>
+    </node>
+    <node id="mean_arterial_pressure">
+      <data key="type_vital_mean_arterial_pressure">1,1</data>
+      <data key="vital_id">5</data>
+      <data key="vital_label">mean_arterial_pressure</data>
+      <data key="abbreviation">map</data>
+    </node>
+    <node id="respiration_rate">
+      <data key="vital_id">6</data>
+      <data key="type_vital_respiration_rate">1,1</data>
+      <data key="vital_label">respiration_rate</data>
+      <data key="abbreviation">rr</data>
+    </node>
+    <node id="oxygen_saturation">
+      <data key="vital_id">7</data>
+      <data key="type_vital_oxygen_saturation">1,1</data>
+      <data key="vital_label">oxygen_saturation</data>
+      <data key="abbreviation">spo2</data>
+    </node>
+    <node id="end_tidal_co2">
+      <data key="vital_id">8</data>
+      <data key="type_vital_end_tidal_co2">1,1</data>
+      <data key="vital_label">end_tidal_co2</data>
+      <data key="abbreviation">etco2</data>
+    </node>
+    <node id="temperature">
+      <data key="vital_id">9</data>
+      <data key="type_vital_temperature">1,1</data>
+      <data key="vital_label">temperature</data>
+      <data key="abbreviation">temp</data>
+    </node>
+    <node id="urinary_output_per_hr">
+      <data key="vital_id">10</data>
+      <data key="type_vital_urinary_output_per_hr">1,1</data>
+      <data key="vital_label">urinary_output_per_hr</data>
+      <data key="abbreviation">uo/hr</data>
+    </node>
+    <node id="urinary_output_per_day">
+      <data key="vital_id">11</data>
+      <data key="type_vital_urinary_output_per_day">1,1</data>
+      <data key="vital_label">urinary_output_per_day</data>
+      <data key="abbreviation">uo/day</data>
+    </node>
+    <node id="glasgow_coma_scale">
+      <data key="scale_id">2</data>
+      <data key="type_gcs">1,1</data>
+      <data key="scale_label">glasgow_coma_scale</data>
+      <data key="abbreviation">gcs</data>
+    </node>
+    <node id="niss">
+      <data key="triage_id">2</data>
+      <data key="type_niss">1,1</data>
+      <data key="triage_label">niss</data>
+    </node>
+    <node id="rts">
+      <data key="triage_id">3</data>
+      <data key="type_rts">1,1</data>
+      <data key="triage_label">rts</data>
+    </node>
+    <node id="life">
+      <data key="triage_id">4</data>
+      <data key="type_life">1,1</data>
+      <data key="triage_label">life</data>
+    </node>
+    <edge source="personnel1" target="heart_rate">
+      <data key="hr_value">0,1</data>
+    </edge>
+    <edge source="personnel1" target="systolic_blood_pressure">
+      <data key="sbp_value">0,1</data>
+    </edge>
+    <edge source="personnel1" target="diastolic_blood_pressure">
+      <data key="vital_value">0,1</data>
+    </edge>
+    <edge source="personnel1" target="mean_arterial_pressure">
+      <data key="vital_value">0,1</data>
+    </edge>
+    <edge source="personnel1" target="respiration_rate">
+      <data key="rr_value">0,1</data>
+    </edge>
+    <edge source="personnel1" target="oxygen_saturation">
+      <data key="vital_value">0,1</data>
+    </edge>
+    <edge source="personnel1" target="end_tidal_co2">
+      <data key="vital_value">0,1</data>
+    </edge>
+    <edge source="personnel1" target="temperature">
+      <data key="vital_value">0,1</data>
+    </edge>
+    <edge source="personnel1" target="urinary_output_per_hr">
+      <data key="vital_value">0,1</data>
+    </edge>
+    <edge source="personnel1" target="urinary_output_per_day">
+      <data key="vital_value">0,1</data>
+    </edge>
+    <edge source="personnel1" target="external_hemorrhage">
+      <data key="acs_value">0,1</data>
+      <data key="acs_available">1,1</data>
+    </edge>
+    <edge source="personnel1" target="tension_pneumothorax">
+      <data key="acs_value">0,1</data>
+      <data key="acs_available">1,1</data>
+    </edge>
+    <edge source="personnel1" target="traumatic_brain_injury">
+      <data key="acs_value">0,1</data>
+      <data key="acs_available">1,1</data>
+    </edge>
+    <edge source="personnel1" target="glasgow_coma_scale">
+      <data key="gcs_value">0,1</data>
+    </edge>
+    <edge source="personnel1" target="niss">
+      <data key="niss_score">0,1</data>
+    </edge>
+    <edge source="personnel1" target="rts">
+      <data key="rts_score">0,1</data>
+    </edge>
+    <edge source="personnel1" target="life">
+      <data key="life_score">0,1</data>
+    </edge>
+  </graph>
+</graphml>

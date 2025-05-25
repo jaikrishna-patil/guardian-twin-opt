@@ -1,0 +1,107 @@
+care_center_id:
+  _generate_uuid: "care_center_id"
+last_updated: "*" 
+name:
+  _generate_custom_name:
+    prefix: "CC-"
+    suffix: "Military Alphabet"
+# description:
+designation:
+  selection_type: "single"
+  options:
+    - "Role 1"
+    - "Role 2"
+    - "Role 3"
+    - "Role 4"
+location:
+  latitude: (31.33, 42.00)
+  longitude: (-114.82, -102.05)
+  elevation(m): (0,3000)
+  # address:
+  #   street: "*"
+  #   building_number:
+  #   city: "*"
+  #   state: "*"
+  #   zipcode: "*"  
+# contacts:
+#   - type: "Primary"
+#     first_name: "*"
+#     last_name: "*"
+#     title:
+#     department:
+#     phone_number: "*"  
+capacity:
+  total_beds: (20,100)
+  available_beds: (0,5)
+  # icu_beds:
+  #   total:
+  #   available:
+  # surge_additional: (20,30)
+  # triage_area: 
+  # decontamination_unit:
+  # isolation_rooms:
+# medical_staff:
+#   - role: "Trauma Surgeon"
+#     total: 5
+#     on_duty: (1,5)
+#     on_call: (1,2)
+# medical_specialties:
+#   selection_type: "multiple"
+#   options:
+#     - "trauma_surgery"
+#     - "emergency_medicine"
+#     - "orthopedic_surgery"
+#     - "general_surgery"
+#     - "anesthesiology"
+# medical_services:
+#   - emergency_care:
+#   - surgical_services:
+#   - medical_imaging:
+#       - xray: (0,5)
+#       - ultrasound: (0,2)
+#       - mri: (0,2)
+#   - laboratory_services:
+#       - blood_tests: (0,50)
+#       - urine_tests: (0,50)
+# medical_supplies:
+#   equipment:
+#     surgical_tables: 
+#       total: 5
+#       available: (0,5)
+#     defibrillators:
+#       total: 5
+#       available: (0,5)
+#     ventilators:
+#       total: 5
+#       available: (0,5)
+#   medical_devices:
+#     stethoscopes: # <int>
+#     blood_pressure_monitors: # <int>
+#     pulse_oximeters: # <int>
+#   medications:
+#     painkillers: # <int>
+#     antibiotics: # <int>
+#     anesthetics: # <int>
+# transportation:
+#   ambulances: (2,5)
+#   helicopters: (0,3)
+#   helicopter_pad: # <bool>
+# communication:
+#   - radios: # <int>
+#   - satellite_phones: # <int>
+# security:
+#   - guards: # <int>
+#   - perimeter_fence: # <bool>
+# power:
+#   - generators: # <int>
+#   - solar_panels: # <bool>
+# water:
+#   - water_tanks: # <int>
+#   - total_volume: # <int>
+#   - water_purification_system: # <bool>
+# sanitation:
+#   - toilets: # <int>
+#   - showers: # <int>
+# food:
+#   - kitchen: # <bool>
+#   - food_storage: # <int>

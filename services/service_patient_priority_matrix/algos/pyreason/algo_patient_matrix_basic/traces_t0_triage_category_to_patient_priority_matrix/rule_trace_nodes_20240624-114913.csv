@@ -1,0 +1,120 @@
+Time,Fixed-Point-Operation,Node,Label,Old Bound,New Bound,Occurred Due To,Clause-1,Clause-2
+0,0,expectant,triage_category_id-2,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,expectant,type_triage_category_expectant,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,immediate,triage_category_id-3,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,immediate,type_triage_category_immediate,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,urgent,triage_category_id-4,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,urgent,type_triage_category_urgent,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,delayed,triage_category_id-5,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,delayed,type_triage_category_delayed,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,minor,triage_category_id-6,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,minor,type_triage_category_minor,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,uninjured,triage_category_id-7,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,uninjured,type_triage_category_uninjured,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,0,priority_zero,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,1,priority_one,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,2,priority_two,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,3,priority_three,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,4,priority_four,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,5,priority_five,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,6,priority_six,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Adrian Monk,casualty_id-2,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Adrian Monk,type_casualty,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Adrian Monk,litter,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Adrian Monk,ambulatory,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Adrian Monk,medevac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Adrian Monk,evac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Adrian Monk,resupply_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Natalie Tieger,casualty_id-3,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Natalie Tieger,type_casualty,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Natalie Tieger,litter,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Natalie Tieger,ambulatory,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Natalie Tieger,medevac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Natalie Tieger,evac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Natalie Tieger,resupply_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Leland Stottlemeyer,casualty_id-4,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Leland Stottlemeyer,type_casualty,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Leland Stottlemeyer,litter,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Leland Stottlemeyer,ambulatory,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Leland Stottlemeyer,medevac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Leland Stottlemeyer,evac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Leland Stottlemeyer,resupply_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Jake Peralta,casualty_id-5,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Jake Peralta,type_casualty,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Jake Peralta,litter,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Jake Peralta,ambulatory,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Jake Peralta,medevac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Jake Peralta,evac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Jake Peralta,resupply_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Sharona Fleming,casualty_id-6,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Sharona Fleming,type_casualty,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Sharona Fleming,litter,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Sharona Fleming,ambulatory,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Sharona Fleming,medevac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Sharona Fleming,evac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Sharona Fleming,resupply_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Randy Disher,casualty_id-7,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Randy Disher,type_casualty,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Randy Disher,litter,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Randy Disher,ambulatory,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Randy Disher,medevac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Randy Disher,evac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Randy Disher,resupply_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Trudy Monk,casualty_id-8,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Trudy Monk,type_casualty,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Trudy Monk,litter,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Trudy Monk,ambulatory,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Trudy Monk,medevac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Trudy Monk,evac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Trudy Monk,resupply_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Charles Kroger,casualty_id-9,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Charles Kroger,type_casualty,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Charles Kroger,litter,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Charles Kroger,ambulatory,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Charles Kroger,medevac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Charles Kroger,evac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Charles Kroger,resupply_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Julie Trieger,casualty_id-10,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Julie Trieger,type_casualty,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Julie Trieger,litter,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Julie Trieger,ambulatory,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Julie Trieger,medevac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Julie Trieger,evac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Julie Trieger,resupply_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Benjy Fleming,casualty_id-11,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Benjy Fleming,type_casualty,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Benjy Fleming,litter,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Benjy Fleming,ambulatory,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,
+0,0,Benjy Fleming,medevac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Benjy Fleming,evac_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,0,Benjy Fleming,resupply_needed,"[0.0,1.0]","[0.0,0.0]",graph-attribute-fact,,
+0,1,Jake Peralta,litter,"[0.0,0.0]","[1.0,1.0]",rule_0,"[('Jake Peralta', 'expectant')]",['expectant']
+0,1,Randy Disher,litter,"[0.0,0.0]","[1.0,1.0]",rule_0,"[('Randy Disher', 'expectant')]",['expectant']
+0,1,Adrian Monk,litter,"[0.0,0.0]","[1.0,1.0]",rule_1,"[('Adrian Monk', 'immediate')]",['immediate']
+0,1,Natalie Tieger,litter,"[0.0,0.0]","[1.0,1.0]",rule_1,"[('Natalie Tieger', 'immediate')]",['immediate']
+0,1,Leland Stottlemeyer,litter,"[0.0,0.0]","[1.0,1.0]",rule_1,"[('Leland Stottlemeyer', 'immediate')]",['immediate']
+0,1,Trudy Monk,litter,"[0.0,0.0]","[1.0,1.0]",rule_1,"[('Trudy Monk', 'immediate')]",['immediate']
+0,1,Jake Peralta,ambulatory,"[1.0,1.0]","[0.0,0.0]",rule_3,"[('Jake Peralta', 'expectant')]",['expectant']
+0,1,Randy Disher,ambulatory,"[1.0,1.0]","[0.0,0.0]",rule_3,"[('Randy Disher', 'expectant')]",['expectant']
+0,1,Adrian Monk,ambulatory,"[1.0,1.0]","[0.0,0.0]",rule_4,"[('Adrian Monk', 'immediate')]",['immediate']
+0,1,Natalie Tieger,ambulatory,"[1.0,1.0]","[0.0,0.0]",rule_4,"[('Natalie Tieger', 'immediate')]",['immediate']
+0,1,Leland Stottlemeyer,ambulatory,"[1.0,1.0]","[0.0,0.0]",rule_4,"[('Leland Stottlemeyer', 'immediate')]",['immediate']
+0,1,Trudy Monk,ambulatory,"[1.0,1.0]","[0.0,0.0]",rule_4,"[('Trudy Monk', 'immediate')]",['immediate']
+0,1,Jake Peralta,medevac_needed,"[0.0,0.0]","[1.0,1.0]",rule_6,"[('Jake Peralta', 'expectant')]",['expectant']
+0,1,Randy Disher,medevac_needed,"[0.0,0.0]","[1.0,1.0]",rule_6,"[('Randy Disher', 'expectant')]",['expectant']
+0,1,Adrian Monk,medevac_needed,"[0.0,0.0]","[1.0,1.0]",rule_7,"[('Adrian Monk', 'immediate')]",['immediate']
+0,1,Natalie Tieger,medevac_needed,"[0.0,0.0]","[1.0,1.0]",rule_7,"[('Natalie Tieger', 'immediate')]",['immediate']
+0,1,Leland Stottlemeyer,medevac_needed,"[0.0,0.0]","[1.0,1.0]",rule_7,"[('Leland Stottlemeyer', 'immediate')]",['immediate']
+0,1,Trudy Monk,medevac_needed,"[0.0,0.0]","[1.0,1.0]",rule_7,"[('Trudy Monk', 'immediate')]",['immediate']
+0,1,Sharona Fleming,medevac_needed,"[0.0,0.0]","[1.0,1.0]",rule_9,"[('Sharona Fleming', 'delayed')]",['delayed']
+0,1,Julie Trieger,medevac_needed,"[0.0,0.0]","[1.0,1.0]",rule_9,"[('Julie Trieger', 'delayed')]",['delayed']
+0,1,Benjy Fleming,medevac_needed,"[0.0,0.0]","[1.0,1.0]",rule_9,"[('Benjy Fleming', 'delayed')]",['delayed']
+0,1,Charles Kroger,medevac_needed,"[0.0,0.0]","[1.0,1.0]",rule_10,"[('Charles Kroger', 'minor')]",['minor']
+0,1,Sharona Fleming,evac_needed,"[0.0,0.0]","[1.0,1.0]",rule_12,"[('Sharona Fleming', 'delayed')]",['delayed']
+0,1,Julie Trieger,evac_needed,"[0.0,0.0]","[1.0,1.0]",rule_12,"[('Julie Trieger', 'delayed')]",['delayed']
+0,1,Benjy Fleming,evac_needed,"[0.0,0.0]","[1.0,1.0]",rule_12,"[('Benjy Fleming', 'delayed')]",['delayed']
+0,1,Charles Kroger,evac_needed,"[0.0,0.0]","[1.0,1.0]",rule_13,"[('Charles Kroger', 'minor')]",['minor']
+0,1,Sharona Fleming,resupply_needed,"[0.0,0.0]","[1.0,1.0]",rule_15,"[('Sharona Fleming', 'delayed')]",['delayed']
+0,1,Julie Trieger,resupply_needed,"[0.0,0.0]","[1.0,1.0]",rule_15,"[('Julie Trieger', 'delayed')]",['delayed']
+0,1,Benjy Fleming,resupply_needed,"[0.0,0.0]","[1.0,1.0]",rule_15,"[('Benjy Fleming', 'delayed')]",['delayed']
+0,1,Charles Kroger,resupply_needed,"[0.0,0.0]","[1.0,1.0]",rule_16,"[('Charles Kroger', 'minor')]",['minor']

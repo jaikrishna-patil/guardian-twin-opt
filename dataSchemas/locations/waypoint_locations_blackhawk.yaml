@@ -1,0 +1,25 @@
+- location_label: # eg "Start", "Waypoint 1", "EVAC" etc
+    _generate_custom_name:
+      prefix: "Waypoint_"
+      suffix: "Military Alphabet"
+  latitude:  
+    _set_range:
+      range: (31.33, 42.00) # decimal degrees...southern border of AZ to northern border of UT
+      average_speed(km/h): 280
+  longitude: 
+    _set_range:
+      range: (-114.82, -102.05) # decimal degrees...western border of AZ to eastern border of CO
+      average_speed(km/h): 280
+  elevation(m):
+    _set_range:
+      range: (0, 4000) # meters
+      max_delta: 50
+  # since_last_location: # calculate metadata based on previous timestamp
+  #   distance:
+  #   duration:
+  #   average_speed(km/h):
+  #   average_speed_delta(km/h):
+  # total_all_locations: # calculate metadata based on all previous timestamps
+  #   distance:
+  #   duration:
+  #   average_speed(km/h):

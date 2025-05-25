@@ -1,0 +1,24 @@
+Time,Fixed-Point-Operation,Node,Label,Old Bound,New Bound,Occurred Due To,Clause-1
+0,0,Adrian Monk,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Natalie Tieger,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Leland Stottlemeyer,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Jake Peralta,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Sharona Fleming,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Randy Disher,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Trudy Monk,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Charles Kroger,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Julie Trieger,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Benjy Fleming,type_patient,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Battlefield Medical Center,type_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Noble Medical Center,type_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,0,Young hearts Medical Center,type_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,
+0,1,Adrian Monk,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Adrian Monk', 'Battlefield Medical Center'), ('Adrian Monk', 'Noble Medical Center'), ('Adrian Monk', 'Young hearts Medical Center')]"
+0,1,Natalie Tieger,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Natalie Tieger', 'Battlefield Medical Center'), ('Natalie Tieger', 'Noble Medical Center'), ('Natalie Tieger', 'Young hearts Medical Center')]"
+0,1,Leland Stottlemeyer,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Leland Stottlemeyer', 'Battlefield Medical Center'), ('Leland Stottlemeyer', 'Noble Medical Center'), ('Leland Stottlemeyer', 'Young hearts Medical Center')]"
+0,1,Jake Peralta,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Jake Peralta', 'Battlefield Medical Center'), ('Jake Peralta', 'Noble Medical Center'), ('Jake Peralta', 'Young hearts Medical Center')]"
+0,1,Sharona Fleming,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Sharona Fleming', 'Battlefield Medical Center'), ('Sharona Fleming', 'Noble Medical Center'), ('Sharona Fleming', 'Young hearts Medical Center')]"
+0,1,Randy Disher,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Randy Disher', 'Battlefield Medical Center'), ('Randy Disher', 'Noble Medical Center'), ('Randy Disher', 'Young hearts Medical Center')]"
+0,1,Trudy Monk,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Trudy Monk', 'Battlefield Medical Center'), ('Trudy Monk', 'Noble Medical Center'), ('Trudy Monk', 'Young hearts Medical Center')]"
+0,1,Charles Kroger,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Charles Kroger', 'Battlefield Medical Center'), ('Charles Kroger', 'Noble Medical Center'), ('Charles Kroger', 'Young hearts Medical Center')]"
+0,1,Julie Trieger,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Julie Trieger', 'Battlefield Medical Center'), ('Julie Trieger', 'Noble Medical Center'), ('Julie Trieger', 'Young hearts Medical Center')]"
+0,1,Benjy Fleming,trigger_optimization,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Benjy Fleming', 'Battlefield Medical Center'), ('Benjy Fleming', 'Noble Medical Center'), ('Benjy Fleming', 'Young hearts Medical Center')]"

@@ -1,0 +1,39 @@
+
+emergency_care(MISSION,CF) <-0 emergency_care(MISSION,CF):[0,0], req_emergency_care(MISSION), available_emergency_care(CF)
+emergency_care(MISSION,CF) <-0 emergency_care(MISSION,CF):[0,0], req_emergency_care(MISSION):[0,0]
+
+surgical_services(MISSION,CF) <-0 surgical_services(MISSION,CF):[0,0], req_surgical_services(MISSION), available_surgical_services(CF)
+surgical_services(MISSION,CF) <-0 surgical_services(MISSION,CF):[0,0], req_surgical_services(MISSION):[0,0]
+
+medical_imaging(MISSION,CF) <-0 medical_imaging(MISSION,CF):[0,0], req_medical_imaging(MISSION), available_medical_imaging(CF)
+medical_imaging(MISSION,CF) <-0 medical_imaging(MISSION,CF):[0,0], req_medical_imaging(MISSION):[0,0]
+
+laboratory_services(MISSION,CF) <-0 laboratory_services(MISSION,CF):[0,0], req_laboratory_services(MISSION), available_laboratory_services(CF)
+laboratory_services(MISSION,CF) <-0 laboratory_services(MISSION,CF):[0,0], req_laboratory_services(MISSION):[0,0]
+
+trauma_surgery(MISSION,CF) <-0 trauma_surgery(MISSION,CF):[0,0], req_trauma_surgery(MISSION), available_trauma_surgery(CF)
+trauma_surgery(MISSION,CF) <-0 trauma_surgery(MISSION,CF):[0,0], req_trauma_surgery(MISSION):[0,0]
+
+emergency_medicine(MISSION,CF) <-0 emergency_medicine(MISSION,CF):[0,0], req_emergency_medicine(MISSION), available_emergency_medicine(CF)
+emergency_medicine(MISSION,CF) <-0 emergency_medicine(MISSION,CF):[0,0], req_emergency_medicine(MISSION):[0,0]
+
+orthopedic_surgery(MISSION,CF) <-0 orthopedic_surgery(MISSION,CF):[0,0], req_orthopedic_surgery(MISSION), available_orthopedic_surgery(CF)
+orthopedic_surgery(MISSION,CF) <-0 orthopedic_surgery(MISSION,CF):[0,0], req_orthopedic_surgery(MISSION):[0,0]
+
+general_surgery(MISSION,CF) <-0 general_surgery(MISSION,CF):[0,0], req_general_surgery(MISSION), available_general_surgery(CF)
+general_surgery(MISSION,CF) <-0 general_surgery(MISSION,CF):[0,0], req_general_surgery(MISSION):[0,0]
+
+blood_bags(MISSION,CF) <-0 blood_bags(MISSION,CF):[0,0], req_blood_bags(MISSION), available_blood_bags(CF)
+blood_bags(MISSION,CF) <-0 blood_bags(MISSION,CF):[0,0], req_blood_bags(MISSION):[0,0]
+
+painkillers(MISSION,CF) <-0 painkillers(MISSION,CF):[0,0], req_painkillers(MISSION), available_painkillers(CF)
+painkillers(MISSION,CF) <-0 painkillers(MISSION,CF):[0,0], req_painkillers(MISSION):[0,0]
+
+antibiotics(MISSION,CF) <-0 antibiotics(MISSION,CF):[0,0], req_antibiotics(MISSION), available_antibiotics(CF)
+antibiotics(MISSION,CF) <-0 antibiotics(MISSION,CF):[0,0], req_antibiotics(MISSION):[0,0]
+
+anesthetics(MISSION,CF) <-0 anesthetics(MISSION,CF):[0,0], req_anesthetics(MISSION), available_anesthetics(CF)
+anesthetics(MISSION,CF) <-0 anesthetics(MISSION,CF):[0,0], req_anesthetics(MISSION):[0,0]
+
+option_cfs(MISSION,CF) <-0 emergency_care(MISSION,CF), surgical_services(MISSION,CF), medical_imaging(MISSION,CF), laboratory_services(MISSION,CF), trauma_surgery(MISSION,CF), emergency_medicine(MISSION,CF), orthopedic_surgery(MISSION,CF), general_surgery(MISSION,CF), blood_bags(MISSION,CF), painkillers(MISSION,CF), antibiotics(MISSION,CF), anesthetics(MISSION,CF)
+

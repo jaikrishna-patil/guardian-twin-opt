@@ -1,0 +1,342 @@
+# Description: This file contains the burn TBSA by location and age data.
+# Reference Rule of 9s and Lund and Browder charts for burn TBSA estimates.
+# TODO: Verify the accuracy of the data in this file.
+
+burn_degree:
+  1st Degree:
+    description: "Superficial burn that only affects the epidermis."
+  2nd Degree:
+    description: "Partial-thickness burn that affects the epidermis and dermis."
+  3rd Degree:
+    description: "Full-thickness burn that affects the epidermis, dermis, and subcutaneous tissue."
+
+body_part_groups:
+  Head_Neck_Hands_Feet: [head, neck, hand, foot] # Max TBSA = 15.5% TODO verify
+  Limbs_Torso: [arm, leg, chest, abdomen, torso, back, groin, buttocks] # Max TBSA = 55% TODO verify
+  All: [Head, Neck, Chest, Abdomen, Torso, Back, Arm, Leg, Foot, Hand, Groin, Buttocks]
+
+burn_injury:
+  burn_id: <string> # Unique identifier for the burn injury
+  description: <string> # Description of the burn injury
+  type: <string> # eg Thermal, Chemical, Electrical, Radiation, Inhalation
+  location: <string> # eg Head, Neck, Chest, Abdomen, Torso, Back, Arm, Leg, Foot, Hand, Perineum, Buttocks
+  tbsa: <float> # Total Body Surface Area (TBSA) affected by the burn injury
+  burn_degree: <string> # eg 1st Degree, 2nd Degree, 3rd Degree
+
+burn_injury_group:
+  timestamp: <datetime> # Timestamp of when the burn_injury_group was created
+  body_part_group: <string> # eg Head_Neck_Hands_Feet, Limbs_Torso, All
+  burn_degree: <string> # eg 1st Degree, 2nd Degree, 3rd Degree
+  total_tbsa: <float> # Total Body Surface Area (TBSA) affected by the burn injury group
+  AIS_severity_score: <int> # Abbreviated Injury Score (AIS) severity score for the burn injury group
+  insults: <list> # List of burn_injury dicts that make up the burn_injury_group
+
+# References
+# * https://www.researchgate.net/figure/Abbreviated-Injury-Score-AIS-bronchoscopic-classification-for-burns-inhalation-injury_fig1_356572432
+# * https://litfl.com/trauma-scoring-systems/
+# * https://www.injuryjournal.com/article/S0020-1383%2806%2900303-2/pdf
+
+AIS_mapping:
+  - AIS_severity_score: 1
+    label: Minor
+    body_part_groups:
+      Head_Neck_Hands_Feet:
+        1st Degree: [1,10]
+      Limbs_Torso:
+        1st Degree: [1,10]
+  
+  - AIS_severity_score: 2
+    label: Moderate
+    body_part_groups:
+      Limbs_Torso:
+        2nd Degree: [1,20]
+        3rd Degree: [1,10]
+
+  - AIS_severity_score: 3
+    label: Serious
+    body_part_groups:
+      Head_Neck_Hands_Feet:
+        1st Degree: [10,20]
+        2nd Degree: [1,10]
+        3rd Degree: [1,10]
+      Limbs_Torso:
+        2nd Degree: [20,30]
+        3rd Degree: [10,20]
+  
+  - AIS_severity_score: 4
+    label: Severe
+    body_part_groups:
+      Head_Neck_Hands_Feet:
+        1st Degree: [20,30]
+        2nd Degree: [10,20]
+        3rd Degree: [10,20]
+      Limbs_Trunk:
+        2nd Degree: [30,40]
+        3rd Degree: [20,30]
+  
+  - AIS_severity_score: 5
+    label: Critical
+    body_part_groups:
+      Head_Neck_Hands_Feet:
+        1st Degree: [28,100] 
+        2nd Degree: [20,30]
+        3rd Degree: [20,30]
+      Limbs_Torso:
+        2nd Degree: [40,50]
+        3rd Degree: [30,40]
+  
+  - AIS_severity_score: 6
+    label: Expectant
+    body_part_groups:
+      Head_Neck_Hands_Feet:
+        2nd Degree: [28,100]
+        3rd Degree: [28,100]
+      Limbs_Torso:
+        2nd Degree: [50,100]
+        3rd Degree: [40,100]
+      
+
+
+
+
+
+
+
+
+
+burn_tbsa_algorithms:
+  - label: "Rule of Nines"
+    name: rule_of_nines
+    description: "Estimate burn TBSA based on location using the Rule of Nines."
+    requires:
+      - location # eg Head, Neck, Chest, Abdomen, Torso, Back, Arm, Leg, Foot, Hand, Perineum, Buttocks
+      - sublocation # eg Entire, Left, Right, Upper, Lower
+      - coronal_plane # If applicable, Anterior, Posterior, Circumferential
+    user_settings:
+      enabled: true
+  - label: "Lund and Browder"
+    name: lund_and_browder
+    description: "Estimate burn TBSA based on location and age using the Lund and Browder chart."
+    requires:
+      - location # eg Head, Neck, Chest, Abdomen, Torso, Back, Arm, Leg, Foot, Hand, Perineum, Buttocks
+      - sublocation # eg Entire, Left, Right, Upper, Lower
+      - coronal_plane # If applicable, Anterior, Posterior, Circumferential
+      - age
+    user_settings:
+      enabled: true
+
+
+
+age_ranges:
+  a: &adults [16, 120] 
+  b: &adolescents [10, 15]
+  c: &children [5, 9] 
+  d: &toddlers [1, 4] 
+  e: &infants [0.6, 1]
+  f: &neonates [0, 0.5] 
+  all: &all_ages [0, 120]
+
+# Burn TBSA by location and age
+tbsa_by_location:
+  Head: # Location
+    Entire: # Sublocation
+      tbsa: 7% # for rule of nines
+      tbsa_by_age_range: # for lund and browder
+        7%: *adults
+        9%: *adolescents
+        11%: *children
+        13%: *toddlers
+        17%: *infants
+        19%: *neonates
+    Face:
+      tbsa: 3.5% # for rule of nines
+      tbsa_by_age_range: # for lund and browder
+        3.5%: *adults
+        4.5%: *adolescents
+        5.5%: *children
+        6.5%: *toddlers
+        8.5%: *infants
+        9.5%: *neonates
+    Occipital: # Back of the head
+      tbsa: 3.5% # for rule of nines
+      tbsa_by_age_range: # for lund and browder
+        3.5%: *adults
+        4.5%: *adolescents
+        5.5%: *children
+        6.5%: *toddlers
+        8.5%: *infants
+        9.5%: *neonates
+
+
+  Neck:
+    Entire:
+      tbsa: 2%
+    Front:
+      tbsa: 1%
+    Back:
+      tbsa: 1%
+
+  Chest:
+    Entire:
+      tbsa: 9%
+    Left:
+      tbsa: 3.5%
+    Right:
+      tbsa: 3.5%
+
+
+  Abdomen:
+    Entire:
+      tbsa: 9%
+    Left:
+      tbsa: 3.5%
+    Right:
+      tbsa: 3.5%
+
+  Groin:
+    Genitals:
+      tbsa: 1%
+
+  Torso:
+    Entire:
+      tbsa: 36% #9% Chest + 9% Abdomen + 9% Upper Back + 9% Lower Back
+    Left:
+      tbsa: 18%
+    Right:
+      tbsa: 18%
+
+  Back:
+    Entire:
+      tbsa: 18%
+    Upper:
+      tbsa: 9%
+    Lower:
+      tbsa: 9%
+
+  Arm:
+    Upper:
+      Circumferential:
+        tbsa: 4%
+      Anterior:
+        tbsa: 2%
+      Posterior:
+        tbsa: 2%
+
+    Lower:
+      Circumferential:
+        tbsa: 4%
+      Anterior:
+        tbsa: 2%
+      Posterior:
+        tbsa: 2%
+
+    Hand:
+      Circumferential:
+        tbsa: 1%
+      Anterior:
+        tbsa: 0.5%
+      Posterior:
+        tbsa: 0.5%
+
+    Entire:
+      Circumferential:
+        tbsa: 9%
+      Anterior:
+        tbsa: 2.5%
+      Posterior:
+        tbsa: 2.5%
+
+  Leg:
+    Upper:
+      Circumferential:
+        tbsa: 9.5%
+        tbsa_by_age_range:
+          9.5%: *adults
+          9.0%: *adolescents
+          8.5%: *children
+          8.0%: *toddlers
+          6.5%: *infants
+          5.5%: *neonates
+      Anterior:
+        tbsa: 4.75%
+        tbsa_by_age_range:
+          4.75%: *adults
+          4.5%: *adolescents
+          4.25%: *children
+          4.00%: *toddlers
+          3.25%: *infants
+          2.75%: *neonates
+      Posterior:
+        tbsa: 4.75%
+        tbsa_by_age_range:
+          4.75%: *adults
+          4.5%: *adolescents
+          4.25%: *children
+          4.00%: *toddlers
+          3.25%: *infants
+          2.75%: *neonates
+    Lower:
+      Circumferential:
+        tbsa: 7%
+        tbsa_by_age_range:
+          7.00%: *adults
+          6.50%: *adolescents
+          6.00%: *children
+          5.50%: *toddlers
+          5.00%: *infants
+          5.0%: *neonates
+      Anterior:
+        tbsa: 3.5%
+        tbsa_by_age_range:
+          3.5%: *adults
+          3.25%: *adolescents
+          3.0%: *children
+          2.75%: *toddlers
+          2.5%: *infants
+          2.50%: *neonates
+      Posterior:
+        tbsa: 3.5%
+        tbsa_by_age_range:
+          3.50%: *adults
+          3.25%: *adolescents
+          3.00%: *children
+          2.75%: *toddlers
+          2.50%: *infants
+          2.5%: *neonates
+    Foot:
+      Circumferential:
+        tbsa: 1.5%
+      Anterior:
+        tbsa: 0.75%
+      Posterior:
+        tbsa: 0.75%
+    
+    Entire: # Upper + Lower + Foot
+      Circumferential:
+        tbsa: 18% # 9.5% + 7% + 1.5% = 18%
+        tbsa_by_age_range:
+          20%: *adults
+          19%: *adolescents
+          17%: *children
+          13%: *toddlers
+          11%: *infants
+          7%: *neonates
+      Anterior:
+        tbsa: 9% 
+        tbsa_by_age_range:
+          10%: *adults
+          9.5%: *adolescents
+          9%: *children
+          8.5%: *toddlers
+          7%: *infants
+          5.5%: *neonates
+      Posterior:
+        tbsa: 9% 
+        tbsa_by_age_range:
+          10%: *adults
+          9.5%: *adolescents
+          9%: *children
+          8.5%: *toddlers
+          7%: *infants
+          5.5%: *neonates
+  

@@ -1,0 +1,57 @@
+## NOTE: The vital_ids in this file correspond to ids in vital_definitions.yaml that defines ranges for each vital
+# - vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
+#   abbreviation: "HR"
+#   value: (0,200)
+#   unit: "bpm"
+
+- vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+  abbreviation: "SBP"
+  value: (60,200)
+  unit: "mmHg"
+  confidence_score:
+    selection_type: "single!"
+    options:
+      - "Observed": 100
+      - "Inferred": 50
+      - "Simulated": 25
+
+# - vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
+#   abbreviation: "DBP"
+#   value: (0,200)
+#   unit: "mmHg"
+
+# - vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
+#   abbreviation: "MAP"
+#   value: (0,150)
+#   unit: "mmHg"
+
+- vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+  abbreviation: "RR"
+  value: (9,30)
+  unit: "rpm"
+  confidence_score:
+    selection_type: "single!"
+    options:
+      - "Observed": 100
+      - "Inferred": 50
+      - "Simulated": 25
+
+# - vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+#   abbreviation: "Spo2"
+#   value: (0,100)
+#   unit: "%"
+
+# - vital_id: e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6 
+#   abbreviation: "ETCO2"
+#   value: (18,45)
+#   unit: "mmHg"
+
+# - vital_id: 8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y
+#   abbreviation: "Temp"
+#   value: (35,41)
+#   unit: "C"
+
+# - vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+#   abbreviation: "UO/hr"
+#   value: (0,200)
+#   unit: "ml/hr"

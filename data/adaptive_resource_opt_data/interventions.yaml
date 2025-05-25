@@ -1,0 +1,331 @@
+interventions:
+  - intervention_id: INT001
+    label: Apply tourniquet
+    category: treatment
+    experience_level: Combat First Aid
+    reapply: true
+    reapply_interval: 2 hours
+    resources:
+      - item_id: CT001
+        item: Combat tourniquet
+        type: equipment
+        qty: 1
+        consumable: false
+
+  - intervention_id: INT002
+    label: Apply hemostatic gauze
+    category: treatment
+    experience_level: Tactical Combat Casualty Care - All Combatants
+    reapply: true
+    reapply_interval: 4 hours
+    resources:
+      - item_id: HG001
+        item: Hemostatic gauze
+        type: equipment
+        qty: 1
+        consumable: true
+
+  - intervention_id: INT003
+    label: Administer TXA
+    category: medication
+    experience_level: Combat Medic/Corpsman
+    reapply: false
+    reapply_interval: None
+    resources:
+      - item_id: TXA001
+        item: TXA (Tranexamic acid)
+        type: medication
+        qty: 1
+        consumable: true
+
+  - intervention_id: INT004
+    label: Initiate fluid resuscitation
+    category: treatment
+    experience_level: Combat Medic/Corpsman
+    reapply: true
+    reapply_interval: 1 hour
+    resources:
+      - item_id: IVF001
+        item: IV fluids
+        type: medication
+        qty: 1
+        consumable: true
+
+  - intervention_id: INT005
+    label: Monitor for compartment syndrome
+    category: diagnostic
+    experience_level: Combat Medic/Corpsman
+    reapply: true
+    reapply_interval: 2 hours
+    resources:
+      - item_id: None
+        item: None
+        type: None
+        qty: None
+        consumable: None
+
+  - intervention_id: INT006
+    label: Apply chest seal
+    category: treatment
+    experience_level: Tactical Combat Casualty Care - All Combatants
+    reapply: true
+    reapply_interval: 6 hours
+    resources:
+      - item_id: CS001
+        item: Chest seal
+        type: equipment
+        qty: 1
+        consumable: true
+
+  - intervention_id: INT007
+    label: Needle decompression if tension pneumothorax develops
+    category: treatment
+    experience_level: Combat Medic/Corpsman
+    reapply: false
+    reapply_interval: None
+    resources:
+      - item_id: CDN001
+        item: Chest decompression needle
+        type: equipment
+        qty: 1
+        consumable: true
+
+  - intervention_id: INT008
+    label: Administer oxygen if available
+    category: treatment
+    experience_level: Combat Medic/Corpsman
+    reapply: true
+    reapply_interval: continuous
+    resources:
+      - item_id: O2001
+        item: Oxygen supply
+        type: equipment
+        qty: 1
+        consumable: false
+
+  - intervention_id: INT009
+    label: Monitor respiratory rate and effort
+    category: diagnostic
+    experience_level: Tactical Combat Casualty Care - All Combatants
+    reapply: true
+    reapply_interval: 15 min
+    resources:
+      - item_id: None
+        item: None
+        type: None
+        qty: None
+        consumable: None
+
+  - intervention_id: INT010
+    label: Administer antibiotics
+    category: medication
+    experience_level: Combat Medic/Corpsman
+    reapply: true
+    reapply_interval: 24 hours
+    resources:
+      - item_id: ANT001
+        item: Broad-spectrum antibiotics
+        type: medication
+        qty: 1
+        consumable: true
+
+  - intervention_id: INT011
+    label: Maintain airway and oxygenation
+    category: treatment
+    experience_level: Combat Medic/Corpsman
+    reapply: true
+    reapply_interval: 15 min
+    resources:
+      - item_id: NPA001
+        item: Nasopharyngeal airway
+        type: equipment
+        qty: 1
+        consumable: true
+      - item_id: O2001
+        item: Oxygen supply
+        type: equipment
+        qty: 1
+        consumable: false
+
+  - intervention_id: INT012
+    label: Monitor and manage intracranial pressure
+    category: treatment
+    experience_level: Special Operations Combat Medic
+    reapply: true
+    reapply_interval: 1 hour
+    resources:
+      - item_id: HS001
+        item: Hypertonic saline
+        type: medication
+        qty: 1
+        consumable: true
+
+  - intervention_id: INT013
+    label: Prevent secondary brain injury
+    category: treatment
+    experience_level: Combat Medic/Corpsman
+    reapply: true
+    reapply_interval: continuous
+    resources:
+      - item_id: None
+        item: None
+        type: None
+        qty: None
+        consumable: None
+
+  - intervention_id: INT014
+    label: Monitor neurological status
+    category: diagnostic
+    experience_level: Combat Medic/Corpsman
+    reapply: true
+    reapply_interval: 30 min
+    resources:
+      - item_id: None
+        item: None
+        type: None
+        qty: None
+        consumable: None
+
+  - intervention_id: INT015
+    label: Administer seizure prophylaxis if indicated
+    category: medication
+    experience_level: Special Operations Combat Medic
+    reapply: true
+    reapply_interval: 12 hours
+    resources:
+      - item_id: LEV001
+        item: Levetiracetam
+        type: medication
+        qty: 1
+        consumable: true
+
+  - intervention_id: INT016
+    label: Apply burn dressing
+    category: treatment
+    experience_level: Combat First Aid
+    reapply: true
+    reapply_interval: 24 hours
+    resources:
+      - item_id: BD001
+        item: Burn dressing
+        type: equipment
+        qty: 1
+        consumable: true
+
+  - intervention_id: INT017
+    label: Estimate burn size and depth
+    category: diagnostic
+    experience_level: Combat Medic/Corpsman
+    reapply: true
+    reapply_interval: 12 hours
+    resources:
+      - item_id: None
+        item: None
+        type: None
+        qty: None
+        consumable: None
+
+  - intervention_id: INT018
+    label: Initiate fluid resuscitation
+    category: treatment
+    experience_level: Combat Medic/Corpsman
+    reapply: true
+    reapply_interval: 1 hour
+    resources:
+      - item_id: IVF001
+        item: IV fluids
+        type: medication
+        qty: 1
+        consumable: true
+
+  - intervention_id: INT019
+    label: Manage pain
+    category: medication
+    experience_level: Combat Medic/Corpsman
+    reapply: true
+    reapply_interval: 4 hours
+    resources:
+      - item_id: ANA001
+        item: Analgesics
+        type: medication
+        qty: 1
+        consumable: true
+
+  - intervention_id: INT020
+    label: Monitor for infection
+    category: diagnostic
+    experience_level: Combat Medic/Corpsman
+    reapply: true
+    reapply_interval: 6 hours
+    resources:
+      - item_id: None
+        item: None
+        type: None
+        qty: None
+        consumable: None
+
+  - intervention_id: INT021
+    label: Administer TXA
+    category: medication
+    experience_level: Combat Medic/Corpsman
+    reapply: false
+    reapply_interval: None
+    resources:
+      - item_id: TXA001
+        item: TXA (Tranexamic acid)
+        type: medication
+        qty: 1
+        consumable: true
+
+  - intervention_id: INT022
+    label: Initiate damage control resuscitation
+    category: treatment
+    experience_level: Special Operations Combat Medic
+    reapply: true
+    reapply_interval: continuous
+    resources:
+      - item_id: BP001
+        item: Blood products
+        type: medication
+        qty: 1
+        consumable: true
+
+  - intervention_id: INT023
+    label: Monitor vital signs
+    category: diagnostic
+    experience_level: Combat Medic/Corpsman
+    reapply: true
+    reapply_interval: 15 min
+    resources:
+      - item_id: VS001
+        item: Vital signs monitor
+        type: equipment
+        qty: 1
+        consumable: false
+
+  - intervention_id: INT024
+    label: Apply abdominal pressure dressing
+    category: treatment
+    experience_level: Combat Medic/Corpsman
+    reapply: true
+    reapply_interval: 4 hours
+    resources:
+      - item_id: APD001
+        item: Abdominal pressure dressing
+        type: equipment
+        qty: 1
+        consumable: true
+
+  - intervention_id: INT025
+    label: Prepare for possible surgical intervention
+    category: treatment
+    experience_level: Operational Medicine Physician/Physician Assistant
+    reapply: false
+    reapply_interval: None
+    resources:
+      - item_id: SS001
+        item: Surgical set
+        type: equipment
+        qty: 1
+        consumable: false
+

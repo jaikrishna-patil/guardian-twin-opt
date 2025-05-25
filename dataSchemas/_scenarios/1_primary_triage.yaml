@@ -1,0 +1,238 @@
+## Basic triage categorization
+# ASU
+- scenario_id: 1a
+  name: Primary Triage - Assign LIFE Triage Scores, Categories, and relative Priority
+  description: 
+  - 10 injured personnel arrive at a Casualty Collection Point (CCP) after a mass casualty event. 
+  - They are rapidly evaluated for injuries, hooked up to biosensors for RR and SysBP, and have their GCS assessed.
+  - Therefore complete data is available for all patients for LIFE, RTS, and NISS triage scores and triage categories.
+  - Command wants a high-level prioritaztion assessment of all patients based on the available data.  
+  
+  inputs:
+    - All data for ISOP_details
+    - All data for ISOP_state including insults, vitals, and observations
+    - constraints listed below
+  outputs:
+    - All ISOPs are assigned LIFE, RTS, and NISS triage scores and categories.
+    - All ISOPs are assigned a relative triage priority vs. eachother based on the highest priority triage algo score and category.
+  output_files: 
+    1: '../dataSchemas/reports/medical_triage_prioritization.yaml' # Primary goal is to create this file for each scenario and add it to each scenario directory.
+    2: '../dataSchemas/personnel/isop_state.yaml' # Secondary goal is to update the isop_state.yaml file with medical_triage_status.yaml timestamps.
+  
+  success_criteria:
+    # ASU ===================================================================
+    - Dynamically get list of enabled medical triage algos # reference ../dataSchemas/triage/medical_triage_algo_definitions.yaml -> user_settings.enabled
+    - From the list of enabled medical triage algos, dynamically sort by algo priority # reference ../dataSchemas/triage/medical_triage_algo_definitions.yaml -> user_settings.priority
+    - For all ISOPs, Correctly calculate and assign triage scores for all enabled algos that have complete data # In this scenario LIFE, RTS, NISS will be enabled and have complete data
+    - For all ISOPS, dynamically set triage categories for all enabled algos using the algo triage scores. # reference ../dataSchemas/triage/medical_triage_algo_library.yaml  -> triage_categories
+    - Assign the above for each ISOP to the medical_triage_prioritization.yaml file -> medical_triage_record as a list of timestamps
+    - Use the latest timestamp of the highest priority medical triage algo scores to assign a 'top-level' medical_triage data to each ISOP. # reference ../dataSchemas/reports/medical_triage_prioritization.yaml -> medical_triage:
+    - Finally, use the above to assign a relative priority to each ISOP based on the highest priority medical triage algo score and category. # reference ../dataSchemas/reports/medical_triage_prioritization.yaml -> medical_triage -> relative_priority
+    - Extra Credit:
+      - Update each of the isop_state.medical_triage_records with medical triage score and category timestamps
+      - Setup the system to iterate through isop_state.patient_records from start to finish
+      - Calculate a triage algo score, category, category_priority and relative_priority once its data requirements are met
+      - Then again if one of those requirements is updated in subsequent timestamps
+  
+  unit_tests: #suggested unit tests
+    # ASU or Simwerx ============================================================
+    - If either RTS or NISS scores are None, then LIFE score should be None
+    - If either GCS, SysBP, or RR is None, then RTS should be None
+    - If Insults are None, then NISS should be None
+    - Validate Triage Algo Score Ranges per Triage Algo (see '../dataSchemas/triage/medical_triage_algo_definitions.yaml')
+    - Validate math for RTS, NISS, and LIFE using different values and value types, eg. int, float, strings, null, etc
+    - Validate AIS_severity is expected type and in expected range(s) (1,6)
+    - Validate RR and SysBP vitals is expected type and in expected range(s) #ref '../dataSchemas/vitals/vital_definitions.yaml')
+    - Validate GCS is expected type and in expected range(s) (3,15) # ref '../dataSchemas/observations/observations_definitions.yaml'
+    - Validate user_setting.priority is expected type and works # ref medical_triage_algo_library.yaml -> user_settings.priority
+    - Validate user_setting.enabled is expected type and works # ref medical_triage_algo_library.yaml -> user_settings.enabled
+  
+  # Source dataSchemas
+  input_schemas:
+    - path: '../dataSchemas/personnel/isop_detail.yaml'
+      iterations: 10
+    - path: '../dataSchemas/personnel/isop_state.yaml'
+      iterations: 10
+  constraints: # ../dataSchemas/constraints/constraints_library.yaml
+    - constraint_id: r5s6t7u8-v9w0-x1y2-z3a4b5c6d7e8f9
+      label: "Prioritize by Medical Triage Category"
+      importance_factor: 100 # (0,100)
+      category: "Medical Triage"
+      enabled: true
+      sub_constraints:
+        - sub_constraint_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9y0z1
+          label: "Filter by Enabled Triage Algorithms"
+          category: "Filter"
+          description: 
+            - "Only shows outputs for active triage algorithms"
+            - "Ingnore outputs for inactive triage algorithms"
+          enabled: true 
+
+
+
+
+## Missing data scenarios
+# Simwerx
+# ASU
+- scenario_id: 1b
+  name: Primary Triage with incomplete data for isop_state.
+  description: 
+    - 10 injured personnel arrive at a Casualty Collection Point (CCP) after a mass casualty event, but the patient intake is overwhelmed, so data for each patient is incomplete.
+    - Some patients are fully evaluted for injuries, hooked up to biosensors for RR and SysBP, and have their GCS assessed.
+    - However, others are not fully evaluated or hooked up to biosensors and are therefore missing some data that various triage algos require.
+    - Command still wants a high-level prioritaztion assessment of all patients based on the available data.
+  
+  inputs:
+    - All data for ISOP_details
+    - Some missing data for ISOP_state including insults, vitals, and observations
+    - constraints listed below
+  outputs:
+    - Patients are assinged medical triage scores and categories from all enabled algos that have the data required.
+    - Some ISOPs might have LIFE, RTS, and NISS scores, others may have only RTS or NISS scores, some may have no scores.
+    - Patients are prioritized vs. eachother based first on the triage_category, then the prioritaztion of the the triage algo score available
+    - If no medical triage scores can be assigned to a patient, then categorize as 'unknown'
+  output_files: 
+    1: '../dataSchemas/reports/medical_triage_prioritization.yaml' # Primary goal is to create this file for each scenario and add it to each scenario directory.
+    2: '../dataSchemas/personnel/isop_state.yaml' # Secondary goal is to update the isop_state.yaml file with medical_triage_status.yaml timestamps.
+  
+  success_criteria:
+    # ASU ====================================================
+    - All the above, plus...
+    - Able to assign each ISOP triage scores and categories for enabled triage algos that have their required data
+    - If an enabled algo is missing required data, then provide a helpful notification_message in the medical_triage_prioritization.yaml by referencing medical_triage_algo_library.yaml -> notification_messages 
+    - If no medical triage scores can be assigned, then set medical_triage.category to "Unknown" 
+    - An easily extensible system to check scenarios for constraints and sub_constraints
+    # Simwerx -------------
+    - Handle isop_state required vs optional fields
+    - Trigger questions to get info for missing triage info, eg patient_record insults, vitals, observations 
+    - Trigger questions to get info for other isop_state Empty, null, or [] values
+  
+  unit_tests: #suggested unit tests
+    # ASU =======================================================================
+    - Design and Implement extensible test suite for constraints and sub_constraints
+    - Implement test for notification_messages
+    - Add others here
+
+    # Simwerx ============================================================
+    - Validate required and optional fields for isop_states.
+  
+  # Source dataSchemas
+  input_schemas:
+    - path: '../dataSchemas/personnel/isop_detail.yaml'
+      iterations: 10
+    - path: '../dataSchemas/personnel/isop_state.yaml'
+      iterations: 10
+      data_gap: 50 # 
+  constraints: # ../dataSchemas/constraints/constraints_library.yaml
+    - constraint_id: r5s6t7u8-v9w0-x1y2-z3a4b5c6d7e8f9
+      label: "Prioritize by Medical Triage Category"
+      importance_factor: 100 # (0,100)
+      category: "Medical Triage"
+      enabled: true
+      sub_constraints:
+        - sub_constraint_id: j5k6l7m8-n9o0-p1q2-r3s4-t5u6v7w8x9y0z1
+          label: "Filter by Enabled Triage Algorithms"
+          category: "Filter"
+          description: 
+            - "Only shows outputs for active triage algorithms"
+            - "Ingnore outputs for inactive triage algorithms"
+          enabled: true 
+        - sub_constraint_id: c0d1e2f3-g4h5-i6j7-k8l9-m0n1o2p3q4
+          label: "Refine by Triage Algorithm Prioritization"
+          description: 
+            - "Refines prioritization by Medical Triage Category by using the rank of the triage algorithm"
+            - "Example output 1.1, 1.2, 1.3."
+            - "The first number represents the triage category and the second number is the rank of the triage algorithm"
+          enabled: true
+
+
+# Simwerx
+- scenario_id: 1c
+  name: Handle incomplete data for isop_details.
+  description:
+    - 10 injured personnel arrive at a Casualty Collection Point (CCP) after a mass casualty event, but the patient intake is overwhelmed
+    - As a result patient intake data is incomplete, eg. missing gender, age, weight, etc.
+    - However, all the patients have been fully evaluted for injuries, hooked up to biosensors for RR and SysBP, and have had their GCS assessed.
+    - We need to ensure that each patient has a complete profile so no medical contraindications or pre-existing conditions are missed. 
+  inputs:
+    - Missing data for ISOP_details
+    - All data for ISOP_state including insults, vitals, and observations
+    - Listed constraints
+  outputs: 
+    1: '../dataSchemas/reports/medical_triage_prioritization.yaml' # Primary goal is to create this file for each scenario and add it to each scenario directory.
+    2: '../dataSchemas/personnel/isop_state.yaml' # Secondary goal is to update the isop_state.yaml file with medical_triage_status.yaml timestamps.`
+  success_criteria:
+    # Simwerx -------------
+    - Trigger questions to get info for isop_detail Empty, null, or [] values
+    - Handle isop_detail required vs optional fields 
+    - Handle missing data for LIFE triage score
+  unit_tests: #suggested unit tests
+    # Simwerx ============================================================
+    - Validate required and optional fields for isop_detail
+  # Source dataSchemas
+  input_schemas:
+    - path: '../dataSchemas/personnel/isop_detail.yaml'
+      iterations: 10
+      data_gap: 50
+    - path: '../dataSchemas/personnel/isop_state.yaml'
+      iterations: 10
+  constraints:
+    - constraint_id: r5s6t7u8-v9w0-x1y2-z3a4b5c6d7e8f9
+      label: "Prioritize by Medical Triage Category"
+      importance_factor: 100 # (0,100)
+      category: "Medical Triage"
+      enabled: true
+
+
+
+# Simwerx
+# ASU
+- scenario_id: 1d
+  name: Handle incomplete data for both isop_details and isop_states.
+  description:
+    - Put it all together and handle incomplete data for both isop_details and isop_states with additional constraints.
+  coda_link:
+  success_criteria:
+    - All the above
+  unit_tests: #suggested unit tests
+    - All of the above
+  inputs:
+    - Missing data for ISOP_details
+    - Missing data for ISOP_state including insults, vitals, and observations
+    - Listed constraints
+  outputs: 
+    1: '../dataSchemas/reports/medical_triage_prioritization.yaml' # Primary goal is to create this file for each scenario and add it to each scenario directory.
+    2: '../dataSchemas/personnel/isop_state.yaml' # Secondary goal is to update the isop_state.yaml file with medical_triage_status.yaml timestamps.
+  # Source dataSchemas
+  input_schemas:
+    - path: '../dataSchemas/personnel/isop_detail.yaml'
+      iterations: 10
+      data_gap: 10
+    - path: '../dataSchemas/personnel/isop_state.yaml'
+      iterations: 10
+      data_gap: 10
+  constraints:
+    - constraint_id: r5s6t7u8-v9w0-x1y2-z3a4b5c6d7e8f9
+      label: "Prioritize by Medical Triage Category"
+      importance_factor: 100 # (0,100)
+      category: "Medical Triage"
+      enabled: true
+      sub_constraints:
+        - sub_constraint_id: c0d1e2f3-g4h5-i6j7-k8l9-m0n1o2p3q4
+          label: "Refine by Triage Algorithm Rank"
+          description: 
+            - "Refines prioritization by Medical Triage Category by using the rank of the triage algorithm"
+            - "Example output 1.1, 1.2, 1.3."
+            - "The first number represents the triage category and the second number is the rank of the triage algorithm"
+          enabled: true
+        
+        - sub_constraint_id: f4g5h6i7-j8k9-l0m1-n2o3-p4q5r6s7t8
+          label: "Refine by Triage Algorithm Score"
+          description: 
+            - "Further refines prioritization by Medical Triage Category and Triage Algorithm Rank by applying the Triage Score"
+            - "Example output is 1.1.1, 1.1.2, 1.1.3, 1.2.1, 1.2.2, 1.2.3."
+            - "The first number represents the triage category, the second number is the rank of the triage algorithm, and the third number is the triage score for the triage algorithm."
+          enabled: true
+          requires: # These constraints or sub_constraints that must be active for this constraint to be allowed to be active
+            - sub_constraint_id: c0d1e2f3-g4h5-i6j7-k8l9-m0n1o2p3q4
+

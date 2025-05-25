@@ -1,0 +1,41 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To
+0,0,"('Adrian Monk', '20.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Adrian Monk', 'Battlefield Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Adrian Monk', 'Noble Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Adrian Monk', 'Young hearts Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Natalie Tieger', '10.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Natalie Tieger', 'Battlefield Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Natalie Tieger', 'Noble Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Natalie Tieger', 'Young hearts Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Leland Stottlemeyer', '20.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Leland Stottlemeyer', 'Battlefield Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Leland Stottlemeyer', 'Noble Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Leland Stottlemeyer', 'Young hearts Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jake Peralta', '30.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jake Peralta', 'Battlefield Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jake Peralta', 'Noble Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Jake Peralta', 'Young hearts Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Sharona Fleming', '40.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Sharona Fleming', 'Battlefield Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Sharona Fleming', 'Noble Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Sharona Fleming', 'Young hearts Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Randy Disher', '43.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Randy Disher', 'Battlefield Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Randy Disher', 'Noble Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Randy Disher', 'Young hearts Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Trudy Monk', '13.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Trudy Monk', 'Battlefield Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Trudy Monk', 'Noble Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Trudy Monk', 'Young hearts Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Charles Kroger', '95.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Charles Kroger', 'Battlefield Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Charles Kroger', 'Noble Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Charles Kroger', 'Young hearts Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie Trieger', '84.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie Trieger', 'Battlefield Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie Trieger', 'Noble Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Julie Trieger', 'Young hearts Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Benjy Fleming', '82.0')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Benjy Fleming', 'Battlefield Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Benjy Fleming', 'Noble Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact
+0,0,"('Benjy Fleming', 'Young hearts Medical Center')",possible_cf,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact

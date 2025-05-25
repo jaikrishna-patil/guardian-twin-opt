@@ -1,0 +1,31 @@
+# - insult_id: 5h6i7j8k-9l0m-1n2o-3p4q-5r6s7t8u9v0w
+#   label: "External Hemorrhage"
+#   category: "Hemorrhage"
+#   AIS_severity: (1,6)!
+#   _append_schema:
+#     schema: "../dataSchemas/injuries/locations_external.yaml"
+
+- insult_id: 0m1n2o3p-4q5r-6s7t-8u9v-0w1x2y3z4a5b
+  label: "Thermal Burn"
+  category: "Thermal Burn"
+  AIS_severity: #(1,6)!
+  burn_degree:
+    selection_type: "single!"
+    options:
+      - "1st Degree"
+      - "2nd Degree"
+      - "3rd Degree"
+  _append_schema:
+    schema: "../dataSchemas/injuries/locations_external.yaml" 
+
+# - insult_id:
+#     _generate_uuid: "insult_id"
+#   label: "Internal Hemorrhage"
+#   category: "Hemorrhage"
+#   AIS_severity: (1,6)!
+#   _append_schema:
+#     schema: "../dataSchemas/injuries/locations_internal.yaml"   
+
+
+
+

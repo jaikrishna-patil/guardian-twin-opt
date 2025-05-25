@@ -1,0 +1,277 @@
+- observation_id: d2e3f4g5-h6i7-j8k9-l0m1-n2o3p4q5r6s7
+  category: "Neurological Assessment"
+  label: "Glasgow Coma Scale"
+  abbreviation: "GCS"
+  # indicators:
+  #   - Head injury
+  #   - Altered consciousness
+  #   - Suspected stroke
+  #   - Intoxication
+  #   - Metabolic disorders
+  results:
+    # eye_score: (1,4)
+    # verbal_score: (1,5)
+    # motor_score: (1,6)
+    total_score: (3,15)
+  confidence_score:
+    selection_type: "single!"
+    options:
+      - "Observed": 100
+      - "Inferred": 50
+      - "Simulated": 25
+  # severity_scale:
+  #   - Normal: 13-15
+  #   - Moderate: 9-12
+  #   - Severe: 3-8
+
+# - type: "Observation"
+#   category: "Neurological Assessment"
+#   label: "Pupillary Response"
+#   abbreviation: "PR"
+#   indicators:
+#     - Head injury
+#     - Increased intracranial pressure
+#     - Drug overdose
+#     - Brainstem injury
+#   results:
+#     - left_pupil:
+#         size:
+#         reactivity:
+#     - right_pupil:
+#         size:
+#         reactivity:
+#   unit: "mm"
+
+# - type: "Observation"
+#   category: "Circulatory Assessment"
+#   label: "Capillary Refill Time"
+#   abbreviation: "CRT"
+#   indicators:
+#     - Shock
+#     - Dehydration
+#     - Peripheral circulation assessment
+#   results:
+#     - refill_time: (0,5)
+#   unit: "seconds"
+#   severity_scale:
+#     - Normal: 0-3
+#     - Abnormal: 3+
+
+# - type: "Observation"
+#   category:
+#   label: "Shock Index"
+#   shock_index: (0,1)
+# - type: "Observation"
+#   category:
+#   label: "Pain Index"
+#   pain_index: (0,10)
+# - type: "Observation"
+#   category:
+#   label: "Skin Turgor"
+#   status:
+#     selection_type: "single!"
+#     options:
+#       - Poor
+#       - Normal
+# - type: "Observation"
+#   category: "Respiratory Assessment"
+#   label: "Breath Sounds"
+#   abbreviation: "BS"
+#   indicators:
+#     - Pneumothorax
+#     - Hemothorax
+#     - Pulmonary contusion
+#     - Aspiration
+#   results:
+#     - left_upper_lobe
+#     - left_lower_lobe
+#     - right_upper_lobe
+#     - right_middle_lobe
+#     - right_lower_lobe
+
+# - type: "Observation"
+#   category: "Circulatory Assessment"
+#   label: "External Bleeding"
+#   abbreviation: "EB"
+#   indicators:
+#     - Lacerations
+#     - Penetrating injuries
+#     - Amputation
+#   results:
+#     - location
+#     - severity
+#     - estimated_blood_loss
+#   unit: "mL"
+
+# - type: "Observation"
+#   category: "Musculoskeletal Assessment"
+#   label: "Fracture Assessment"
+#   abbreviation: "FA"
+#   indicators:
+#     - Deformity
+#     - Pain on palpation
+#     - Crepitus
+#     - Limited range of motion
+#   results:
+#     - location
+#     - type
+#     - open_or_closed
+
+# - type: "Observation"
+#   category: "Abdominal Assessment"
+#   label: "Abdominal Examination"
+#   abbreviation: "AE"
+#   indicators:
+#     - Blunt abdominal trauma
+#     - Penetrating abdominal trauma
+#     - Seat belt sign
+#   results:
+#     - tenderness
+#     - rigidity
+#     - distension
+#     - bowel_sounds
+
+# - type: "Observation"
+#   category: "Neurological Assessment"
+#   label: "Spinal Cord Injury Assessment"
+#   abbreviation: "SCIA"
+#   indicators:
+#     - Mechanism of injury suggesting spinal trauma
+#     - Neck or back pain
+#     - Neurological deficits
+#   results:
+#     - motor_function
+#     - sensory_function
+#     - reflexes
+#     - priapism
+
+# - type: "Observation"
+#   category: "Circulatory Assessment"
+#   label: "Shock Classification"
+#   abbreviation: "SC"
+#   indicators:
+#     - Hypotension
+#     - Tachycardia
+#     - Altered mental status
+#     - Poor perfusion
+#   results:
+#     - shock_class
+#     - estimated_blood_loss_percentage
+
+# - type: "Observation"
+#   category: "Respiratory Assessment"
+#   label: "Chest Wall Movement"
+#   abbreviation: "CWM"
+#   indicators:
+#     - Flail chest
+#     - Tension pneumothorax
+#     - Respiratory distress
+#   results:
+#     - symmetry
+#     - paradoxical_movement
+#     - use_of_accessory_muscles
+
+# - type: "Observation"
+#   category: "Burn Assessment"
+#   label: "Burn Evaluation"
+#   abbreviation: "BE"
+#   indicators:
+#     - Thermal burns
+#     - Chemical burns
+#     - Electrical burns
+#   results:
+#     - total_body_surface_area
+#     - depth
+#     - location
+#   unit: "%"
+
+# - type: "Observation"
+#   category: "Toxicological Assessment"
+#   label: "Toxidrome Identification"
+#   abbreviation: "TI"
+#   indicators:
+#     - Suspected poisoning
+#     - Drug overdose
+#     - Exposure to toxic substances
+#   results:
+#     - toxidrome_type
+#     - signs_and_symptoms
+
+# - type: "Observation"
+#   category: "Circulatory Assessment"
+#   label: "Focused Assessment with Sonography for Trauma"
+#   abbreviation: "FAST"
+#   indicators:
+#     - Blunt abdominal trauma
+#     - Suspected internal bleeding
+#     - Hypotension of unknown origin
+#   results:
+#     - pericardial_effusion
+#     - right_upper_quadrant
+#     - left_upper_quadrant
+#     - pelvis
+
+# - type: "Observation"
+#   category: "Neurological Assessment"
+#   label: "Cranial Nerve Examination"
+#   abbreviation: "CNE"
+#   indicators:
+#     - Head injury
+#     - Facial trauma
+#     - Suspected brainstem injury
+#   results:
+#     - cn_i
+#     - cn_ii
+#     - cn_iii_iv_vi
+#     - cn_v
+#     - cn_vii
+#     - cn_viii
+#     - cn_ix_x
+#     - cn_xi
+#     - cn_xii
+
+# - type: "Observation"
+#   category: "Musculoskeletal Assessment"
+#   label: "Compartment Syndrome Evaluation"
+#   abbreviation: "CSE"
+#   indicators:
+#     - Crush injuries
+#     - Fractures
+#     - Vascular injuries
+#     - Tight casts or dressings
+#   results:
+#     - pain
+#     - pallor
+#     - paresthesia
+#     - pulselessness
+#     - paralysis
+#     - compartment_pressure
+#   unit: "mmHg"
+
+# - type: "Observation"
+#   category: "Circulatory Assessment"
+#   label: "Massive Transfusion Protocol Activation"
+#   abbreviation: "MTP"
+#   indicators:
+#     - Severe hemorrhage
+#     - Hemodynamic instability
+#     - Coagulopathy
+#   results:
+#     - activation_criteria_met
+#     - time_of_activation
+#     - blood_products_requested
+
+# - type: "Observation"
+#   category: "Respiratory Assessment"
+#   label: "Endotracheal Tube Placement Confirmation"
+#   abbreviation: "ETPC"
+#   indicators:
+#     - Intubation
+#     - Respiratory failure
+#     - Airway protection
+#   results:
+#     - end_tidal_co2
+#     - chest_rise
+#     - breath_sounds
+#     - tube_depth
+#   unit: "cm at teeth"

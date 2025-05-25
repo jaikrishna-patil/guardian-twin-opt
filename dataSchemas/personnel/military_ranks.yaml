@@ -1,0 +1,162 @@
+# A list of military branches and corresponding ranks.
+# branch: OPTIONAL --  Q: "What is your military branch?"
+# rank: OPTIONAL -- Q: "What is your rank?"
+- branch: "Army"
+  rank: 
+    selection_type: "single"
+    options:
+      - Private (Recruit)
+      - Private
+      - Private First Class
+      - Specialist
+      - Corporal
+      - Sergeant
+      - Staff Sergeant
+      - Sergeant First Class
+      - Master Sergeant
+      - First Sergeant
+      - Sergeant Major
+      - Command Sergeant Major
+      - Sergeant Major of the Army
+      - Warrant Officer 1
+      - Warrant Officer 2
+      - Warrant Officer 3
+      - Warrant Officer 4
+      - Master Warrant Officer 5
+      - 2nd Lieutenant
+      - 1st Lieutenant
+      - Captain
+      - Major
+      - Lieutenant Colonel
+      - Colonel
+      # - Brigadier General
+      # - Major General
+      # - Lieutenant General
+      # - General
+      # - Army Chief of Staff General
+
+- branch: "Air Force"
+  rank:
+    selection_type: "single"
+    options:
+      - Airman Basic
+      - Airman
+      - Airman First Class
+      - Senior Airman
+      - Staff Sergeant
+      - Technical Sergeant
+      - Master Sergeant
+      - First Sergeant (Master Sergeant)
+      - Senior Master Sergeant
+      - First Sergeant (Senior Master Sergeant)
+      - Chief Master Sergeant
+      - First Sergeant (Chief Master Sergeant)
+      - Chief Master Sergeant of the Air Force
+      - 2nd Lieutenant
+      - 1st Lieutenant
+      - Captain
+      - Major
+      - Lieutenant Colonel
+      - Colonel
+      # - Brigadier General
+      # - Major General
+      # - Lieutenant General
+      # - General
+      # - Air Force Chief of Staff General
+      # - General of the Air Force
+
+- branch: "Marine Corps"
+  rank:
+    selection_type: "single"
+    options:
+      - Private
+      - Private First Class
+      - Lance Corporal
+      - Corporal
+      - Sergeant
+      - Staff Sergeant
+      - Gunnery Sergeant
+      - Master Sergeant
+      - First Sergeant
+      - Master Gunnery Sergeant
+      - Sergeant Major
+      - Sergeant Major of the Marine Corps
+      - Warrant Officer 1
+      - Chief Warrant Officer 2
+      - Chief Warrant Officer 3
+      - Chief Warrant Officer 4
+      - Chief Warrant Officer 5
+      - 2nd Lieutenant
+      - 1st Lieutenant
+      - Captain
+      - Major
+      - Lieutenant Colonel
+      - Colonel
+      # - Brigadier General
+      # - Major General
+      # - Lieutenant General
+      # - General
+      # - Commandant of the Marine Corps
+
+- branch: "Navy"
+  rank:
+    selection_type: "single"
+    options:
+      - Seaman Recruit
+      - Seaman Apprentice
+      - Seaman
+      - Petty Officer Third Class
+      - Petty Officer Second Class
+      - Petty Officer First Class
+      - Chief Petty Officer
+      - Senior Chief Petty Officer
+      - Master Chief Petty Officer
+      - Master Chief Petty Officer of the Navy
+      - Warrant Officer 1
+      - Chief Warrant Officer 2
+      - Chief Warrant Officer 3
+      - Chief Warrant Officer 4
+      - Chief Warrant Officer 5
+      - Ensign
+      - Lieutenant Junior Grade
+      - Lieutenant
+      - Lieutenant Commander
+      - Commander
+      - Captain
+      # - Rear Admiral (Lower Half)
+      # - Rear Admiral (Upper Half)
+      # - Vice Admiral
+      # - Admiral
+      # - Chief of Naval Operations
+      # - Fleet Admiral
+
+- branch: "Coast Guard"
+  rank:
+    selection_type: "single"
+    options:
+      - Seaman Recruit
+      - Seaman Apprentice
+      - Seaman
+      - Petty Officer Third Class
+      - Petty Officer Second Class
+      - Petty Officer First Class
+      - Chief Petty Officer
+      - Senior Chief Petty Officer
+      - Master Chief Petty Officer
+      - Master Chief Petty Officer of the Coast Guard
+      - Warrant Officer 1
+      - Chief Warrant Officer 2
+      - Chief Warrant Officer 3
+      - Chief Warrant Officer 4
+      - Chief Warrant Officer 5
+      - Ensign
+      - Lieutenant Junior Grade
+      - Lieutenant
+      - Lieutenant Commander
+      - Commander
+      - Captain
+      # - Rear Admiral (Lower Half)
+      # - Rear Admiral (Upper Half)
+      # - Vice Admiral
+      # - Admiral
+      # - Commandant of the Coast Guard

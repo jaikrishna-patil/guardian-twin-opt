@@ -1,0 +1,245 @@
+# This list contains value range specifications for each vital
+# The intent is that when we get a value for a vital, we can check the range and assign a risk score and condition
+# patient_state.patient_record.
+# patient_state.forecast
+# TODO: Confirm below with SMEs
+
+# Blood Pressure Vitals & Circulation
+- vital_id: 2e3f4g5h-6i7j-8k9l-0m1n-2o3p4q5r6s7t
+  abbreviation: "HR"
+  label: "Heart Rate"
+  unit: "bpm"
+  unit_label: "Beats per Minute"
+  conditions:
+  - range: (0,40)
+    condition: "Brachycardic"
+    risk_score: 3
+  - range: (41,50)
+    condition: "Mildly Brachycardic"
+    risk_score: 1
+  - range: (51,90)
+    condition: Normal
+    risk_score: 0
+  - range: (91,110)
+    condition: "Mildly Tachycardic"
+    risk_score: 1
+  - range: (111,130)
+    condition: "Moderately Tachycardic"
+    risk_score: 2
+  - range: (131,200)
+    condition: "Severely Tachycardic"
+    risk_score: 3  
+
+- vital_id: 9k0l1m2n-3o4p-5q6r-7s8t-9u0v1w2x3y4z
+  abbreviation: "SBP"
+  label: "Systolic Blood Pressure"
+  unit: "mmHg"
+  unit_label: "Millimeters of Mercury"
+  conditions:
+  - range: (0,90)
+    condition: "Severely Hypotensive"
+    risk_score: 3
+  - range: (91, 100)
+    condition: "Moderately Hypotensive"
+    risk_score: 2
+  - range: (101,110)
+    condition: "Mildly Hypotensive"
+    risk_score: 1
+  - range: (111,120)
+    condition: "Normal"
+    risk_score: 0
+  - range: (121,130)
+    condition: "Mildly Hypertensive"
+    risk_score: 1
+  - range: (131,140)
+    condition: "Moderately Hypertensive"
+    risk_score: 2 
+  - range: (141,200)
+    condition: "Severely Hypertensive"
+    risk_score: 3 
+
+
+- vital_id: 6h7i8j9k-0l1m-2n3o-4p5q-6r7s8t9u0v1w
+  abbreviation: "DBP"
+  label: "Diastolic Blood Pressure"
+  unit: "mmHg"
+  unit_label: "Millimeters of Mercury"
+  conditions:
+  - range: (0,40)
+    condition: "Severely Hypotensive"
+    risk_score: 3
+  - range: (41,59)
+    condition: "Hypotensive"
+    risk_score: 2
+  - range: (60,70)
+    condition: "Normal"
+    risk_score: 0
+  - range: (71,80)
+    condition: "Mildly Hypertensive"
+    risk_score: 1
+  - range: (81,139)
+    condition: "Moderately Hypertensive"
+    risk_score: 2
+  - range: (140,200)
+    condition: "Severely Hypertensive"
+    risk_score: 3
+
+
+- vital_id: a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6
+  abbreviation: "MAP"
+  label: "Mean Arterial Pressure"
+  unit: "mmHg"
+  unit_label: "Millimeters of Mercury"
+  conditions:
+  - range: (0,60)
+    condition: "Severely Hypotensive"
+    risk_score: 3
+  - range: (61,70)
+    condition: "Hypotensive"
+    risk_score: 2
+  - range: (71,90)
+    condition: "Normal"
+    risk_score: 0
+  - range: (91,100)
+    condition: "Mildly Hypertensive"
+    risk_score: 1
+  - range: (101,110)
+    condition: "Moderately Hypertensive"
+    risk_score: 2
+  - range: (111,200)
+    condition: "Severely Hypertensive"
+    risk_score: 3
+  
+
+# Respiratory Vitals
+- vital_id: f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6
+  abbreviation: "RR"
+  label: "Respiratory Rate"
+  unit: "rpm"
+  unit_label: "Respirations per Minute"
+  conditions:
+  - range: (0,8)
+    condition: "Apneic"
+    condition_alternates: [Apnoeic, Apnoea, Apnoeic]
+    risk_score: 3
+  - range: (9,10)
+    condition: "Bradypneic" 
+    condition_alternates: [Bradypnea, Bradypnoea, Bradypnoeic, Bradypneic]
+    risk_score: 2
+  - range: (11,20)
+    condition: "Normal"
+    risk_score: 0
+  - range: (21,24)
+    condition: "Tachypneic" 
+    condition_alternates: [Tachypnea, Tachypnoea, Tachypnoeic]
+    risk_score: 1
+  - range: (25,30)
+    condition: "Moderately Tachypneic"
+    condition_alternates: [Moderate Hyperpneic, Moderate Hyperpnea, Moderate Hyperpnoea, Moderate Hyperpnoeic]
+    risk_score: 2
+  - range: (31,200)
+    condition: "Severely Tachypneic" 
+    condition_alternates: [Severe Hyperpneic, Severe Hyperpnea, Severe Hyperpnoea, Severe Hyperpnoeic]
+    risk_score: 3
+
+- vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+  abbreviation: "Spo2"
+  label: "Oxygen Saturation"
+  unit: "%"
+  unit_label: "Percent"
+  conditions:
+  - range: (0,90)
+    condition: "Severely Hypoxic"
+    risk_score: 3
+  - range: (91,92)
+    condition: "Moderately Hypoxic"
+    risk_score: 2
+  - range: (93,94)
+    condition: "Mildly Hypoxic"
+    risk_score: 1
+  - range: (95,100)
+    condition: "Normal"
+    risk_score: 0
+  - range: (101,200)
+    condition: "Hyperoxic"
+    risk_score: 1
+  -
+
+- vital_id: e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6 
+  abbreviation: "EtCO2"
+  label: "End Tidal CO2"
+  unit: "mmHg"
+  unit_label: "Millimeters of Mercury"
+  conditions:
+  - range: (0,20)
+    condition: "Severely Hypocarbic"
+    risk_score: 3
+  - range: (21,30)
+    condition: "Moderately Hypocarbic"
+    risk_score: 2
+  - range: (31,35)
+    condition: "Mildly Hypocarbic"
+    risk_score: 1
+  - range: (36,45)
+    condition: "Normal"
+    risk_score: 0
+  - range: (46,50)
+    condition: "Mildly Hypercarbic"
+    risk_score: 1
+  - range: (51,60)
+    condition: "Moderately Hypercarbic"
+    risk_score: 2
+  - range: (61,200)
+    condition: "Severely Hypercarbic"
+    risk_score: 3
+
+# Other
+- vital_id: 8j9k0l1m-2n3o-4p5q-6r7s-8t9u0v1w2x3y
+  abbreviation: "Temp"
+  label: "Temperature"
+  unit: "C"
+  unit_label: "Celsius"
+  conditions:
+  - range: (0,35)
+    condition: "Severely Hypothermic"
+    risk_score: 3
+  - range: (35.1,36.0)
+    condition: "Mildly Hypothermic"
+    risk_score: 1
+  - range: (36.1,38.0)
+    condition: "Normal"
+    risk_score: 0
+  - range: (38.1,39.0)
+    condition: "Mildly Febrile"
+    risk_score: 1
+  - range: (39.1,40.0)
+    condition: "Moderately Febrile"
+    risk_score: 2
+  - range: (40.1,200)
+    condition: "Severely Febrile"
+    risk_score: 3
+
+- vital_id: c1d2e3f4-g5h6-i7j8-k9l0-m1n2o3p4q5r6
+  abbreviation: "UO/hr"
+  label: "Urinary Output per hour"
+  unit: "ml/hr"
+  unit_label: "Milliliters per Hour"
+  conditions:
+  - range: (0,120)
+    condition: "Anuric"
+    risk_score: 3
+  - range: (121,480)
+    condition: "Oliguric"
+    risk_score: 2
+  - range: (481,1200)
+    condition: "Normal"
+    risk_score: 0
+  - range: (1201,2200)
+    condition: "Mildly Polyuric"
+    risk_score: 1
+  - range: (2201,3200)
+    condition: "Moderately Polyuric"
+    risk_score: 2
+  - range: (3201,20000)
+    condition: "Severely Polyuric"
+    risk_score: 3

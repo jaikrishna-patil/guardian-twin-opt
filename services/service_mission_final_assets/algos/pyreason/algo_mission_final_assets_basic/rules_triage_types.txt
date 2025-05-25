@@ -1,0 +1,35 @@
+run_opt(TRIAGE) <-0 use_opt(TRIAGE)
+
+
+p_r_ns(FINAL_SOL) <-0 type_final_solution(FINAL_SOL), accept_possible(FINAL_SOL, PRIMARY), type_primary(PRIMARY), accept_possible(FINAL_SOL, REVERSE), type_reverse(REVERSE), accept_possible(FINAL_SOL, SITUATIONAL):[0,0], type_situational(SITUATIONAL)
+accept_final(FINAL_SOL, PRIMARY) <-0 p_r_ns(FINAL_SOL), type_final_solution(FINAL_SOL), type_primary(PRIMARY), psroGap_lt_rspoGap(FINAL_SOL)
+accept_final(FINAL_SOL, REVERSE) <-0 p_r_ns(FINAL_SOL), type_final_solution(FINAL_SOL), type_reverse(REVERSE), psroGap_lt_rspoGap(FINAL_SOL): [0,0]
+
+p_nr_s(FINAL_SOL) <-0 type_final_solution(FINAL_SOL), accept_possible(FINAL_SOL, PRIMARY), type_primary(PRIMARY), accept_possible(FINAL_SOL, REVERSE):[0,0], type_reverse(REVERSE), accept_possible(FINAL_SOL, SITUATIONAL), type_situational(SITUATIONAL)
+accept_final(FINAL_SOL, PRIMARY) <-0 p_nr_s(FINAL_SOL), type_final_solution(FINAL_SOL), type_primary(PRIMARY), pssoGap_lt_sspoGap(FINAL_SOL)
+accept_final(FINAL_SOL, SITUATIONAL) <-0 p_nr_s(FINAL_SOL), type_final_solution(FINAL_SOL), type_situational(SITUATIONAL), pssoGap_lt_sspoGap(FINAL_SOL): [0,0]
+
+
+np_r_s(FINAL_SOL) <-0 type_final_solution(FINAL_SOL), accept_possible(FINAL_SOL, PRIMARY):[0,0], type_primary(PRIMARY), accept_possible(FINAL_SOL, REVERSE), type_reverse(REVERSE), accept_possible(FINAL_SOL, SITUATIONAL), type_situational(SITUATIONAL)
+accept_final(FINAL_SOL, REVERSE) <-0 np_r_s(FINAL_SOL), type_final_solution(FINAL_SOL), type_reverse(REVERSE), rssoGap_lt_ssroGap(FINAL_SOL)
+accept_final(FINAL_SOL, SITUATIONAL) <-0 np_r_s(FINAL_SOL), type_final_solution(FINAL_SOL), type_situational(SITUATIONAL), rssoGap_lt_ssroGap(FINAL_SOL): [0,0]
+
+np_r_s(FINAL_SOL) <-0 type_final_solution(FINAL_SOL), accept_possible(FINAL_SOL, PRIMARY):[0,0], type_primary(PRIMARY), accept_possible(FINAL_SOL, REVERSE), type_reverse(REVERSE), accept_possible(FINAL_SOL, SITUATIONAL), type_situational(SITUATIONAL)
+accept_final(FINAL_SOL, REVERSE) <-0 np_r_s(FINAL_SOL), type_final_solution(FINAL_SOL), type_reverse(REVERSE), rssoGap_lt_ssroGap(FINAL_SOL)
+accept_final(FINAL_SOL, SITUATIONAL) <-0 np_r_s(FINAL_SOL), type_final_solution(FINAL_SOL), type_situational(SITUATIONAL), rssoGap_lt_ssroGap(FINAL_SOL): [0,0]
+
+# Only 1
+accept_final(FINAL_SOL, PRIMARY) <-0 type_final_solution(FINAL_SOL), accept_possible(FINAL_SOL, PRIMARY), type_primary(PRIMARY), accept_possible(FINAL_SOL, REVERSE):[0,0], type_reverse(REVERSE), accept_possible(FINAL_SOL, SITUATIONAL):[0,0], type_situational(SITUATIONAL)
+accept_final(FINAL_SOL, REVERSE) <-0 type_final_solution(FINAL_SOL), accept_possible(FINAL_SOL, PRIMARY):[0,0], type_primary(PRIMARY), accept_possible(FINAL_SOL, REVERSE), type_reverse(REVERSE), accept_possible(FINAL_SOL, SITUATIONAL):[0,0], type_situational(SITUATIONAL)
+accept_final(FINAL_SOL, SITUATIONAL) <-0 type_final_solution(FINAL_SOL), accept_possible(FINAL_SOL, PRIMARY):[0,0], type_primary(PRIMARY), accept_possible(FINAL_SOL, REVERSE):[0,0], type_reverse(REVERSE), accept_possible(FINAL_SOL, SITUATIONAL), type_situational(SITUATIONAL)
+
+# non of tyhe above
+accept_final(FINAL_SOL, NONE) <-0 type_final_solution(FINAL_SOL), type_none(NONE), accept_possible(FINAL_SOL, PRIMARY):[0,0], type_primary(PRIMARY), accept_possible(FINAL_SOL, REVERSE):[0,0], type_reverse(REVERSE), accept_possible(FINAL_SOL, SITUATIONAL):[0,0], type_situational(SITUATIONAL)
+
+
+# All 3
+p_r_s(FINAL_SOL) <-0 type_final_solution(FINAL_SOL), accept_possible(FINAL_SOL, PRIMARY), type_primary(PRIMARY), accept_possible(FINAL_SOL, REVERSE), type_reverse(REVERSE), accept_possible(FINAL_SOL, SITUATIONAL), type_situational(SITUATIONAL)
+accept_final(FINAL_SOL, PRIMARY) <-0 p_r_s(FINAL_SOL), type_final_solution(FINAL_SOL), type_primary(PRIMARY), psroGap_lt_rspoGap(FINAL_SOL), pssoGap_lt_sspoGap(FINAL_SOL)
+accept_final(FINAL_SOL, SITUATIONAL) <-0 p_r_s(FINAL_SOL), type_final_solution(FINAL_SOL), type_situational(SITUATIONAL), psroGap_lt_rspoGap(FINAL_SOL), pssoGap_lt_sspoGap(FINAL_SOL):[0,0]
+accept_final(FINAL_SOL, REVERSE) <-0 p_r_s(FINAL_SOL), type_final_solution(FINAL_SOL), type_reverse(REVERSE), psroGap_lt_rspoGap(FINAL_SOL):[0,0], rssoGap_lt_ssroGap(FINAL_SOL)
+accept_final(FINAL_SOL, SITUATIONAL) <-0 p_r_s(FINAL_SOL), type_final_solution(FINAL_SOL), type_situational(SITUATIONAL), psroGap_lt_rspoGap(FINAL_SOL):[0,0], rssoGap_lt_ssroGap(FINAL_SOL):[0,0]

@@ -1,0 +1,76 @@
+## External Hemorrhage Possible Locations
+
+# Head
+- location: "Head"
+  sublocation:
+    selection_type: "single"
+    options:
+      - ""
+      - "Face"
+      - "Top"
+      - "Back"
+      - "Side"
+  lateral_position:
+    selection_type: "single"
+    options:
+      - "Left"
+      - "Right"
+      - "Center"
+  coronal_position: "NA"
+
+# Extremity
+- location:
+    selection_type: "single" 
+    options:
+      - "Arm"
+      - "Leg"
+  sublocation: 
+    selection_type: "single" 
+    options:
+      - "Upper"
+      - "Lower"
+  lateral_position:
+    selection_type: "single"
+    options:
+      - "Left"
+      - "Right"
+  coronal_position: # eg "anterior=front, posterior=back"
+    selection_type: "single"
+    options:
+      - "Anterior" 
+      - "Posterior" 
+
+# Trunk
+- location:
+    selection_type: "single" 
+    options:
+      - "Chest"
+      - "Abdomen"
+      - "Back"
+  sublocation: 
+    selection_type: "single" 
+    options:
+      - "Upper"
+      - "Lower"
+  lateral_position:
+    selection_type: "single"
+    options:
+      - "Left"
+      - "Right"
+      - "Center"
+    coronal_position: ""
+
+# Pelvis
+- location: "Pelvis"
+  sublocation:
+    selection_type: "single"
+    options:
+      - "Groin"
+      - "Buttocks"
+  lateral_position:
+    selection_type: "single"
+    options:
+      - "Left"
+      - "Right"
+      - "Center"
+  coronal_position: ""

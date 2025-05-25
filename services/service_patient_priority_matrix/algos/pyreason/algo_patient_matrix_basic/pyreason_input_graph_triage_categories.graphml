@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="resupply_priority" for="edge" attr.name="resupply_priority" attr.type="string" />
+  <key id="evac_priority" for="edge" attr.name="evac_priority" attr.type="string" />
+  <key id="medevac_priority" for="edge" attr.name="medevac_priority" attr.type="string" />
+  <key id="triage_category" for="edge" attr.name="triage_category" attr.type="string" />
+  <key id="resupply_needed" for="node" attr.name="resupply_needed" attr.type="string" />
+  <key id="evac_needed" for="node" attr.name="evac_needed" attr.type="string" />
+  <key id="medevac_needed" for="node" attr.name="medevac_needed" attr.type="string" />
+  <key id="ambulatory" for="node" attr.name="ambulatory" attr.type="string" />
+  <key id="litter" for="node" attr.name="litter" attr.type="string" />
+  <key id="type_casualty" for="node" attr.name="type_casualty" attr.type="string" />
+  <key id="casualty_id" for="node" attr.name="casualty_id" attr.type="long" />
+  <key id="priority_six" for="node" attr.name="priority_six" attr.type="string" />
+  <key id="priority_five" for="node" attr.name="priority_five" attr.type="string" />
+  <key id="priority_four" for="node" attr.name="priority_four" attr.type="string" />
+  <key id="priority_three" for="node" attr.name="priority_three" attr.type="string" />
+  <key id="priority_two" for="node" attr.name="priority_two" attr.type="string" />
+  <key id="priority_one" for="node" attr.name="priority_one" attr.type="string" />
+  <key id="priority_zero" for="node" attr.name="priority_zero" attr.type="string" />
+  <key id="type_triage_category_uninjured" for="node" attr.name="type_triage_category_uninjured" attr.type="string" />
+  <key id="type_triage_category_minor" for="node" attr.name="type_triage_category_minor" attr.type="string" />
+  <key id="type_triage_category_delayed" for="node" attr.name="type_triage_category_delayed" attr.type="string" />
+  <key id="type_triage_category_urgent" for="node" attr.name="type_triage_category_urgent" attr.type="string" />
+  <key id="type_triage_category_immediate" for="node" attr.name="type_triage_category_immediate" attr.type="string" />
+  <key id="type_triage_category_expectant" for="node" attr.name="type_triage_category_expectant" attr.type="string" />
+  <key id="triage_category_id" for="node" attr.name="triage_category_id" attr.type="long" />
+  <graph edgedefault="directed">
+    <node id="expectant">
+      <data key="triage_category_id">2</data>
+      <data key="type_triage_category_expectant">1,1</data>
+    </node>
+    <node id="immediate">
+      <data key="triage_category_id">3</data>
+      <data key="type_triage_category_immediate">1,1</data>
+    </node>
+    <node id="urgent">
+      <data key="triage_category_id">4</data>
+      <data key="type_triage_category_urgent">1,1</data>
+    </node>
+    <node id="delayed">
+      <data key="triage_category_id">5</data>
+      <data key="type_triage_category_delayed">1,1</data>
+    </node>
+    <node id="minor">
+      <data key="triage_category_id">6</data>
+      <data key="type_triage_category_minor">1,1</data>
+    </node>
+    <node id="uninjured">
+      <data key="triage_category_id">7</data>
+      <data key="type_triage_category_uninjured">1,1</data>
+    </node>
+    <node id="0">
+      <data key="priority_zero">1,1</data>
+    </node>
+    <node id="1">
+      <data key="priority_one">1,1</data>
+    </node>
+    <node id="2">
+      <data key="priority_two">1,1</data>
+    </node>
+    <node id="3">
+      <data key="priority_three">1,1</data>
+    </node>
+    <node id="4">
+      <data key="priority_four">1,1</data>
+    </node>
+    <node id="5">
+      <data key="priority_five">1,1</data>
+    </node>
+    <node id="6">
+      <data key="priority_six">1,1</data>
+    </node>
+    <node id="Adrian Monk">
+      <data key="casualty_id">2</data>
+      <data key="type_casualty">1,1</data>
+      <data key="litter">0,0</data>
+      <data key="ambulatory">1,1</data>
+      <data key="medevac_needed">0,0</data>
+      <data key="evac_needed">0,0</data>
+      <data key="resupply_needed">0,0</data>
+    </node>
+    <node id="Natalie Tieger">
+      <data key="casualty_id">3</data>
+      <data key="type_casualty">1,1</data>
+      <data key="litter">0,0</data>
+      <data key="ambulatory">1,1</data>
+      <data key="medevac_needed">0,0</data>
+      <data key="evac_needed">0,0</data>
+      <data key="resupply_needed">0,0</data>
+    </node>
+    <node id="Leland Stottlemeyer">
+      <data key="casualty_id">4</data>
+      <data key="type_casualty">1,1</data>
+      <data key="litter">0,0</data>
+      <data key="ambulatory">1,1</data>
+      <data key="medevac_needed">0,0</data>
+      <data key="evac_needed">0,0</data>
+      <data key="resupply_needed">0,0</data>
+    </node>
+    <node id="Jake Peralta">
+      <data key="casualty_id">5</data>
+      <data key="type_casualty">1,1</data>
+      <data key="litter">0,0</data>
+      <data key="ambulatory">1,1</data>
+      <data key="medevac_needed">0,0</data>
+      <data key="evac_needed">0,0</data>
+      <data key="resupply_needed">0,0</data>
+    </node>
+    <node id="Sharona Fleming">
+      <data key="casualty_id">6</data>
+      <data key="type_casualty">1,1</data>
+      <data key="litter">0,0</data>
+      <data key="ambulatory">1,1</data>
+      <data key="medevac_needed">0,0</data>
+      <data key="evac_needed">0,0</data>
+      <data key="resupply_needed">0,0</data>
+    </node>
+    <node id="Randy Disher">
+      <data key="casualty_id">7</data>
+      <data key="type_casualty">1,1</data>
+      <data key="litter">0,0</data>
+      <data key="ambulatory">1,1</data>
+      <data key="medevac_needed">0,0</data>
+      <data key="evac_needed">0,0</data>
+      <data key="resupply_needed">0,0</data>
+    </node>
+    <node id="Trudy Monk">
+      <data key="casualty_id">8</data>
+      <data key="type_casualty">1,1</data>
+      <data key="litter">0,0</data>
+      <data key="ambulatory">1,1</data>
+      <data key="medevac_needed">0,0</data>
+      <data key="evac_needed">0,0</data>
+      <data key="resupply_needed">0,0</data>
+    </node>
+    <node id="Charles Kroger">
+      <data key="casualty_id">9</data>
+      <data key="type_casualty">1,1</data>
+      <data key="litter">0,0</data>
+      <data key="ambulatory">1,1</data>
+      <data key="medevac_needed">0,0</data>
+      <data key="evac_needed">0,0</data>
+      <data key="resupply_needed">0,0</data>
+    </node>
+    <node id="Julie Trieger">
+      <data key="casualty_id">10</data>
+      <data key="type_casualty">1,1</data>
+      <data key="litter">0,0</data>
+      <data key="ambulatory">1,1</data>
+      <data key="medevac_needed">0,0</data>
+      <data key="evac_needed">0,0</data>
+      <data key="resupply_needed">0,0</data>
+    </node>
+    <node id="Benjy Fleming">
+      <data key="casualty_id">11</data>
+      <data key="type_casualty">1,1</data>
+      <data key="litter">0,0</data>
+      <data key="ambulatory">1,1</data>
+      <data key="medevac_needed">0,0</data>
+      <data key="evac_needed">0,0</data>
+      <data key="resupply_needed">0,0</data>
+    </node>
+    <edge source="Adrian Monk" target="immediate">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Adrian Monk" target="0">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="1">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="2">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="3">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="4">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="5">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Adrian Monk" target="6">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="immediate">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Natalie Tieger" target="0">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="1">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="2">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="3">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="4">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="5">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Natalie Tieger" target="6">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="immediate">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="0">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="1">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="2">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="3">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="4">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="5">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Leland Stottlemeyer" target="6">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="expectant">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Jake Peralta" target="0">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="1">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="2">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="3">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="4">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="5">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Jake Peralta" target="6">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="delayed">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Sharona Fleming" target="0">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="1">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="2">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="3">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="4">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="5">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Sharona Fleming" target="6">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="expectant">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Randy Disher" target="0">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="1">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="2">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="3">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="4">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="5">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Randy Disher" target="6">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="immediate">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Trudy Monk" target="0">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="1">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="2">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="3">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="4">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="5">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Trudy Monk" target="6">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="minor">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Charles Kroger" target="0">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="1">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="2">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="3">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="4">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="5">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Charles Kroger" target="6">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="delayed">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Julie Trieger" target="0">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="1">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="2">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="3">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="4">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="5">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Julie Trieger" target="6">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="delayed">
+      <data key="triage_category">1,1</data>
+    </edge>
+    <edge source="Benjy Fleming" target="0">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="1">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="2">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="3">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="4">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="5">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+    <edge source="Benjy Fleming" target="6">
+      <data key="medevac_priority">0,0</data>
+      <data key="evac_priority">0,0</data>
+      <data key="resupply_priority">0,0</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,3 @@
+run_opt(urgency) <-0 use_opt(urgency)
+required_resource(P, R)<-0 has_injury(P,INJ), need_intervention(INJ,INT), includes_resource(INT, R)
+resource_resupply_needed(R):resupply_ann_fn <-0 total_quantity_needed(R):[0,1], total_quantity_available(R):[0,1]

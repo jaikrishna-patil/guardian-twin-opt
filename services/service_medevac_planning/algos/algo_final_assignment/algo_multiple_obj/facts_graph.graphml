@@ -1,0 +1,932 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="value" for="edge" attr.name="value" attr.type="double" />
+  <key id="normalized_acs" for="edge" attr.name="normalized_acs" attr.type="double" />
+  <key id="assign_asset_reverse" for="edge" attr.name="assign_asset_reverse" attr.type="string" />
+  <key id="assign_asset_urgency" for="edge" attr.name="assign_asset_urgency" attr.type="string" />
+  <key id="asset_possible" for="edge" attr.name="asset_possible" attr.type="string" />
+  <key id="cf_possible" for="edge" attr.name="cf_possible" attr.type="string" />
+  <key id="cas_longitude" for="edge" attr.name="cas_longitude" attr.type="string" />
+  <key id="cas_latitude" for="edge" attr.name="cas_latitude" attr.type="string" />
+  <key id="cf_longitude" for="edge" attr.name="cf_longitude" attr.type="string" />
+  <key id="cf_latitude" for="edge" attr.name="cf_latitude" attr.type="string" />
+  <key id="asset_longitude" for="edge" attr.name="asset_longitude" attr.type="string" />
+  <key id="asset_latitude" for="edge" attr.name="asset_latitude" attr.type="string" />
+  <key id="asset_speed_kmph" for="edge" attr.name="asset_speed_kmph" attr.type="string" />
+  <key id="asset_range_in_km" for="edge" attr.name="asset_range_in_km" attr.type="string" />
+  <key id="type_none" for="node" attr.name="type_none" attr.type="string" />
+  <key id="type_reverse" for="node" attr.name="type_reverse" attr.type="string" />
+  <key id="type_urgency" for="node" attr.name="type_urgency" attr.type="string" />
+  <key id="use_opt" for="node" attr.name="use_opt" attr.type="string" />
+  <key id="enable_rts" for="node" attr.name="enable_rts" attr.type="string" />
+  <key id="enable_niss" for="node" attr.name="enable_niss" attr.type="string" />
+  <key id="enable_life" for="node" attr.name="enable_life" attr.type="string" />
+  <key id="type_rr" for="node" attr.name="type_rr" attr.type="string" />
+  <key id="type_sbp" for="node" attr.name="type_sbp" attr.type="string" />
+  <key id="type_gcs" for="node" attr.name="type_gcs" attr.type="string" />
+  <key id="type_vital" for="node" attr.name="type_vital" attr.type="string" />
+  <key id="type_insult_ThermalBurn_Pelvis" for="node" attr.name="type_insult_ThermalBurn_Pelvis" attr.type="string" />
+  <key id="type_insult_ThermalBurn_Trunk" for="node" attr.name="type_insult_ThermalBurn_Trunk" attr.type="string" />
+  <key id="type_insult_ThermalBurn_Extremity" for="node" attr.name="type_insult_ThermalBurn_Extremity" attr.type="string" />
+  <key id="type_insult_ThermalBurn_Head" for="node" attr.name="type_insult_ThermalBurn_Head" attr.type="string" />
+  <key id="type_insult_ExternalHemorrhage_Pelvis" for="node" attr.name="type_insult_ExternalHemorrhage_Pelvis" attr.type="string" />
+  <key id="type_insult_ExternalHemorrhage_Trunk" for="node" attr.name="type_insult_ExternalHemorrhage_Trunk" attr.type="string" />
+  <key id="type_insult_ExternalHemorrhage_Extremity" for="node" attr.name="type_insult_ExternalHemorrhage_Extremity" attr.type="string" />
+  <key id="type_insult_ExternalHemorrhage_Head" for="node" attr.name="type_insult_ExternalHemorrhage_Head" attr.type="string" />
+  <key id="type_insult" for="node" attr.name="type_insult" attr.type="string" />
+  <key id="type_cas_longitude" for="node" attr.name="type_cas_longitude" attr.type="string" />
+  <key id="type_cas_latitude" for="node" attr.name="type_cas_latitude" attr.type="string" />
+  <key id="vitals_available" for="node" attr.name="vitals_available" attr.type="string" />
+  <key id="insults_available" for="node" attr.name="insults_available" attr.type="string" />
+  <key id="type_casualty" for="node" attr.name="type_casualty" attr.type="string" />
+  <key id="type_cf_longitude" for="node" attr.name="type_cf_longitude" attr.type="string" />
+  <key id="type_cf_latitude" for="node" attr.name="type_cf_latitude" attr.type="string" />
+  <key id="type_cf" for="node" attr.name="type_cf" attr.type="string" />
+  <key id="type_asset_longitude" for="node" attr.name="type_asset_longitude" attr.type="string" />
+  <key id="type_asset_latitude" for="node" attr.name="type_asset_latitude" attr.type="string" />
+  <key id="type_asset_speed_kmph" for="node" attr.name="type_asset_speed_kmph" attr.type="string" />
+  <key id="type_asset_range_in_km" for="node" attr.name="type_asset_range_in_km" attr.type="string" />
+  <key id="type_asset" for="node" attr.name="type_asset" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="Asset 486">
+      <data key="type_asset">1,1</data>
+    </node>
+    <node id="670">
+      <data key="type_asset_range_in_km">1,1</data>
+    </node>
+    <node id="280">
+      <data key="type_asset_speed_kmph">1,1</data>
+    </node>
+    <node id="30.60649844664852">
+      <data key="type_asset_latitude">1,1</data>
+    </node>
+    <node id="-112.78934025809686">
+      <data key="type_asset_longitude">1,1</data>
+    </node>
+    <node id="Asset 329">
+      <data key="type_asset">1,1</data>
+    </node>
+    <node id="42.08219213015641">
+      <data key="type_asset_latitude">1,1</data>
+    </node>
+    <node id="-102.77011057750545">
+      <data key="type_asset_longitude">1,1</data>
+    </node>
+    <node id="Asset 382">
+      <data key="type_asset">1,1</data>
+    </node>
+    <node id="29.722374828437847">
+      <data key="type_asset_latitude">1,1</data>
+    </node>
+    <node id="-106.73681308087788">
+      <data key="type_asset_longitude">1,1</data>
+    </node>
+    <node id="Asset 178">
+      <data key="type_asset">1,1</data>
+    </node>
+    <node id="35.27790594524641">
+      <data key="type_asset_latitude">1,1</data>
+    </node>
+    <node id="-114.41294996524745">
+      <data key="type_asset_longitude">1,1</data>
+    </node>
+    <node id="Asset 23">
+      <data key="type_asset">1,1</data>
+    </node>
+    <node id="34.58009377888308">
+      <data key="type_asset_latitude">1,1</data>
+    </node>
+    <node id="-115.36654472978691">
+      <data key="type_asset_longitude">1,1</data>
+    </node>
+    <node id="Care Facility 68">
+      <data key="type_cf">1,1</data>
+    </node>
+    <node id="33.03789517613956">
+      <data key="type_cf_latitude">1,1</data>
+    </node>
+    <node id="-116.36042963877618">
+      <data key="type_cf_longitude">1,1</data>
+    </node>
+    <node id="Casualty 446">
+      <data key="type_casualty">1,1</data>
+      <data key="insults_available">0,0</data>
+      <data key="vitals_available">0,0</data>
+    </node>
+    <node id="37.5852826215274">
+      <data key="type_cas_latitude">1,1</data>
+    </node>
+    <node id="-109.08497425536144">
+      <data key="type_cas_longitude">1,1</data>
+    </node>
+    <node id="insult_ExternalHemorrhage_Head">
+      <data key="type_insult">1,1</data>
+      <data key="type_insult_ExternalHemorrhage_Head">1,1</data>
+    </node>
+    <node id="insult_ExternalHemorrhage_Extremity">
+      <data key="type_insult">1,1</data>
+      <data key="type_insult_ExternalHemorrhage_Extremity">1,1</data>
+    </node>
+    <node id="insult_ExternalHemorrhage_Trunk">
+      <data key="type_insult">1,1</data>
+      <data key="type_insult_ExternalHemorrhage_Trunk">1,1</data>
+    </node>
+    <node id="insult_ExternalHemorrhage_Pelvis">
+      <data key="type_insult">1,1</data>
+      <data key="type_insult_ExternalHemorrhage_Pelvis">1,1</data>
+    </node>
+    <node id="insult_ThermalBurn_Head">
+      <data key="type_insult">1,1</data>
+      <data key="type_insult_ThermalBurn_Head">1,1</data>
+    </node>
+    <node id="insult_ThermalBurn_Extremity">
+      <data key="type_insult">1,1</data>
+      <data key="type_insult_ThermalBurn_Extremity">1,1</data>
+    </node>
+    <node id="insult_ThermalBurn_Trunk">
+      <data key="type_insult">1,1</data>
+      <data key="type_insult_ThermalBurn_Trunk">1,1</data>
+    </node>
+    <node id="insult_ThermalBurn_Pelvis">
+      <data key="type_insult">1,1</data>
+      <data key="type_insult_ThermalBurn_Pelvis">1,1</data>
+    </node>
+    <node id="gcs">
+      <data key="type_vital">1,1</data>
+      <data key="type_gcs">1,1</data>
+    </node>
+    <node id="sbp">
+      <data key="type_vital">1,1</data>
+      <data key="type_sbp">1,1</data>
+    </node>
+    <node id="rr">
+      <data key="type_vital">1,1</data>
+      <data key="type_rr">1,1</data>
+    </node>
+    <node id="Casualty 163">
+      <data key="type_casualty">1,1</data>
+      <data key="insults_available">0,0</data>
+      <data key="vitals_available">0,0</data>
+    </node>
+    <node id="39.379597879055844">
+      <data key="type_cas_latitude">1,1</data>
+    </node>
+    <node id="-116.2414044866975">
+      <data key="type_cas_longitude">1,1</data>
+    </node>
+    <node id="Casualty 413">
+      <data key="type_casualty">1,1</data>
+      <data key="insults_available">0,0</data>
+      <data key="vitals_available">0,0</data>
+    </node>
+    <node id="39.994617122462046">
+      <data key="type_cas_latitude">1,1</data>
+    </node>
+    <node id="-106.26074978320382">
+      <data key="type_cas_longitude">1,1</data>
+    </node>
+    <node id="Casualty 55">
+      <data key="type_casualty">1,1</data>
+      <data key="insults_available">0,0</data>
+      <data key="vitals_available">0,0</data>
+    </node>
+    <node id="39.99321467994045">
+      <data key="type_cas_latitude">1,1</data>
+    </node>
+    <node id="-101.31660565259664">
+      <data key="type_cas_longitude">1,1</data>
+    </node>
+    <node id="Casualty 162">
+      <data key="type_casualty">1,1</data>
+      <data key="insults_available">0,0</data>
+      <data key="vitals_available">0,0</data>
+    </node>
+    <node id="37.87216344907769">
+      <data key="type_cas_latitude">1,1</data>
+    </node>
+    <node id="-108.78834713025111">
+      <data key="type_cas_longitude">1,1</data>
+    </node>
+    <node id="Casualty 456">
+      <data key="type_casualty">1,1</data>
+      <data key="insults_available">0,0</data>
+      <data key="vitals_available">0,0</data>
+    </node>
+    <node id="30.1861048754388">
+      <data key="type_cas_latitude">1,1</data>
+    </node>
+    <node id="-106.90147788346901">
+      <data key="type_cas_longitude">1,1</data>
+    </node>
+    <node id="Casualty 202">
+      <data key="type_casualty">1,1</data>
+      <data key="insults_available">0,0</data>
+      <data key="vitals_available">0,0</data>
+    </node>
+    <node id="36.457527230835446">
+      <data key="type_cas_latitude">1,1</data>
+    </node>
+    <node id="-104.3162513152099">
+      <data key="type_cas_longitude">1,1</data>
+    </node>
+    <node id="Casualty 473">
+      <data key="type_casualty">1,1</data>
+      <data key="insults_available">0,0</data>
+      <data key="vitals_available">0,0</data>
+    </node>
+    <node id="33.95413697604461">
+      <data key="type_cas_latitude">1,1</data>
+    </node>
+    <node id="-105.7336734125179">
+      <data key="type_cas_longitude">1,1</data>
+    </node>
+    <node id="Casualty 92">
+      <data key="type_casualty">1,1</data>
+      <data key="insults_available">0,0</data>
+      <data key="vitals_available">0,0</data>
+    </node>
+    <node id="40.82007000874019">
+      <data key="type_cas_latitude">1,1</data>
+    </node>
+    <node id="-108.48392497642871">
+      <data key="type_cas_longitude">1,1</data>
+    </node>
+    <node id="Casualty 121">
+      <data key="type_casualty">1,1</data>
+      <data key="insults_available">0,0</data>
+      <data key="vitals_available">0,0</data>
+    </node>
+    <node id="39.05613313423983">
+      <data key="type_cas_latitude">1,1</data>
+    </node>
+    <node id="-112.68090608466707">
+      <data key="type_cas_longitude">1,1</data>
+    </node>
+    <node id="life">
+      <data key="enable_life">1,1</data>
+    </node>
+    <node id="niss">
+      <data key="enable_niss">1,1</data>
+    </node>
+    <node id="rts">
+      <data key="enable_rts">1,1</data>
+    </node>
+    <node id="urgency">
+      <data key="use_opt">1,1</data>
+      <data key="type_urgency">1,1</data>
+    </node>
+    <node id="reverse">
+      <data key="use_opt">1,1</data>
+      <data key="type_reverse">1,1</data>
+    </node>
+    <node id="None">
+      <data key="type_none">1,1</data>
+    </node>
+    <edge source="Asset 486" target="670">
+      <data key="asset_range_in_km">1,1</data>
+    </edge>
+    <edge source="Asset 486" target="280">
+      <data key="asset_speed_kmph">1,1</data>
+    </edge>
+    <edge source="Asset 486" target="30.60649844664852">
+      <data key="asset_latitude">1,1</data>
+    </edge>
+    <edge source="Asset 486" target="-112.78934025809686">
+      <data key="asset_longitude">1,1</data>
+    </edge>
+    <edge source="Asset 329" target="670">
+      <data key="asset_range_in_km">1,1</data>
+    </edge>
+    <edge source="Asset 329" target="280">
+      <data key="asset_speed_kmph">1,1</data>
+    </edge>
+    <edge source="Asset 329" target="42.08219213015641">
+      <data key="asset_latitude">1,1</data>
+    </edge>
+    <edge source="Asset 329" target="-102.77011057750545">
+      <data key="asset_longitude">1,1</data>
+    </edge>
+    <edge source="Asset 382" target="670">
+      <data key="asset_range_in_km">1,1</data>
+    </edge>
+    <edge source="Asset 382" target="280">
+      <data key="asset_speed_kmph">1,1</data>
+    </edge>
+    <edge source="Asset 382" target="29.722374828437847">
+      <data key="asset_latitude">1,1</data>
+    </edge>
+    <edge source="Asset 382" target="-106.73681308087788">
+      <data key="asset_longitude">1,1</data>
+    </edge>
+    <edge source="Asset 178" target="670">
+      <data key="asset_range_in_km">1,1</data>
+    </edge>
+    <edge source="Asset 178" target="280">
+      <data key="asset_speed_kmph">1,1</data>
+    </edge>
+    <edge source="Asset 178" target="35.27790594524641">
+      <data key="asset_latitude">1,1</data>
+    </edge>
+    <edge source="Asset 178" target="-114.41294996524745">
+      <data key="asset_longitude">1,1</data>
+    </edge>
+    <edge source="Asset 23" target="670">
+      <data key="asset_range_in_km">1,1</data>
+    </edge>
+    <edge source="Asset 23" target="280">
+      <data key="asset_speed_kmph">1,1</data>
+    </edge>
+    <edge source="Asset 23" target="34.58009377888308">
+      <data key="asset_latitude">1,1</data>
+    </edge>
+    <edge source="Asset 23" target="-115.36654472978691">
+      <data key="asset_longitude">1,1</data>
+    </edge>
+    <edge source="Care Facility 68" target="33.03789517613956">
+      <data key="cf_latitude">1,1</data>
+    </edge>
+    <edge source="Care Facility 68" target="-116.36042963877618">
+      <data key="cf_longitude">1,1</data>
+    </edge>
+    <edge source="Casualty 446" target="37.5852826215274">
+      <data key="cas_latitude">1,1</data>
+    </edge>
+    <edge source="Casualty 446" target="-109.08497425536144">
+      <data key="cas_longitude">1,1</data>
+    </edge>
+    <edge source="Casualty 446" target="Care Facility 68">
+      <data key="cf_possible">1,1</data>
+    </edge>
+    <edge source="Casualty 446" target="Asset 486">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 446" target="Asset 329">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 446" target="Asset 382">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 446" target="Asset 178">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 446" target="Asset 23">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 446" target="insult_ExternalHemorrhage_Head">
+      <data key="normalized_acs">0.4</data>
+    </edge>
+    <edge source="Casualty 446" target="insult_ExternalHemorrhage_Extremity">
+      <data key="normalized_acs">0.6</data>
+    </edge>
+    <edge source="Casualty 446" target="insult_ExternalHemorrhage_Trunk">
+      <data key="normalized_acs">0.6</data>
+    </edge>
+    <edge source="Casualty 446" target="insult_ExternalHemorrhage_Pelvis">
+      <data key="normalized_acs">0.2</data>
+    </edge>
+    <edge source="Casualty 446" target="insult_ThermalBurn_Head">
+      <data key="normalized_acs">0.1</data>
+    </edge>
+    <edge source="Casualty 446" target="insult_ThermalBurn_Extremity">
+      <data key="normalized_acs">0.5</data>
+    </edge>
+    <edge source="Casualty 446" target="insult_ThermalBurn_Trunk">
+      <data key="normalized_acs">0.3</data>
+    </edge>
+    <edge source="Casualty 446" target="insult_ThermalBurn_Pelvis">
+      <data key="normalized_acs">0.5</data>
+    </edge>
+    <edge source="Casualty 446" target="gcs">
+      <data key="value">0.014</data>
+    </edge>
+    <edge source="Casualty 446" target="sbp">
+      <data key="value">0.095</data>
+    </edge>
+    <edge source="Casualty 446" target="rr">
+      <data key="value">0.0397</data>
+    </edge>
+    <edge source="Casualty 163" target="39.379597879055844">
+      <data key="cas_latitude">1,1</data>
+    </edge>
+    <edge source="Casualty 163" target="-116.2414044866975">
+      <data key="cas_longitude">1,1</data>
+    </edge>
+    <edge source="Casualty 163" target="Care Facility 68">
+      <data key="cf_possible">1,1</data>
+    </edge>
+    <edge source="Casualty 163" target="Asset 486">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 163" target="Asset 329">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 163" target="Asset 382">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 163" target="Asset 178">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 163" target="Asset 23">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 163" target="gcs">
+      <data key="value">0.005</data>
+    </edge>
+    <edge source="Casualty 163" target="sbp">
+      <data key="value">0.1618</data>
+    </edge>
+    <edge source="Casualty 163" target="rr">
+      <data key="value">0.1584</data>
+    </edge>
+    <edge source="Casualty 413" target="39.994617122462046">
+      <data key="cas_latitude">1,1</data>
+    </edge>
+    <edge source="Casualty 413" target="-106.26074978320382">
+      <data key="cas_longitude">1,1</data>
+    </edge>
+    <edge source="Casualty 413" target="Care Facility 68">
+      <data key="cf_possible">1,1</data>
+    </edge>
+    <edge source="Casualty 413" target="Asset 486">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 413" target="Asset 329">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 413" target="Asset 382">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 413" target="Asset 178">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 413" target="Asset 23">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 413" target="insult_ExternalHemorrhage_Head">
+      <data key="normalized_acs">0.3</data>
+    </edge>
+    <edge source="Casualty 413" target="insult_ExternalHemorrhage_Extremity">
+      <data key="normalized_acs">0.4</data>
+    </edge>
+    <edge source="Casualty 413" target="insult_ExternalHemorrhage_Trunk">
+      <data key="normalized_acs">0.4</data>
+    </edge>
+    <edge source="Casualty 413" target="insult_ExternalHemorrhage_Pelvis">
+      <data key="normalized_acs">0.5</data>
+    </edge>
+    <edge source="Casualty 413" target="insult_ThermalBurn_Head">
+      <data key="normalized_acs">0.2</data>
+    </edge>
+    <edge source="Casualty 413" target="insult_ThermalBurn_Extremity">
+      <data key="normalized_acs">0.1</data>
+    </edge>
+    <edge source="Casualty 413" target="insult_ThermalBurn_Trunk">
+      <data key="normalized_acs">0.4</data>
+    </edge>
+    <edge source="Casualty 413" target="insult_ThermalBurn_Pelvis">
+      <data key="normalized_acs">0.4</data>
+    </edge>
+    <edge source="Casualty 413" target="gcs">
+      <data key="value">0.011</data>
+    </edge>
+    <edge source="Casualty 413" target="sbp">
+      <data key="value">0.1464</data>
+    </edge>
+    <edge source="Casualty 413" target="rr">
+      <data key="value">0.1433</data>
+    </edge>
+    <edge source="Casualty 55" target="39.99321467994045">
+      <data key="cas_latitude">1,1</data>
+    </edge>
+    <edge source="Casualty 55" target="-101.31660565259664">
+      <data key="cas_longitude">1,1</data>
+    </edge>
+    <edge source="Casualty 55" target="Care Facility 68">
+      <data key="cf_possible">1,1</data>
+    </edge>
+    <edge source="Casualty 55" target="Asset 486">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 55" target="Asset 329">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 55" target="Asset 382">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 55" target="Asset 178">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 55" target="Asset 23">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 55" target="insult_ExternalHemorrhage_Head">
+      <data key="normalized_acs">0.0</data>
+    </edge>
+    <edge source="Casualty 55" target="insult_ExternalHemorrhage_Extremity">
+      <data key="normalized_acs">0.5</data>
+    </edge>
+    <edge source="Casualty 55" target="insult_ExternalHemorrhage_Trunk">
+      <data key="normalized_acs">0.1</data>
+    </edge>
+    <edge source="Casualty 55" target="insult_ExternalHemorrhage_Pelvis">
+      <data key="normalized_acs">0.4</data>
+    </edge>
+    <edge source="Casualty 55" target="insult_ThermalBurn_Head">
+      <data key="normalized_acs">0.0</data>
+    </edge>
+    <edge source="Casualty 55" target="insult_ThermalBurn_Extremity">
+      <data key="normalized_acs">0.6</data>
+    </edge>
+    <edge source="Casualty 55" target="insult_ThermalBurn_Trunk">
+      <data key="normalized_acs">0.2</data>
+    </edge>
+    <edge source="Casualty 55" target="insult_ThermalBurn_Pelvis">
+      <data key="normalized_acs">0.3</data>
+    </edge>
+    <edge source="Casualty 162" target="37.87216344907769">
+      <data key="cas_latitude">1,1</data>
+    </edge>
+    <edge source="Casualty 162" target="-108.78834713025111">
+      <data key="cas_longitude">1,1</data>
+    </edge>
+    <edge source="Casualty 162" target="Care Facility 68">
+      <data key="cf_possible">1,1</data>
+    </edge>
+    <edge source="Casualty 162" target="Asset 486">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 162" target="Asset 329">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 162" target="Asset 382">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 162" target="Asset 178">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 162" target="Asset 23">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 162" target="gcs">
+      <data key="value">0.004</data>
+    </edge>
+    <edge source="Casualty 162" target="sbp">
+      <data key="value">0.1694</data>
+    </edge>
+    <edge source="Casualty 162" target="rr">
+      <data key="value">0.185</data>
+    </edge>
+    <edge source="Casualty 456" target="30.1861048754388">
+      <data key="cas_latitude">1,1</data>
+    </edge>
+    <edge source="Casualty 456" target="-106.90147788346901">
+      <data key="cas_longitude">1,1</data>
+    </edge>
+    <edge source="Casualty 456" target="Care Facility 68">
+      <data key="cf_possible">1,1</data>
+    </edge>
+    <edge source="Casualty 456" target="Asset 486">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 456" target="Asset 329">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 456" target="Asset 382">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 456" target="Asset 178">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 456" target="Asset 23">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 456" target="insult_ExternalHemorrhage_Head">
+      <data key="normalized_acs">0.3</data>
+    </edge>
+    <edge source="Casualty 456" target="insult_ExternalHemorrhage_Extremity">
+      <data key="normalized_acs">0.5</data>
+    </edge>
+    <edge source="Casualty 456" target="insult_ExternalHemorrhage_Trunk">
+      <data key="normalized_acs">0.4</data>
+    </edge>
+    <edge source="Casualty 456" target="insult_ExternalHemorrhage_Pelvis">
+      <data key="normalized_acs">0.3</data>
+    </edge>
+    <edge source="Casualty 456" target="insult_ThermalBurn_Head">
+      <data key="normalized_acs">0.4</data>
+    </edge>
+    <edge source="Casualty 456" target="insult_ThermalBurn_Extremity">
+      <data key="normalized_acs">0.6</data>
+    </edge>
+    <edge source="Casualty 456" target="insult_ThermalBurn_Trunk">
+      <data key="normalized_acs">0.1</data>
+    </edge>
+    <edge source="Casualty 456" target="insult_ThermalBurn_Pelvis">
+      <data key="normalized_acs">0.3</data>
+    </edge>
+    <edge source="Casualty 456" target="gcs">
+      <data key="value">0.008</data>
+    </edge>
+    <edge source="Casualty 456" target="sbp">
+      <data key="value">0.1028</data>
+    </edge>
+    <edge source="Casualty 456" target="rr">
+      <data key="value">0.1464</data>
+    </edge>
+    <edge source="Casualty 202" target="36.457527230835446">
+      <data key="cas_latitude">1,1</data>
+    </edge>
+    <edge source="Casualty 202" target="-104.3162513152099">
+      <data key="cas_longitude">1,1</data>
+    </edge>
+    <edge source="Casualty 202" target="Care Facility 68">
+      <data key="cf_possible">1,1</data>
+    </edge>
+    <edge source="Casualty 202" target="Asset 486">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 202" target="Asset 329">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 202" target="Asset 382">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 202" target="Asset 178">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 202" target="Asset 23">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 202" target="insult_ExternalHemorrhage_Head">
+      <data key="normalized_acs">0.1</data>
+    </edge>
+    <edge source="Casualty 202" target="insult_ExternalHemorrhage_Extremity">
+      <data key="normalized_acs">0.4</data>
+    </edge>
+    <edge source="Casualty 202" target="insult_ExternalHemorrhage_Trunk">
+      <data key="normalized_acs">0.5</data>
+    </edge>
+    <edge source="Casualty 202" target="insult_ExternalHemorrhage_Pelvis">
+      <data key="normalized_acs">0.0</data>
+    </edge>
+    <edge source="Casualty 202" target="insult_ThermalBurn_Head">
+      <data key="normalized_acs">0.6</data>
+    </edge>
+    <edge source="Casualty 202" target="insult_ThermalBurn_Extremity">
+      <data key="normalized_acs">0.2</data>
+    </edge>
+    <edge source="Casualty 202" target="insult_ThermalBurn_Trunk">
+      <data key="normalized_acs">0.5</data>
+    </edge>
+    <edge source="Casualty 202" target="insult_ThermalBurn_Pelvis">
+      <data key="normalized_acs">0.0</data>
+    </edge>
+    <edge source="Casualty 202" target="gcs">
+      <data key="value">0.005</data>
+    </edge>
+    <edge source="Casualty 202" target="sbp">
+      <data key="value">0.1862</data>
+    </edge>
+    <edge source="Casualty 202" target="rr">
+      <data key="value">0.0715</data>
+    </edge>
+    <edge source="Casualty 473" target="33.95413697604461">
+      <data key="cas_latitude">1,1</data>
+    </edge>
+    <edge source="Casualty 473" target="-105.7336734125179">
+      <data key="cas_longitude">1,1</data>
+    </edge>
+    <edge source="Casualty 473" target="Care Facility 68">
+      <data key="cf_possible">1,1</data>
+    </edge>
+    <edge source="Casualty 473" target="Asset 486">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 473" target="Asset 329">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 473" target="Asset 382">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 473" target="Asset 178">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 473" target="Asset 23">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 473" target="insult_ExternalHemorrhage_Head">
+      <data key="normalized_acs">0.0</data>
+    </edge>
+    <edge source="Casualty 473" target="insult_ExternalHemorrhage_Extremity">
+      <data key="normalized_acs">0.1</data>
+    </edge>
+    <edge source="Casualty 473" target="insult_ExternalHemorrhage_Trunk">
+      <data key="normalized_acs">0.1</data>
+    </edge>
+    <edge source="Casualty 473" target="insult_ExternalHemorrhage_Pelvis">
+      <data key="normalized_acs">0.1</data>
+    </edge>
+    <edge source="Casualty 473" target="insult_ThermalBurn_Head">
+      <data key="normalized_acs">0.3</data>
+    </edge>
+    <edge source="Casualty 473" target="insult_ThermalBurn_Extremity">
+      <data key="normalized_acs">0.2</data>
+    </edge>
+    <edge source="Casualty 473" target="insult_ThermalBurn_Trunk">
+      <data key="normalized_acs">0.1</data>
+    </edge>
+    <edge source="Casualty 473" target="insult_ThermalBurn_Pelvis">
+      <data key="normalized_acs">0.4</data>
+    </edge>
+    <edge source="Casualty 473" target="gcs">
+      <data key="value">0.014</data>
+    </edge>
+    <edge source="Casualty 473" target="sbp">
+      <data key="value">0.0617</data>
+    </edge>
+    <edge source="Casualty 473" target="rr">
+      <data key="value">0.0466</data>
+    </edge>
+    <edge source="Casualty 92" target="40.82007000874019">
+      <data key="cas_latitude">1,1</data>
+    </edge>
+    <edge source="Casualty 92" target="-108.48392497642871">
+      <data key="cas_longitude">1,1</data>
+    </edge>
+    <edge source="Casualty 92" target="Care Facility 68">
+      <data key="cf_possible">1,1</data>
+    </edge>
+    <edge source="Casualty 92" target="Asset 486">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 92" target="Asset 329">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 92" target="Asset 382">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 92" target="Asset 178">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 92" target="Asset 23">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 92" target="insult_ExternalHemorrhage_Head">
+      <data key="normalized_acs">0.3</data>
+    </edge>
+    <edge source="Casualty 92" target="insult_ExternalHemorrhage_Extremity">
+      <data key="normalized_acs">0.0</data>
+    </edge>
+    <edge source="Casualty 92" target="insult_ExternalHemorrhage_Trunk">
+      <data key="normalized_acs">0.3</data>
+    </edge>
+    <edge source="Casualty 92" target="insult_ExternalHemorrhage_Pelvis">
+      <data key="normalized_acs">0.4</data>
+    </edge>
+    <edge source="Casualty 92" target="insult_ThermalBurn_Head">
+      <data key="normalized_acs">0.5</data>
+    </edge>
+    <edge source="Casualty 92" target="insult_ThermalBurn_Extremity">
+      <data key="normalized_acs">0.1</data>
+    </edge>
+    <edge source="Casualty 92" target="insult_ThermalBurn_Trunk">
+      <data key="normalized_acs">0.1</data>
+    </edge>
+    <edge source="Casualty 92" target="insult_ThermalBurn_Pelvis">
+      <data key="normalized_acs">0.1</data>
+    </edge>
+    <edge source="Casualty 121" target="39.05613313423983">
+      <data key="cas_latitude">1,1</data>
+    </edge>
+    <edge source="Casualty 121" target="-112.68090608466707">
+      <data key="cas_longitude">1,1</data>
+    </edge>
+    <edge source="Casualty 121" target="Care Facility 68">
+      <data key="cf_possible">1,1</data>
+    </edge>
+    <edge source="Casualty 121" target="Asset 486">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 121" target="Asset 329">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 121" target="Asset 382">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 121" target="Asset 178">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 121" target="Asset 23">
+      <data key="asset_possible">1,1</data>
+      <data key="assign_asset_urgency">0,0</data>
+      <data key="assign_asset_reverse">0,0</data>
+    </edge>
+    <edge source="Casualty 121" target="gcs">
+      <data key="value">0.011</data>
+    </edge>
+    <edge source="Casualty 121" target="sbp">
+      <data key="value">0.1806</data>
+    </edge>
+    <edge source="Casualty 121" target="rr">
+      <data key="value">0.1808</data>
+    </edge>
+  </graph>
+</graphml>

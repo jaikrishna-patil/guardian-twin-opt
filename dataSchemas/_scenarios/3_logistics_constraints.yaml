@@ -1,0 +1,41 @@
+# Asset Logistics Constraints
+- scenario_id: "5"
+  name: Coarse evaluate medevac assets.
+  description: 
+  functionality_to_test:
+    - Coarse evaluate medevac assets against mission requirements
+    - Litter/ambulatory capacity available vs required
+    - Distance to/from ISOP vs. Available Range
+    - Prioritize isops for medevac based on triage category
+  coda_link:
+  input_schemas:
+    - path: '../dataSchemas/personnel/isop_detail.yaml'
+      iterations: 10
+    - path: '../dataSchemas/personnel/isop_state.yaml'
+      iterations: 10
+    - path: '../dataSchemas/mission/mission_requirement.yaml'
+      iterations: 10
+    - path: '../dataSchemas/assets/medevac_blackhawk_HH-60M.yaml'
+      iterations: 3
+  constraints:
+    - label: "triage category"
+      importance_factor: 1
+
+- scenario_id: "6"
+  name: Plan and Optimize Missions.
+  description: 
+  functionality_to_test:
+    - Coarse evaluate medevac assets Distance to ISOP + distance to Care Center vs. Available Range
+    - Provide mission plans that match and prioritize {ISOP, Medevac, Care Center}
+  coda_link:
+  input_schemas:
+    - path: '../dataSchemas/personnel/isop_detail.yaml'
+      iterations: 10
+    - path: '../dataSchemas/personnel/isop_state.yaml'
+      iterations: 10
+    - path: '../dataSchemas/mission/mission_requirement.yaml'
+      iterations: 10
+    - path: '../dataSchemas/assets/medevac_blackhawk_HH-60M.yaml'
+      iterations: 3
+    - path: '../dataSchemas/care_center/care_center.yaml'
+      iterations: 6

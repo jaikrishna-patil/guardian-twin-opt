@@ -1,0 +1,330 @@
+patients:
+  - patient_id: P001
+    first_name: John
+    last_name: Smith
+    call_sign: Alpha-1
+    age: 28
+    weight: 180
+    gender: male
+    patient_record:
+      injuries:
+        - timestamp: 2024-10-08T10:00:00Z
+          injury_id: INJ001
+        - timestamp: 2024-10-08T10:03:00Z
+          injury_id: INJ004
+      triage_category:
+        - timestamp: 2024-10-08T10:05:00Z
+          triage_algorithm: MGAP
+          triage_score: 22
+          triage_category: Urgent (Yellow)
+          estimated_survival_time: 360
+      vitals:
+        - timestamp: 2024-10-08T10:05:00Z
+          label: Systolic Blood Pressure
+          abbreviation: SysBP
+          value: 100
+          unit: mmHg
+      observations:
+        - timestamp: 2024-10-08T10:05:00Z
+          label: Glasgow Coma Scale
+          abbreviation: GCS
+          value: 13
+          eye: 4
+          motor: 5
+          verbal: 4
+
+  - patient_id: P002
+    first_name: Sarah
+    last_name: Johnson
+    call_sign: Bravo-2
+    age: 35
+    weight: 140
+    gender: female
+    patient_record:
+      injuries:
+        - timestamp: 2024-10-08T10:02:00Z
+          injury_id: INJ006
+      triage_category:
+        - timestamp: 2024-10-08T10:07:00Z
+          triage_algorithm: MGAP
+          triage_score: 17
+          triage_category: Immediate (Red)
+          estimated_survival_time: 120
+      vitals:
+        - timestamp: 2024-10-08T10:07:00Z
+          label: Systolic Blood Pressure
+          abbreviation: SysBP
+          value: 80
+          unit: mmHg
+      observations:
+        - timestamp: 2024-10-08T10:07:00Z
+          label: Glasgow Coma Scale
+          abbreviation: GCS
+          value: 10
+          eye: 3
+          motor: 4
+          verbal: 3
+
+  - patient_id: P003
+    first_name: Michael
+    last_name: Brown
+    call_sign: Charlie-3
+    age: 42
+    weight: 200
+    gender: male
+    patient_record:
+      injuries:
+        - timestamp: 2024-10-08T10:01:00Z
+          injury_id: INJ002
+        - timestamp: 2024-10-08T10:04:00Z
+          injury_id: INJ007
+      triage_category:
+        - timestamp: 2024-10-08T10:06:00Z
+          triage_algorithm: MGAP
+          triage_score: 23
+          triage_category: Delayed (Green)
+          estimated_survival_time: 720
+      vitals:
+        - timestamp: 2024-10-08T10:06:00Z
+          label: Systolic Blood Pressure
+          abbreviation: SysBP
+          value: 110
+          unit: mmHg
+      observations:
+        - timestamp: 2024-10-08T10:06:00Z
+          label: Glasgow Coma Scale
+          abbreviation: GCS
+          value: 14
+          eye: 4
+          motor: 6
+          verbal: 4
+
+  - patient_id: P004
+    first_name: Emily
+    last_name: Davis
+    call_sign: Delta-4
+    age: 23
+    weight: 130
+    gender: female
+    patient_record:
+      injuries:
+        - timestamp: 2024-10-08T10:00:00Z
+          injury_id: INJ003
+      triage_category:
+        - timestamp: 2024-10-08T10:05:00Z
+          triage_algorithm: MGAP
+          triage_score: 12
+          triage_category: Immediate (Red)
+          estimated_survival_time: 60
+      vitals:
+        - timestamp: 2024-10-08T10:05:00Z
+          label: Systolic Blood Pressure
+          abbreviation: SysBP
+          value: 70
+          unit: mmHg
+      observations:
+        - timestamp: 2024-10-08T10:05:00Z
+          label: Glasgow Coma Scale
+          abbreviation: GCS
+          value: 7
+          eye: 2
+          motor: 3
+          verbal: 2
+
+  - patient_id: P005
+    first_name: Robert
+    last_name: Wilson
+    call_sign: Echo-5
+    age: 55
+    weight: 190
+    gender: male
+    patient_record:
+      injuries:
+        - timestamp: 2024-10-08T10:02:00Z
+          injury_id: INJ010
+        - timestamp: 2024-10-08T10:05:00Z
+          injury_id: INJ005
+      triage_category:
+        - timestamp: 2024-10-08T10:07:00Z
+          triage_algorithm: MGAP
+          triage_score: 11
+          triage_category: Immediate (Red)
+          estimated_survival_time: 90
+      vitals:
+        - timestamp: 2024-10-08T10:07:00Z
+          label: Systolic Blood Pressure
+          abbreviation: SysBP
+          value: 60
+          unit: mmHg
+      observations:
+        - timestamp: 2024-10-08T10:07:00Z
+          label: Glasgow Coma Scale
+          abbreviation: GCS
+          value: 9
+          eye: 3
+          motor: 4
+          verbal: 2
+
+  - patient_id: P006
+    first_name: Jennifer
+    last_name: Taylor
+    call_sign: Foxtrot-6
+    age: 30
+    weight: 150
+    gender: female
+    patient_record:
+      injuries:
+        - timestamp: 2024-10-08T10:01:00Z
+          injury_id: INJ008
+      triage_category:
+        - timestamp: 2024-10-08T10:06:00Z
+          triage_algorithm: MGAP
+          triage_score: 29
+          triage_category: Minor (White)
+          estimated_survival_time: 1440
+      vitals:
+        - timestamp: 2024-10-08T10:06:00Z
+          label: Systolic Blood Pressure
+          abbreviation: SysBP
+          value: 120
+          unit: mmHg
+      observations:
+        - timestamp: 2024-10-08T10:06:00Z
+          label: Glasgow Coma Scale
+          abbreviation: GCS
+          value: 15
+          eye: 4
+          motor: 6
+          verbal: 5
+
+  - patient_id: P007
+    first_name: David
+    last_name: Anderson
+    call_sign: Golf-7
+    age: 38
+    weight: 175
+    gender: male
+    patient_record:
+      injuries:
+        - timestamp: 2024-10-08T10:00:00Z
+          injury_id: INJ011
+        - timestamp: 2024-10-08T10:03:00Z
+          injury_id: INJ015
+      triage_category:
+        - timestamp: 2024-10-08T10:05:00Z
+          triage_algorithm: MGAP
+          triage_score: 20
+          triage_category: Urgent (Yellow)
+          estimated_survival_time: 300
+      vitals:
+        - timestamp: 2024-10-08T10:05:00Z
+          label: Systolic Blood Pressure
+          abbreviation: SysBP
+          value: 90
+          unit: mmHg
+      observations:
+        - timestamp: 2024-10-08T10:05:00Z
+          label: Glasgow Coma Scale
+          abbreviation: GCS
+          value: 12
+          eye: 3
+          motor: 5
+          verbal: 4
+
+  - patient_id: P008
+    first_name: Lisa
+    last_name: Martinez
+    call_sign: Hotel-8
+    age: 45
+    weight: 160
+    gender: female
+    patient_record:
+      injuries:
+        - timestamp: 2024-10-08T10:02:00Z
+          injury_id: INJ013
+      triage_category:
+        - timestamp: 2024-10-08T10:07:00Z
+          triage_algorithm: MGAP
+          triage_score: 8
+          triage_category: Immediate (Red)
+          estimated_survival_time: 75
+      vitals:
+        - timestamp: 2024-10-08T10:07:00Z
+          label: Systolic Blood Pressure
+          abbreviation: SysBP
+          value: 55
+          unit: mmHg
+      observations:
+        - timestamp: 2024-10-08T10:07:00Z
+          label: Glasgow Coma Scale
+          abbreviation: GCS
+          value: 8
+          eye: 2
+          motor: 4
+          verbal: 2
+
+  - patient_id: P009
+    first_name: Thomas
+    last_name: Clark
+    call_sign: India-9
+    age: 50
+    weight: 210
+    gender: male
+    patient_record:
+      injuries:
+        - timestamp: 2024-10-08T10:01:00Z
+          injury_id: INJ014
+        - timestamp: 2024-10-08T10:04:00Z
+          injury_id: INJ009
+      triage_category:
+        - timestamp: 2024-10-08T10:06:00Z
+          triage_algorithm: MGAP
+          triage_score: 14
+          triage_category: Immediate (Red)
+          estimated_survival_time: 100
+      vitals:
+        - timestamp: 2024-10-08T10:06:00Z
+          label: Systolic Blood Pressure
+          abbreviation: SysBP
+          value: 75
+          unit: mmHg
+      observations:
+        - timestamp: 2024-10-08T10:06:00Z
+          label: Glasgow Coma Scale
+          abbreviation: GCS
+          value: 11
+          eye: 3
+          motor: 5
+          verbal: 3
+
+  - patient_id: P010
+    first_name: Karen
+    last_name: White
+    call_sign: Juliet-10
+    age: 32
+    weight: 145
+    gender: female
+    patient_record:
+      injuries:
+        - timestamp: 2024-10-08T10:00:00Z
+          injury_id: INJ012
+      triage_category:
+        - timestamp: 2024-10-08T10:05:00Z
+          triage_algorithm: MGAP
+          triage_score: 27
+          triage_category: Minor (White)
+          estimated_survival_time: 1440
+      vitals:
+        - timestamp: 2024-10-08T10:05:00Z
+          label: Systolic Blood Pressure
+          abbreviation: SysBP
+          value: 115
+          unit: mmHg
+      observations:
+        - timestamp: 2024-10-08T10:05:00Z
+          label: Glasgow Coma Scale
+          abbreviation: GCS
+          value: 14
+          eye: 4
+          motor: 6
+          verbal: 4

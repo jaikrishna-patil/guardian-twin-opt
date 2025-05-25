@@ -1,0 +1,39 @@
+# Schema Version: 1.0
+# Created_by: Adam Chapman, Simwerx
+# License: MIT
+# Purpose: Use as a schema to create a medical triage sitrep for multiple casualties in a scenario.
+
+- isop_id: # <uuid> get from isop_detail.yaml  or isop_state.yaml
+  first_name: # <string> get from isop_detail.yamls
+  last_name: # <string> get from isop_detail.yamls
+  callsign: # <string> get from isop_detail.yamls
+  medical_triage: # <dict> This is a copy of the data from the most recent timestamp of the highest priority medical triage algorithm
+    category: # <string> dynamically get from ../dataSchemas/triage/medical_triage_algo_library.yaml -> triage_categories
+    category_priority: # <int> dynamically get from ../dataSchemas/triage/medical_triage_algo_library.yaml -> triage_categories
+    confidence_score: # Ignore for now
+    relative_priority: # <int> the medical triage priority of this patient vs all other patients in scenario. this is the value from the latest relative_priority_record. 
+  relative_priority_record: #
+    - timestamp: # <datetime> when the relative priority was calculated
+      relative_priority: # <int> the medical triage priority of this patient vs all other patients in scenario over time. Relative priorities should be recalculated each time a new triage score is calculated for any patient in the scenario.
+  medical_triage_record: # <list> # of all enable medical triage algo assessments for this patient. Extra credit if we setup the system now to iterate through isop_state.patient_records and calculate a score once its data requirements are met, then again if one of those requirements is updated in subsequent timestamps
+    - timestamp: # <datetime> # when the triage was calculated.  
+      algorithm_id: # <uuid> reference ../dataSchemas/triage/medical_triage_algo_library.yaml -> algorithm_id
+      label: # <string> reference ../dataSchemas/triage/medical_triage_algo_library.yaml -> label
+      algorithm_priority: # <int> reference ../dataSchemas/triage/medical_triage_algo_library.yaml -> user_settings -> priority
+      medical_triage:
+        score: # <int or float?> the score calculated by the algorithm
+        category: # <string> reference ../dataSchemas/triage/medical_triage_algo_library.yaml -> triage_categories
+        category_priority: # <int> reference ../dataSchemas/triage/medical_triage_algo_library.yaml -> triage_categories
+        confidence_score: # NA for now
+      most_recent: # <dict> get from isop_state.yamls -> patient_record.  Essentially, what data was used to calculate the score
+        insults: <list> # single most recent timestamp instances of each insult from isop_state.patient_record.insults 
+        vitals: <list> # single most recent timestamp instances of RR and SysBP from isop_state.patient_record.vitals
+        observations: <list> # single most recent timestamp instance of GCS from isop_state.patient_record.observations
+  notifications: # <list> # of all notifications generated for this patient
+    - timestamp: # <datetime> when the notification was generated
+      notification_id: # <uuid> the unique id of the notification
+      type: # <string> the type of notification generated, eg "triage_score_missing_data", "triage_score_downgraded", "triage_score_upgraded", "triage_category_downgraded", "triage_category_upgraded", "relative_priority_upgraded", "relative_priority_downgraded",
+      service: # <string> the service that generated the notification, eg "triage", "relative_priority"
+      message: # <string> the notification message if any of the required data is missing, this will be populated with the appropriate notification message from ../dataSchemas/triage/medical_triage_algo_library.yaml -> notification_messages
+      status: # <string> the status of the notification, eg "new", "read", "resolved"
+

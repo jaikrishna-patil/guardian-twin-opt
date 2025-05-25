@@ -1,0 +1,21 @@
+Time,Fixed-Point-Operation,Edge,Label,Old Bound,New Bound,Occurred Due To,Clause-1,Clause-2,Clause-3,Clause-4,Clause-5
+1,1,"('Adrian Monk', '33')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,,
+1,1,"('Natalie Tieger', '40')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,,
+1,1,"('Leland Stottlemeyer', '43')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,,
+1,1,"('Jake Peralta', '20')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,,
+1,1,"('Sharona Fleming', '87')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,,
+1,1,"('Randy Disher', '1')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,,
+1,1,"('Trudy Monk', '40')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,,
+1,1,"('Charles Kroger', '95')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,,
+1,1,"('Julie Trieger', '80')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,,
+1,1,"('Benjy Fleming', '87')",triage_score,"[0.0,1.0]","[1.0,1.0]",graph-attribute-fact,,,,,
+1,2,"('Jake Peralta', 'expectant')",triage_category,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Jake Peralta', '20')]",['Jake Peralta'],['20'],"[('Jake Peralta', 'expectant')]",['expectant']
+1,2,"('Randy Disher', 'expectant')",triage_category,"[0.0,1.0]","[1.0,1.0]",rule_0,"[('Randy Disher', '1')]",['Randy Disher'],['1'],"[('Randy Disher', 'expectant')]",['expectant']
+1,2,"('Adrian Monk', 'immediate')",triage_category,"[0.0,1.0]","[1.0,1.0]",rule_1,"[('Adrian Monk', '33')]",['Adrian Monk'],['33'],"[('Adrian Monk', 'immediate')]",['immediate']
+1,2,"('Natalie Tieger', 'immediate')",triage_category,"[0.0,1.0]","[1.0,1.0]",rule_1,"[('Natalie Tieger', '40')]",['Natalie Tieger'],['40'],"[('Natalie Tieger', 'immediate')]",['immediate']
+1,2,"('Leland Stottlemeyer', 'immediate')",triage_category,"[0.0,1.0]","[1.0,1.0]",rule_1,"[('Leland Stottlemeyer', '43')]",['Leland Stottlemeyer'],['43'],"[('Leland Stottlemeyer', 'immediate')]",['immediate']
+1,2,"('Trudy Monk', 'immediate')",triage_category,"[0.0,1.0]","[1.0,1.0]",rule_1,"[('Trudy Monk', '40')]",['Trudy Monk'],['40'],"[('Trudy Monk', 'immediate')]",['immediate']
+1,2,"('Sharona Fleming', 'delayed')",triage_category,"[0.0,1.0]","[1.0,1.0]",rule_3,"[('Sharona Fleming', '87')]",['Sharona Fleming'],['87'],"[('Sharona Fleming', 'delayed')]",['delayed']
+1,2,"('Julie Trieger', 'delayed')",triage_category,"[0.0,1.0]","[1.0,1.0]",rule_3,"[('Julie Trieger', '80')]",['Julie Trieger'],['80'],"[('Julie Trieger', 'delayed')]",['delayed']
+1,2,"('Benjy Fleming', 'delayed')",triage_category,"[0.0,1.0]","[1.0,1.0]",rule_3,"[('Benjy Fleming', '87')]",['Benjy Fleming'],['87'],"[('Benjy Fleming', 'delayed')]",['delayed']
+1,2,"('Charles Kroger', 'minor')",triage_category,"[0.0,1.0]","[1.0,1.0]",rule_4,"[('Charles Kroger', '95')]",['Charles Kroger'],['95'],"[('Charles Kroger', 'minor')]",['minor']

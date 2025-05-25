@@ -1,0 +1,775 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="triage_score" for="edge" attr.name="triage_score" attr.type="string" />
+  <key id="triage_category" for="edge" attr.name="triage_category" attr.type="string" />
+  <key id="type_casualty" for="node" attr.name="type_casualty" attr.type="string" />
+  <key id="casualty_id" for="node" attr.name="casualty_id" attr.type="long" />
+  <key id="type_triage_category_uninjured" for="node" attr.name="type_triage_category_uninjured" attr.type="string" />
+  <key id="type_triage_category_minor" for="node" attr.name="type_triage_category_minor" attr.type="string" />
+  <key id="type_triage_category_delayed" for="node" attr.name="type_triage_category_delayed" attr.type="string" />
+  <key id="type_triage_category_urgent" for="node" attr.name="type_triage_category_urgent" attr.type="string" />
+  <key id="type_triage_category_immediate" for="node" attr.name="type_triage_category_immediate" attr.type="string" />
+  <key id="type_triage_category_expectant" for="node" attr.name="type_triage_category_expectant" attr.type="string" />
+  <key id="triage_category_id" for="node" attr.name="triage_category_id" attr.type="long" />
+  <key id="ninety_hundred" for="node" attr.name="ninety_hundred" attr.type="string" />
+  <key id="seventy_ninety" for="node" attr.name="seventy_ninety" attr.type="string" />
+  <key id="fifty_seventy" for="node" attr.name="fifty_seventy" attr.type="string" />
+  <key id="thirty_fifty" for="node" attr.name="thirty_fifty" attr.type="string" />
+  <key id="zero_thirty" for="node" attr.name="zero_thirty" attr.type="string" />
+  <key id="type_score" for="node" attr.name="type_score" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="0">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="1">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="2">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="3">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="4">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="5">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="6">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="7">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="8">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="9">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="10">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="11">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="12">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="13">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="14">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="15">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="16">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="17">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="18">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="19">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="20">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="21">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="22">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="23">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="24">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="25">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="26">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="27">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="28">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="29">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="30">
+      <data key="type_score">1,1</data>
+      <data key="zero_thirty">1,1</data>
+    </node>
+    <node id="31">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="32">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="33">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="34">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="35">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="36">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="37">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="38">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="39">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="40">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="41">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="42">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="43">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="44">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="45">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="46">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="47">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="48">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="49">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="50">
+      <data key="type_score">1,1</data>
+      <data key="thirty_fifty">1,1</data>
+    </node>
+    <node id="51">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="52">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="53">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="54">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="55">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="56">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="57">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="58">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="59">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="60">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="61">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="62">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="63">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="64">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="65">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="66">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="67">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="68">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="69">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="70">
+      <data key="type_score">1,1</data>
+      <data key="fifty_seventy">1,1</data>
+    </node>
+    <node id="71">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="72">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="73">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="74">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="75">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="76">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="77">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="78">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="79">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="80">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="81">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="82">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="83">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="84">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="85">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="86">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="87">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="88">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="89">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="90">
+      <data key="type_score">1,1</data>
+      <data key="seventy_ninety">1,1</data>
+    </node>
+    <node id="91">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="92">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="93">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="94">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="95">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="96">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="97">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="98">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="99">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="100">
+      <data key="type_score">1,1</data>
+      <data key="ninety_hundred">1,1</data>
+    </node>
+    <node id="expectant">
+      <data key="triage_category_id">2</data>
+      <data key="type_triage_category_expectant">1,1</data>
+    </node>
+    <node id="immediate">
+      <data key="triage_category_id">3</data>
+      <data key="type_triage_category_immediate">1,1</data>
+    </node>
+    <node id="urgent">
+      <data key="triage_category_id">4</data>
+      <data key="type_triage_category_urgent">1,1</data>
+    </node>
+    <node id="delayed">
+      <data key="triage_category_id">5</data>
+      <data key="type_triage_category_delayed">1,1</data>
+    </node>
+    <node id="minor">
+      <data key="triage_category_id">6</data>
+      <data key="type_triage_category_minor">1,1</data>
+    </node>
+    <node id="uninjured">
+      <data key="triage_category_id">7</data>
+      <data key="type_triage_category_uninjured">1,1</data>
+    </node>
+    <node id="jaikrishna">
+      <data key="casualty_id">2</data>
+      <data key="type_casualty">1,1</data>
+    </node>
+    <edge source="jaikrishna" target="expectant">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="immediate">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="urgent">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="delayed">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="minor">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="uninjured">
+      <data key="triage_category">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="0">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="1">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="2">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="3">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="4">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="5">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="6">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="7">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="8">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="9">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="10">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="11">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="12">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="13">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="14">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="15">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="16">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="17">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="18">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="19">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="20">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="21">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="22">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="23">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="24">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="25">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="26">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="27">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="28">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="29">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="30">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="31">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="32">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="33">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="34">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="35">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="36">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="37">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="38">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="39">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="40">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="41">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="42">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="43">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="44">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="45">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="46">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="47">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="48">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="49">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="50">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="51">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="52">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="53">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="54">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="55">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="56">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="57">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="58">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="59">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="60">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="61">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="62">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="63">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="64">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="65">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="66">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="67">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="68">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="69">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="70">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="71">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="72">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="73">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="74">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="75">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="76">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="77">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="78">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="79">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="80">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="81">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="82">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="83">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="84">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="85">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="86">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="87">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="88">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="89">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="90">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="91">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="92">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="93">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="94">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="95">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="96">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="97">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="98">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="99">
+      <data key="triage_score">0,1</data>
+    </edge>
+    <edge source="jaikrishna" target="100">
+      <data key="triage_score">0,1</data>
+    </edge>
+  </graph>
+</graphml>

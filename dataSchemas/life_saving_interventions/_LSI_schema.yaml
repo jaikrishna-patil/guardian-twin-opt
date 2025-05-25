@@ -1,0 +1,20 @@
+- lsi_id:
+    _generate_uuid: "lsi_id"
+  lsi_name: # <string>
+  description: # <string>
+  use_cases: # <list>  What injuries or conditions are treated by this LSI?
+  category: # <string> [Trauma Care, Shock Management, Fluid Resuscitation, Emergency Medication, Emergency Surgery, Vascular Access, Specialized Trauma Care]
+  phases_of_care: # <list> [Point of Injury, Prolonged Casualty Care, Medevac, Definitive Care]
+  indicators: # <list> Signs and Symptoms (S&S) that indicate the need for this LSI
+    - must_have: # <list> All S&S must be present
+    - likely: # <list> Some S&S may be present
+    - must_not_have: # <list> If these S&S are present, the LSI should not be used and likely indicates need for another LSI
+  equipment: # <list>
+    - required: # <list> LSI requires these items
+        - item: # <string>
+          quantity: # <int>
+        - item: # <array> If a required item has an alternate suitable item, eg "use item A or B"
+    - either_or: # <list>
+  skill_level: # <list>
+    - label: # <string> [Basic, Intermediate, Advanced]
+      qualifiers: # <list>

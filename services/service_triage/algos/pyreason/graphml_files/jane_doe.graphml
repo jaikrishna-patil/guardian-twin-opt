@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="firstName" for="node" attr.name="firstName" attr.type="string" />
+  <key id="lastName" for="node" attr.name="lastName" attr.type="string" />
+  <key id="gender" for="node" attr.name="gender" attr.type="string" />
+  <key id="age" for="node" attr.name="age" attr.type="long" />
+  <key id="uid" for="node" attr.name="uid" attr.type="long" />
+  <key id="type" for="node" attr.name="type" attr.type="string" />
+  <key id="weight" for="node" attr.name="weight" attr.type="long" />
+  <key id="height" for="node" attr.name="height" attr.type="long" />
+  <key id="bloodType" for="node" attr.name="bloodType" attr.type="string" />
+  <key id="gcs" for="node" attr.name="gcs" attr.type="string" />
+  <key id="sbp" for="node" attr.name="sbp" attr.type="string" />
+  <key id="rr" for="node" attr.name="rr" attr.type="string" />
+  <key id="niss" for="node" attr.name="niss" attr.type="string" />
+  <key id="rts" for="node" attr.name="rts" attr.type="string" />
+  <key id="life" for="node" attr.name="life" attr.type="string" />
+  <key id="casualty" for="node" attr.name="casualty" attr.type="string" />
+  <key id="insult_label" for="node" attr.name="insult_label" attr.type="string" />
+  <key id="insult_category_Hemorrhage" for="node" attr.name="insult_category_Hemorrhage" attr.type="string" />
+  <key id="insult_category_Respiratory" for="node" attr.name="insult_category_Respiratory" attr.type="string" />
+  <key id="insult_category_NervousSystem" for="node" attr.name="insult_category_NervousSystem" attr.type="string" />
+  <key id="location_arm" for="edge" attr.name="location_arm" attr.type="string" />
+  <key id="location_chest" for="edge" attr.name="location_chest" attr.type="string" />
+  <key id="location_head" for="edge" attr.name="location_head" attr.type="string" />
+  <key id="sublocation_lower" for="edge" attr.name="sublocation_lower" attr.type="string" />
+  <key id="sublocation_lung" for="edge" attr.name="sublocation_lung" attr.type="string" />
+  <key id="sublocation_brain" for="edge" attr.name="sublocation_brain" attr.type="string" />
+  <key id="lateral_position_left" for="edge" attr.name="lateral_position_left" attr.type="string" />
+  <key id="severity" for="edge" attr.name="severity" attr.type="string" />
+
+  <graph edgedefault="directed">
+       <node id="p1">
+          <data key="uid">2</data>
+          <data key="type">person</data>
+          <data key="firstName">Jane</data>
+          <data key="lastName">Doe</data>
+          <data key="gender">female</data>
+          <data key="age">57</data>
+          <data key="weight">135</data>
+          <data key="height">68</data>
+          <data key="bloodType">A+</data>
+          <data key="gcs">0,1</data>
+          <data key="sbp">0,1</data>
+          <data key="rr">0,1</data>
+          <data key="rts">0,1</data>
+          <data key="niss">0,1</data>
+          <data key="life">0,1</data>
+          <data key="casualty">0,1</data>
+        </node>
+
+        <node id="insult1">
+        <data key="uid">2</data>
+          <data key="type">insult</data>
+          <data key="insult_label">Hemorrhage external</data>
+          <data key="insult_category_Hemorrhage">1,1</data>
+        </node>
+        <node id="insult2">
+          <data key="uid">3</data>
+          <data key="type">insult</data>
+          <data key="insult_label">Tension Pneumothorax</data>
+          <data key="insult_category_Respiratory">1,1</data>
+        </node>
+        <node id="insult3">
+          <data key="uid">4</data>
+          <data key="type">insult</data>
+          <data key="insult_label">Traumatic Brain Injury</data>
+          <data key="insult_category_NervousSystem">1,1</data>
+        </node>
+
+        <edge source="p1" target="insult1">
+          <data key="location_arm">0,1</data>
+          <data key="sublocation_lower">0,1</data>
+          <data key="lateral_position_left">0,1</data>
+          <data key="severity">0,1</data>
+        </edge>
+        <edge source="p1" target="insult2">
+          <data key="location_chest">0,1</data>
+          <data key="sublocation_lung">0,1</data>
+          <data key="lateral_position_left">0,1</data>
+          <data key="severity">0,1</data>
+        </edge>
+        <edge source="p1" target="insult3">
+          <data key="location_head">0,1</data>
+          <data key="sublocation_brain">0,1</data>
+          <data key="lateral_position_left">0,1</data>
+          <data key="severity">0,1</data>
+        </edge>
+
+  </graph>
+</graphml>

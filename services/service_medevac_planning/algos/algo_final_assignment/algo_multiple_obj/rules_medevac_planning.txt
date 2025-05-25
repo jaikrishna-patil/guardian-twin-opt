@@ -1,0 +1,28 @@
+
+insults_available(P) <-0 normalized_acs(P, I):[0.001,1], type_insult(I)
+vitals_available(P) <-0 value(P, G):[0.001,1], value(P,S):[0.001,1], value(P,R):[0.001,1], type_gcs(G), type_sbp(S), type_rr(R)
+
+
+possible_niss(P) <-0 insults_available(P)
+possible_rts(P) <-0 vitals_available(P)
+compute_niss(P) <-0 insults_available(P), vitals_available(P):[0,0], enable_niss(X)
+compute_rts(P) <-0 insults_available(P):[0,0], vitals_available(P), enable_rts(X)
+compute_life(P) <-0 insults_available(P), vitals_available(P), enable_life(X)
+
+
+
+niss_score(P): niss_ann_fn <-0 possible_niss(P), normalized_acs(P, EE):[0,1], type_insult_ExternalHemorrhage_Extremity(EE), normalized_acs(P, EH):[0,1], type_insult_ExternalHemorrhage_Head(EH), normalized_acs(P, EP):[0,1], type_insult_ExternalHemorrhage_Pelvis(EP), normalized_acs(P, ET):[0,1], type_insult_ExternalHemorrhage_Trunk(ET), normalized_acs(P, TE):[0,1], type_insult_ThermalBurn_Extremity(TE), normalized_acs(P, TT):[0,1], type_insult_ThermalBurn_Trunk(TT), normalized_acs(P, TH):[0,1], type_insult_ThermalBurn_Head(TH), normalized_acs(P, TP):[0,1], type_insult_ThermalBurn_Pelvis(TP)
+rts_score(P): rts_ann_fn <-0 possible_rts(P), value(P, G):[0.001,1], value(P,S):[0.001,1], value(P,R):[0.001,1], type_gcs(G), type_sbp(S), type_rr(R)
+score(P): life_ann_fn <-0 compute_life(P), niss_score(P):[0,1], rts_score(P):[0,1]
+score(P): final_niss_ann_fn <-0 compute_niss(P), niss_score(P):[0,1]
+score(P): final_rts_ann_fn <-0 compute_rts(P), rts_score(P):[0,1]
+
+run_opt(TRIAGE) <-0 use_opt(TRIAGE)
+
+assign_common(P,A) <-0 assign_asset_urgency(P,A), assign_asset_reverse(P,A)
+assign_common(P,A):[0,0] <-0 assign_asset_urgency(P,A):[0,0], assign_asset_reverse(P,A)
+assign_common(P,A):[0,0] <-0 assign_asset_urgency(P,A), assign_asset_reverse(P,A):[0,0]
+
+assign_urgency_only(P,A) <-0 assign_asset_urgency(P,A), assign_common(P,A):[0,0]
+assign_reverse_only(P,A) <-0 assign_asset_reverse(P,A), assign_common(P,A):[0,0]
+
